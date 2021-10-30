@@ -8,13 +8,13 @@ script_dir = os.path.dirname(__file__)
 DEPTH = 8
 
 def main():
-    grammar = CFG.fromstring(open(os.path.join(script_dir, "./cfgs/rlang_policy.cfg"), 'r').read())
+    grammar = CFG.fromstring(open(os.path.join(script_dir, "./cfgs/rlang_constant.cfg"), 'r').read())
     productions = grammar.productions()
 
     grammar = CFG(Nonterminal('Program'), productions)   
-    output_file = 'rlang_policy_output.txt'
+    output_file = 'rlang_constant_output.txt'
 
-    print('Generating POLICY statements with depth:', DEPTH)
+    print('Generating CONSTANT statements with depth:', DEPTH)
     print('This may take a while...\n...')
     with open(os.path.join(script_dir, "../data/" + output_file), 'w') as f:
         count = 0
