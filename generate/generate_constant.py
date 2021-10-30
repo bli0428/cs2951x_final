@@ -10,28 +10,6 @@ DEPTH = 8
 def main():
     grammar = CFG.fromstring(open(os.path.join(script_dir, "./cfgs/rlang_constant.cfg"), 'r').read())
     productions = grammar.productions()
-    '''
-    NOTE: I don't think we need to manually append these; added them directly
-    into the .cfg
-    extra_productions = list()
-
-    # NLTK does not like some characters
-    extra_productions.append(Production(Nonterminal('NewLine'), ['\n']))
-    extra_productions.append(Production(Nonterminal('BoolTest'), ['==']))
-    extra_productions.append(Production(Nonterminal('BoolTest'), ['!=']))
-    extra_productions.append(Production(Nonterminal('BoolTest'), ['<']))
-    extra_productions.append(Production(Nonterminal('BoolTest'), ['>']))
-    extra_productions.append(Production(Nonterminal('Operation'), ['+']))
-    extra_productions.append(Production(Nonterminal('Operation'), ['-']))
-    extra_productions.append(Production(Nonterminal('Operation'), ['*']))
-    extra_productions.append(Production(Nonterminal('Operation'), ['/']))
-    extra_productions.append(Production(Nonterminal('Assignment'), [':=']))
-    extra_productions.append(Production(Nonterminal('Colon'), [':']))
-    extra_productions.append(Production(Nonterminal('Tab'), ['\t']))
-    
-    productions.extend(extra_productions)
-    '''
-
 
     grammar = CFG(Nonterminal('Program'), productions)   
     output_file = 'rlang_constant_output.txt'
