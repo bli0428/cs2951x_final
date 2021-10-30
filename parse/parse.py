@@ -14,11 +14,18 @@ def parse(rlang_primitive):
 
     with open(os.path.join(script_dir, "../data/" + input_rlang_file), 'r') as f_input:
         with open(os.path.join(script_dir, "../data/" + output_rlang_tokenized_file), 'w') as f_output:
-            print(f"Writing tokenized file for {rlang_primitive} to ", output_rlang_tokenized_file)
             lines = f_input.readlines()
-            for line in lines:
-                sentence = line.split()
-                for t in parser.parse_one(sentence):
+            total_lines = len(lines)
+            print(f"Writing tokenized file for {rlang_primitive} to ", output_rlang_tokenized_file)
+            print(f'Tokenizing {total_lines} total statements')
+            print('This may take a while...\n...')
+            
+            for i in range(total_lines):
+                if (i % 1000 == 0):
+                    print(f'Finished parsing {i}/{total_lines} statements')
+                
+                sentence = lines[i].split()
+                for t in parser.parse(sentence):
                     f_output.write(' '.join(str(t).split()) + '\n')
     
     print("Done!")
