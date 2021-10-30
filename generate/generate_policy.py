@@ -22,7 +22,7 @@ def main():
             # max out at 100k statements (arbitrarily picked. just didn't want files too large)
             if count == 100000:
                 break
-            f.write(' '.join(sentence).replace('\\n', "\\\\n").replace('\\t', '\\\\t') + '\n')
+            f.write(' '.join(sentence) + '\n')
             count += 1
     print('Done! Written to data/', output_file)
 
