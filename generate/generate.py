@@ -7,6 +7,12 @@ from nltk.grammar import Nonterminal
 script_dir = path.dirname(__file__)
 DEPTH = 8
 
+"""
+HOW TO USE:
+    1. add rlang primitive/keyword you want to generate to `valid_rlang` in main()
+    2. create corresponding cfg at `./generate/cfgs/rlang_<primitive/keyword>.cfg`
+    3. run python3 generate.py <primitive/keyword>
+"""
 def parse(rlang_primitive): 
     cfg_file = f'./cfgs/rlang_{rlang_primitive}.cfg'
     output_file = f'../data/rlang_{rlang_primitive}_output.txt'
