@@ -16,12 +16,14 @@ HOW TO USE:
 def parse(rlang_primitive): 
     cfg_file = f'./cfgs/rlang_{rlang_primitive}.cfg'
     output_file = f'../data/rlang_{rlang_primitive}_output.txt'
-
+    common_cfg_file = f'./cfgs/common.cfg'
+    common_path = path.join(script_dir, common_cfg_file)
     if not path.isfile(path.join(script_dir, cfg_file)):
         print(f"ERROR: {cfg_file} does not exist! Please create a CFG file for {rlang_primitive}")
         return
-
-    grammar = CFG.fromstring(open(path.join(script_dir, cfg_file), 'r').read())
+    grammar_string = open(path.join(script_dir, cfg_file), 'r').read()
+    grammar_string += open(common_path).read()
+    grammar = CFG.fromstring(grammar_string)
     productions = grammar.productions()
 
     grammar = CFG(Nonterminal('Program'), productions)   
@@ -40,7 +42,7 @@ def parse(rlang_primitive):
     print('Done! Written to', output_file)
 
 def main(argv):
-    valid_rlang = set(('constant', 'policy', 'action'))
+    valid_rlang = set(('constant', 'policy', 'action','option'))
     if len(argv) != 2:
         print('Invalid number of arguments')
         print(f'Expected input: `python3 generate.py <{valid_rlang}>`')
