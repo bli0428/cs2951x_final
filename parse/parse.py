@@ -25,8 +25,13 @@ def parse(rlang_primitive):
                     print(f'Finished parsing {i}/{total_lines} statements')
                 
                 sentence = lines[i].split()
-                for t in parser.parse(sentence):
-                    f_output.write(' '.join(str(t).split()) + '\n')
+                try:
+                    for t in parser.parse(sentence):
+                        f_output.write(' '.join(str(t).split()) + '\n')
+                except RecursionError as re:
+                    print("Unable to parse sentence; recursion error for ", sentence) 
+                    break
+                
     
     print("Done!")
 
