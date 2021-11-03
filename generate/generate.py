@@ -26,7 +26,7 @@ def parse(rlang_primitive):
 
     grammar = CFG(Nonterminal('Program'), productions)   
 
-    print('Generating CONSTANT statements with depth:', DEPTH)
+    print(f'Generating {rlang_primitive.upper()} statements with depth:', DEPTH)
     print('This may take a while...\n...')
     with open(path.join(script_dir, output_file), 'w') as f:
         count = 0
