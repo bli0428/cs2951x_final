@@ -42,7 +42,7 @@ def parse(rlang_primitive):
     print('Done! Written to', output_file)
 
 def main(argv):
-    valid_rlang = set(('constant', 'policy', 'action','option'))
+    valid_rlang = set(('constant', 'policy', 'action','predicate'))
     if len(argv) != 2:
         print('Invalid number of arguments')
         print(f'Expected input: `python3 generate.py <{valid_rlang}>`')

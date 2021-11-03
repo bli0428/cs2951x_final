@@ -9,7 +9,9 @@ def parse(rlang_primitive):
     input_rlang_file = f'rlang_{rlang_primitive}_output.txt'
     output_rlang_tokenized_file = f'tokenized_{rlang_primitive}_output.txt'
     cfg_file = f'rlang_{rlang_primitive}.cfg'
-    grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read())
+    common_cfg_file = f'../generate/cfgs/common.cfg'
+    common_path = os.path.join(script_dir, common_cfg_file)
+    grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read() + open(common_path, 'r').read())
     parser = RecursiveDescentParser(grammar)
 
     with open(os.path.join(script_dir, "../data/" + input_rlang_file), 'r') as f_input:
@@ -25,13 +27,14 @@ def parse(rlang_primitive):
                     print(f'Finished parsing {i}/{total_lines} statements')
                 
                 sentence = lines[i].split()
+                print(parser.parse(sentence))
                 for t in parser.parse(sentence):
                     f_output.write(' '.join(str(t).split()) + '\n')
     
     print("Done!")
 
 def main(argv):
-    valid_rlang = set(('constant', 'policy'))
+    valid_rlang = set(('constant', 'policy', 'predicate'))
     if len(argv) != 2:
         print('Invalid number of arguments')
         print(f'Expected input: `python3 parse.py <{valid_rlang}>`')
