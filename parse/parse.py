@@ -1,7 +1,8 @@
 import os
 import sys
 from nltk import CFG
-from nltk.parse import RecursiveDescentParser
+from nltk.parse import RecursiveDescentParser, SteppingRecursiveDescentParser
+from nltk.grammar import Production
 
 script_dir = os.path.dirname(__file__)
 
@@ -9,8 +10,11 @@ def parse(rlang_primitive):
     input_rlang_file = f'rlang_{rlang_primitive}_output.txt'
     output_rlang_tokenized_file = f'tokenized_{rlang_primitive}_output.txt'
     cfg_file = f'rlang_{rlang_primitive}.cfg'
-    grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read())
+    common_cfg_file = f'../generate/cfgs/common.cfg'
+    common_path = os.path.join(script_dir, common_cfg_file)
+    grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read() + open(common_path, 'r').read())
     parser = RecursiveDescentParser(grammar)
+    step_parser = SteppingRecursiveDescentParser(grammar)
 
     with open(os.path.join(script_dir, "../data/" + input_rlang_file), 'r') as f_input:
         with open(os.path.join(script_dir, "../data/" + output_rlang_tokenized_file), 'w') as f_output:
@@ -31,12 +35,15 @@ def parse(rlang_primitive):
                 except RecursionError as re:
                     print("Unable to parse sentence; recursion error for ", sentence) 
                     break
-                
     
     print("Done!")
 
 def main(argv):
+<<<<<<< HEAD
+    valid_rlang = set(('constant', 'policy', 'predicate'))
+=======
     valid_rlang = set(('constant', 'policy', 'option', 'predicate', 'markov_feature'))
+>>>>>>> eb706de1ee86b02d33519452a336e346a3e9b34b
     if len(argv) != 2:
         print('Invalid number of arguments')
         print(f'Expected input: `python3 parse.py <{valid_rlang}>`')
