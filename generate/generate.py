@@ -16,19 +16,17 @@ HOW TO USE:
 def parse(rlang_primitive): 
     cfg_file = f'./cfgs/rlang_{rlang_primitive}.cfg'
     output_file = f'../data/rlang_{rlang_primitive}_output.txt'
-    common_cfg_file = f'./cfgs/common.cfg'
-    common_path = path.join(script_dir, common_cfg_file)
+
     if not path.isfile(path.join(script_dir, cfg_file)):
         print(f"ERROR: {cfg_file} does not exist! Please create a CFG file for {rlang_primitive}")
         return
-    grammar_string = open(path.join(script_dir, cfg_file), 'r').read()
-    grammar_string += open(common_path).read()
-    grammar = CFG.fromstring(grammar_string)
+
+    grammar = CFG.fromstring(open(path.join(script_dir, cfg_file), 'r').read())
     productions = grammar.productions()
 
     grammar = CFG(Nonterminal('Program'), productions)   
 
-    print('Generating CONSTANT statements with depth:', DEPTH)
+    print(f'Generating {rlang_primitive.upper()} statements with depth:', DEPTH)
     print('This may take a while...\n...')
     with open(path.join(script_dir, output_file), 'w') as f:
         count = 0
@@ -42,7 +40,7 @@ def parse(rlang_primitive):
     print('Done! Written to', output_file)
 
 def main(argv):
-    valid_rlang = set(('constant', 'policy', 'action','option'))
+    valid_rlang = set(('constant', 'policy', 'action', 'option', 'predicate', 'markov_feature'))
     if len(argv) != 2:
         print('Invalid number of arguments')
         print(f'Expected input: `python3 generate.py <{valid_rlang}>`')

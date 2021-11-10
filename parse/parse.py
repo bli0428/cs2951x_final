@@ -31,7 +31,7 @@ def parse(rlang_primitive):
     print("Done!")
 
 def main(argv):
-    valid_rlang = set(('constant', 'policy'))
+    valid_rlang = set(('constant', 'policy', 'option', 'predicate'))
     if len(argv) != 2:
         print('Invalid number of arguments')
         print(f'Expected input: `python3 parse.py <{valid_rlang}>`')
