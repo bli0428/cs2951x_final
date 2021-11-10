@@ -178,7 +178,6 @@ def main():
                 out_tree = transform(in_tree)
                 
                 output = ' '.join(out_tree.leaves())
-                print(output)
                 f_output.write(output + '\n')
                 
 if __name__ == '__main__':
