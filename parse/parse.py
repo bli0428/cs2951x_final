@@ -1,7 +1,8 @@
 import os
 import sys
 from nltk import CFG
-from nltk.parse import RecursiveDescentParser
+from nltk.parse import RecursiveDescentParser, SteppingRecursiveDescentParser
+from nltk.grammar import Production
 
 script_dir = os.path.dirname(__file__)
 
@@ -13,6 +14,7 @@ def parse(rlang_primitive):
     common_path = os.path.join(script_dir, common_cfg_file)
     grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read() + open(common_path, 'r').read())
     parser = RecursiveDescentParser(grammar)
+    step_parser = SteppingRecursiveDescentParser(grammar)
 
     with open(os.path.join(script_dir, "../data/" + input_rlang_file), 'r') as f_input:
         with open(os.path.join(script_dir, "../data/" + output_rlang_tokenized_file), 'w') as f_output:
@@ -27,9 +29,23 @@ def parse(rlang_primitive):
                     print(f'Finished parsing {i}/{total_lines} statements')
                 
                 sentence = lines[i].split()
-                print(parser.parse(sentence))
-                for t in parser.parse(sentence):
-                    f_output.write(' '.join(str(t).split()) + '\n')
+                step_parser.initialize(sentence)
+                depth_counter = 0
+                print(i)
+                while True:
+                    step = step_parser.step()
+                    if type(step) is Production:
+                        depth_counter += 1
+                    if type(step) is bool:
+                        depth_counter -= 1
+
+                    if (depth_counter < 0):
+                        parsed = [t for t in step_parser.parses()][0]
+                        f_output.write(' '.join(str(parsed).split()) + '\n')
+                        break
+                # afeafwfae
+                # for t in parser.parse(sentence):
+                #     f_output.write(' '.join(str(t).split()) + '\n')
     
     print("Done!")
 
