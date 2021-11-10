@@ -29,28 +29,21 @@ def parse(rlang_primitive):
                     print(f'Finished parsing {i}/{total_lines} statements')
                 
                 sentence = lines[i].split()
-                step_parser.initialize(sentence)
-                depth_counter = 0
-                print(i)
-                while True:
-                    step = step_parser.step()
-                    if type(step) is Production:
-                        depth_counter += 1
-                    if type(step) is bool:
-                        depth_counter -= 1
-
-                    if (depth_counter < 0):
-                        parsed = [t for t in step_parser.parses()][0]
-                        f_output.write(' '.join(str(parsed).split()) + '\n')
-                        break
-                # afeafwfae
-                # for t in parser.parse(sentence):
-                #     f_output.write(' '.join(str(t).split()) + '\n')
+                try:
+                    for t in parser.parse(sentence):
+                        f_output.write(' '.join(str(t).split()) + '\n')
+                except RecursionError as re:
+                    print("Unable to parse sentence; recursion error for ", sentence) 
+                    break
     
     print("Done!")
 
 def main(argv):
+<<<<<<< HEAD
     valid_rlang = set(('constant', 'policy', 'predicate'))
+=======
+    valid_rlang = set(('constant', 'policy', 'option', 'predicate', 'markov_feature'))
+>>>>>>> eb706de1ee86b02d33519452a336e346a3e9b34b
     if len(argv) != 2:
         print('Invalid number of arguments')
         print(f'Expected input: `python3 parse.py <{valid_rlang}>`')
