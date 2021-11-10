@@ -162,7 +162,7 @@ def main():
 
     output_file = "nl_policy_output.txt"
     with open(os.path.join(script_dir, "../data/tokenized_policy_output.txt"), 'r') as f_input:
-        with open(os.path.join(script_dir, f"../data/{output_file}"), 'w') as f_output:
+        with open(os.path.join(script_dir, f"../data/nl/{output_file}"), 'w') as f_output:
             lines = f_input.readlines()
             total_lines = len(lines)
             print(f"Writing tokenized file for POLICY to ", output_file)
