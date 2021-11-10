@@ -168,7 +168,7 @@ def main():
             print(f"Writing tokenized file for POLICY to ", output_file)
             print(f'Tokenizing {total_lines} total statements')
             print('This may take a while...\n...')
-            count = 0
+
             for i in range(total_lines):
                 if (i % 1000 == 0):
                     print(f'Finished parsing {i}/{total_lines} statements')
