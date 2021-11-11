@@ -1,0 +1,3456 @@
+a has been changed: a is now a plus a
+a has been changed: a is now a plus b
+a has been changed: a is now a plus iron
+a has been changed: a is now a plus state
+a has been changed: a is now a plus new_state
+a has been changed: a is now a plus c
+a has been changed: a is now a minus a
+a has been changed: a is now a minus b
+a has been changed: a is now a minus iron
+a has been changed: a is now a minus state
+a has been changed: a is now a minus new_state
+a has been changed: a is now a minus c
+a has been changed: a is now a multiplied by a
+a has been changed: a is now a multiplied by b
+a has been changed: a is now a multiplied by iron
+a has been changed: a is now a multiplied by state
+a has been changed: a is now a multiplied by new_state
+a has been changed: a is now a multiplied by c
+a has been changed: a is now a divided by a
+a has been changed: a is now a divided by b
+a has been changed: a is now a divided by iron
+a has been changed: a is now a divided by state
+a has been changed: a is now a divided by new_state
+a has been changed: a is now a divided by c
+a has been changed: a is now b plus a
+a has been changed: a is now b plus b
+a has been changed: a is now b plus iron
+a has been changed: a is now b plus state
+a has been changed: a is now b plus new_state
+a has been changed: a is now b plus c
+a has been changed: a is now b minus a
+a has been changed: a is now b minus b
+a has been changed: a is now b minus iron
+a has been changed: a is now b minus state
+a has been changed: a is now b minus new_state
+a has been changed: a is now b minus c
+a has been changed: a is now b multiplied by a
+a has been changed: a is now b multiplied by b
+a has been changed: a is now b multiplied by iron
+a has been changed: a is now b multiplied by state
+a has been changed: a is now b multiplied by new_state
+a has been changed: a is now b multiplied by c
+a has been changed: a is now b divided by a
+a has been changed: a is now b divided by b
+a has been changed: a is now b divided by iron
+a has been changed: a is now b divided by state
+a has been changed: a is now b divided by new_state
+a has been changed: a is now b divided by c
+a has been changed: a is now iron plus a
+a has been changed: a is now iron plus b
+a has been changed: a is now iron plus iron
+a has been changed: a is now iron plus state
+a has been changed: a is now iron plus new_state
+a has been changed: a is now iron plus c
+a has been changed: a is now iron minus a
+a has been changed: a is now iron minus b
+a has been changed: a is now iron minus iron
+a has been changed: a is now iron minus state
+a has been changed: a is now iron minus new_state
+a has been changed: a is now iron minus c
+a has been changed: a is now iron multiplied by a
+a has been changed: a is now iron multiplied by b
+a has been changed: a is now iron multiplied by iron
+a has been changed: a is now iron multiplied by state
+a has been changed: a is now iron multiplied by new_state
+a has been changed: a is now iron multiplied by c
+a has been changed: a is now iron divided by a
+a has been changed: a is now iron divided by b
+a has been changed: a is now iron divided by iron
+a has been changed: a is now iron divided by state
+a has been changed: a is now iron divided by new_state
+a has been changed: a is now iron divided by c
+a has been changed: a is now state plus a
+a has been changed: a is now state plus b
+a has been changed: a is now state plus iron
+a has been changed: a is now state plus state
+a has been changed: a is now state plus new_state
+a has been changed: a is now state plus c
+a has been changed: a is now state minus a
+a has been changed: a is now state minus b
+a has been changed: a is now state minus iron
+a has been changed: a is now state minus state
+a has been changed: a is now state minus new_state
+a has been changed: a is now state minus c
+a has been changed: a is now state multiplied by a
+a has been changed: a is now state multiplied by b
+a has been changed: a is now state multiplied by iron
+a has been changed: a is now state multiplied by state
+a has been changed: a is now state multiplied by new_state
+a has been changed: a is now state multiplied by c
+a has been changed: a is now state divided by a
+a has been changed: a is now state divided by b
+a has been changed: a is now state divided by iron
+a has been changed: a is now state divided by state
+a has been changed: a is now state divided by new_state
+a has been changed: a is now state divided by c
+a has been changed: a is now new_state plus a
+a has been changed: a is now new_state plus b
+a has been changed: a is now new_state plus iron
+a has been changed: a is now new_state plus state
+a has been changed: a is now new_state plus new_state
+a has been changed: a is now new_state plus c
+a has been changed: a is now new_state minus a
+a has been changed: a is now new_state minus b
+a has been changed: a is now new_state minus iron
+a has been changed: a is now new_state minus state
+a has been changed: a is now new_state minus new_state
+a has been changed: a is now new_state minus c
+a has been changed: a is now new_state multiplied by a
+a has been changed: a is now new_state multiplied by b
+a has been changed: a is now new_state multiplied by iron
+a has been changed: a is now new_state multiplied by state
+a has been changed: a is now new_state multiplied by new_state
+a has been changed: a is now new_state multiplied by c
+a has been changed: a is now new_state divided by a
+a has been changed: a is now new_state divided by b
+a has been changed: a is now new_state divided by iron
+a has been changed: a is now new_state divided by state
+a has been changed: a is now new_state divided by new_state
+a has been changed: a is now new_state divided by c
+a has been changed: a is now c plus a
+a has been changed: a is now c plus b
+a has been changed: a is now c plus iron
+a has been changed: a is now c plus state
+a has been changed: a is now c plus new_state
+a has been changed: a is now c plus c
+a has been changed: a is now c minus a
+a has been changed: a is now c minus b
+a has been changed: a is now c minus iron
+a has been changed: a is now c minus state
+a has been changed: a is now c minus new_state
+a has been changed: a is now c minus c
+a has been changed: a is now c multiplied by a
+a has been changed: a is now c multiplied by b
+a has been changed: a is now c multiplied by iron
+a has been changed: a is now c multiplied by state
+a has been changed: a is now c multiplied by new_state
+a has been changed: a is now c multiplied by c
+a has been changed: a is now c divided by a
+a has been changed: a is now c divided by b
+a has been changed: a is now c divided by iron
+a has been changed: a is now c divided by state
+a has been changed: a is now c divided by new_state
+a has been changed: a is now c divided by c
+b has been changed: b is now a plus a
+b has been changed: b is now a plus b
+b has been changed: b is now a plus iron
+b has been changed: b is now a plus state
+b has been changed: b is now a plus new_state
+b has been changed: b is now a plus c
+b has been changed: b is now a minus a
+b has been changed: b is now a minus b
+b has been changed: b is now a minus iron
+b has been changed: b is now a minus state
+b has been changed: b is now a minus new_state
+b has been changed: b is now a minus c
+b has been changed: b is now a multiplied by a
+b has been changed: b is now a multiplied by b
+b has been changed: b is now a multiplied by iron
+b has been changed: b is now a multiplied by state
+b has been changed: b is now a multiplied by new_state
+b has been changed: b is now a multiplied by c
+b has been changed: b is now a divided by a
+b has been changed: b is now a divided by b
+b has been changed: b is now a divided by iron
+b has been changed: b is now a divided by state
+b has been changed: b is now a divided by new_state
+b has been changed: b is now a divided by c
+b has been changed: b is now b plus a
+b has been changed: b is now b plus b
+b has been changed: b is now b plus iron
+b has been changed: b is now b plus state
+b has been changed: b is now b plus new_state
+b has been changed: b is now b plus c
+b has been changed: b is now b minus a
+b has been changed: b is now b minus b
+b has been changed: b is now b minus iron
+b has been changed: b is now b minus state
+b has been changed: b is now b minus new_state
+b has been changed: b is now b minus c
+b has been changed: b is now b multiplied by a
+b has been changed: b is now b multiplied by b
+b has been changed: b is now b multiplied by iron
+b has been changed: b is now b multiplied by state
+b has been changed: b is now b multiplied by new_state
+b has been changed: b is now b multiplied by c
+b has been changed: b is now b divided by a
+b has been changed: b is now b divided by b
+b has been changed: b is now b divided by iron
+b has been changed: b is now b divided by state
+b has been changed: b is now b divided by new_state
+b has been changed: b is now b divided by c
+b has been changed: b is now iron plus a
+b has been changed: b is now iron plus b
+b has been changed: b is now iron plus iron
+b has been changed: b is now iron plus state
+b has been changed: b is now iron plus new_state
+b has been changed: b is now iron plus c
+b has been changed: b is now iron minus a
+b has been changed: b is now iron minus b
+b has been changed: b is now iron minus iron
+b has been changed: b is now iron minus state
+b has been changed: b is now iron minus new_state
+b has been changed: b is now iron minus c
+b has been changed: b is now iron multiplied by a
+b has been changed: b is now iron multiplied by b
+b has been changed: b is now iron multiplied by iron
+b has been changed: b is now iron multiplied by state
+b has been changed: b is now iron multiplied by new_state
+b has been changed: b is now iron multiplied by c
+b has been changed: b is now iron divided by a
+b has been changed: b is now iron divided by b
+b has been changed: b is now iron divided by iron
+b has been changed: b is now iron divided by state
+b has been changed: b is now iron divided by new_state
+b has been changed: b is now iron divided by c
+b has been changed: b is now state plus a
+b has been changed: b is now state plus b
+b has been changed: b is now state plus iron
+b has been changed: b is now state plus state
+b has been changed: b is now state plus new_state
+b has been changed: b is now state plus c
+b has been changed: b is now state minus a
+b has been changed: b is now state minus b
+b has been changed: b is now state minus iron
+b has been changed: b is now state minus state
+b has been changed: b is now state minus new_state
+b has been changed: b is now state minus c
+b has been changed: b is now state multiplied by a
+b has been changed: b is now state multiplied by b
+b has been changed: b is now state multiplied by iron
+b has been changed: b is now state multiplied by state
+b has been changed: b is now state multiplied by new_state
+b has been changed: b is now state multiplied by c
+b has been changed: b is now state divided by a
+b has been changed: b is now state divided by b
+b has been changed: b is now state divided by iron
+b has been changed: b is now state divided by state
+b has been changed: b is now state divided by new_state
+b has been changed: b is now state divided by c
+b has been changed: b is now new_state plus a
+b has been changed: b is now new_state plus b
+b has been changed: b is now new_state plus iron
+b has been changed: b is now new_state plus state
+b has been changed: b is now new_state plus new_state
+b has been changed: b is now new_state plus c
+b has been changed: b is now new_state minus a
+b has been changed: b is now new_state minus b
+b has been changed: b is now new_state minus iron
+b has been changed: b is now new_state minus state
+b has been changed: b is now new_state minus new_state
+b has been changed: b is now new_state minus c
+b has been changed: b is now new_state multiplied by a
+b has been changed: b is now new_state multiplied by b
+b has been changed: b is now new_state multiplied by iron
+b has been changed: b is now new_state multiplied by state
+b has been changed: b is now new_state multiplied by new_state
+b has been changed: b is now new_state multiplied by c
+b has been changed: b is now new_state divided by a
+b has been changed: b is now new_state divided by b
+b has been changed: b is now new_state divided by iron
+b has been changed: b is now new_state divided by state
+b has been changed: b is now new_state divided by new_state
+b has been changed: b is now new_state divided by c
+b has been changed: b is now c plus a
+b has been changed: b is now c plus b
+b has been changed: b is now c plus iron
+b has been changed: b is now c plus state
+b has been changed: b is now c plus new_state
+b has been changed: b is now c plus c
+b has been changed: b is now c minus a
+b has been changed: b is now c minus b
+b has been changed: b is now c minus iron
+b has been changed: b is now c minus state
+b has been changed: b is now c minus new_state
+b has been changed: b is now c minus c
+b has been changed: b is now c multiplied by a
+b has been changed: b is now c multiplied by b
+b has been changed: b is now c multiplied by iron
+b has been changed: b is now c multiplied by state
+b has been changed: b is now c multiplied by new_state
+b has been changed: b is now c multiplied by c
+b has been changed: b is now c divided by a
+b has been changed: b is now c divided by b
+b has been changed: b is now c divided by iron
+b has been changed: b is now c divided by state
+b has been changed: b is now c divided by new_state
+b has been changed: b is now c divided by c
+iron has been changed: iron is now a plus a
+iron has been changed: iron is now a plus b
+iron has been changed: iron is now a plus iron
+iron has been changed: iron is now a plus state
+iron has been changed: iron is now a plus new_state
+iron has been changed: iron is now a plus c
+iron has been changed: iron is now a minus a
+iron has been changed: iron is now a minus b
+iron has been changed: iron is now a minus iron
+iron has been changed: iron is now a minus state
+iron has been changed: iron is now a minus new_state
+iron has been changed: iron is now a minus c
+iron has been changed: iron is now a multiplied by a
+iron has been changed: iron is now a multiplied by b
+iron has been changed: iron is now a multiplied by iron
+iron has been changed: iron is now a multiplied by state
+iron has been changed: iron is now a multiplied by new_state
+iron has been changed: iron is now a multiplied by c
+iron has been changed: iron is now a divided by a
+iron has been changed: iron is now a divided by b
+iron has been changed: iron is now a divided by iron
+iron has been changed: iron is now a divided by state
+iron has been changed: iron is now a divided by new_state
+iron has been changed: iron is now a divided by c
+iron has been changed: iron is now b plus a
+iron has been changed: iron is now b plus b
+iron has been changed: iron is now b plus iron
+iron has been changed: iron is now b plus state
+iron has been changed: iron is now b plus new_state
+iron has been changed: iron is now b plus c
+iron has been changed: iron is now b minus a
+iron has been changed: iron is now b minus b
+iron has been changed: iron is now b minus iron
+iron has been changed: iron is now b minus state
+iron has been changed: iron is now b minus new_state
+iron has been changed: iron is now b minus c
+iron has been changed: iron is now b multiplied by a
+iron has been changed: iron is now b multiplied by b
+iron has been changed: iron is now b multiplied by iron
+iron has been changed: iron is now b multiplied by state
+iron has been changed: iron is now b multiplied by new_state
+iron has been changed: iron is now b multiplied by c
+iron has been changed: iron is now b divided by a
+iron has been changed: iron is now b divided by b
+iron has been changed: iron is now b divided by iron
+iron has been changed: iron is now b divided by state
+iron has been changed: iron is now b divided by new_state
+iron has been changed: iron is now b divided by c
+iron has been changed: iron is now iron plus a
+iron has been changed: iron is now iron plus b
+iron has been changed: iron is now iron plus iron
+iron has been changed: iron is now iron plus state
+iron has been changed: iron is now iron plus new_state
+iron has been changed: iron is now iron plus c
+iron has been changed: iron is now iron minus a
+iron has been changed: iron is now iron minus b
+iron has been changed: iron is now iron minus iron
+iron has been changed: iron is now iron minus state
+iron has been changed: iron is now iron minus new_state
+iron has been changed: iron is now iron minus c
+iron has been changed: iron is now iron multiplied by a
+iron has been changed: iron is now iron multiplied by b
+iron has been changed: iron is now iron multiplied by iron
+iron has been changed: iron is now iron multiplied by state
+iron has been changed: iron is now iron multiplied by new_state
+iron has been changed: iron is now iron multiplied by c
+iron has been changed: iron is now iron divided by a
+iron has been changed: iron is now iron divided by b
+iron has been changed: iron is now iron divided by iron
+iron has been changed: iron is now iron divided by state
+iron has been changed: iron is now iron divided by new_state
+iron has been changed: iron is now iron divided by c
+iron has been changed: iron is now state plus a
+iron has been changed: iron is now state plus b
+iron has been changed: iron is now state plus iron
+iron has been changed: iron is now state plus state
+iron has been changed: iron is now state plus new_state
+iron has been changed: iron is now state plus c
+iron has been changed: iron is now state minus a
+iron has been changed: iron is now state minus b
+iron has been changed: iron is now state minus iron
+iron has been changed: iron is now state minus state
+iron has been changed: iron is now state minus new_state
+iron has been changed: iron is now state minus c
+iron has been changed: iron is now state multiplied by a
+iron has been changed: iron is now state multiplied by b
+iron has been changed: iron is now state multiplied by iron
+iron has been changed: iron is now state multiplied by state
+iron has been changed: iron is now state multiplied by new_state
+iron has been changed: iron is now state multiplied by c
+iron has been changed: iron is now state divided by a
+iron has been changed: iron is now state divided by b
+iron has been changed: iron is now state divided by iron
+iron has been changed: iron is now state divided by state
+iron has been changed: iron is now state divided by new_state
+iron has been changed: iron is now state divided by c
+iron has been changed: iron is now new_state plus a
+iron has been changed: iron is now new_state plus b
+iron has been changed: iron is now new_state plus iron
+iron has been changed: iron is now new_state plus state
+iron has been changed: iron is now new_state plus new_state
+iron has been changed: iron is now new_state plus c
+iron has been changed: iron is now new_state minus a
+iron has been changed: iron is now new_state minus b
+iron has been changed: iron is now new_state minus iron
+iron has been changed: iron is now new_state minus state
+iron has been changed: iron is now new_state minus new_state
+iron has been changed: iron is now new_state minus c
+iron has been changed: iron is now new_state multiplied by a
+iron has been changed: iron is now new_state multiplied by b
+iron has been changed: iron is now new_state multiplied by iron
+iron has been changed: iron is now new_state multiplied by state
+iron has been changed: iron is now new_state multiplied by new_state
+iron has been changed: iron is now new_state multiplied by c
+iron has been changed: iron is now new_state divided by a
+iron has been changed: iron is now new_state divided by b
+iron has been changed: iron is now new_state divided by iron
+iron has been changed: iron is now new_state divided by state
+iron has been changed: iron is now new_state divided by new_state
+iron has been changed: iron is now new_state divided by c
+iron has been changed: iron is now c plus a
+iron has been changed: iron is now c plus b
+iron has been changed: iron is now c plus iron
+iron has been changed: iron is now c plus state
+iron has been changed: iron is now c plus new_state
+iron has been changed: iron is now c plus c
+iron has been changed: iron is now c minus a
+iron has been changed: iron is now c minus b
+iron has been changed: iron is now c minus iron
+iron has been changed: iron is now c minus state
+iron has been changed: iron is now c minus new_state
+iron has been changed: iron is now c minus c
+iron has been changed: iron is now c multiplied by a
+iron has been changed: iron is now c multiplied by b
+iron has been changed: iron is now c multiplied by iron
+iron has been changed: iron is now c multiplied by state
+iron has been changed: iron is now c multiplied by new_state
+iron has been changed: iron is now c multiplied by c
+iron has been changed: iron is now c divided by a
+iron has been changed: iron is now c divided by b
+iron has been changed: iron is now c divided by iron
+iron has been changed: iron is now c divided by state
+iron has been changed: iron is now c divided by new_state
+iron has been changed: iron is now c divided by c
+state has been changed: state is now a plus a
+state has been changed: state is now a plus b
+state has been changed: state is now a plus iron
+state has been changed: state is now a plus state
+state has been changed: state is now a plus new_state
+state has been changed: state is now a plus c
+state has been changed: state is now a minus a
+state has been changed: state is now a minus b
+state has been changed: state is now a minus iron
+state has been changed: state is now a minus state
+state has been changed: state is now a minus new_state
+state has been changed: state is now a minus c
+state has been changed: state is now a multiplied by a
+state has been changed: state is now a multiplied by b
+state has been changed: state is now a multiplied by iron
+state has been changed: state is now a multiplied by state
+state has been changed: state is now a multiplied by new_state
+state has been changed: state is now a multiplied by c
+state has been changed: state is now a divided by a
+state has been changed: state is now a divided by b
+state has been changed: state is now a divided by iron
+state has been changed: state is now a divided by state
+state has been changed: state is now a divided by new_state
+state has been changed: state is now a divided by c
+state has been changed: state is now b plus a
+state has been changed: state is now b plus b
+state has been changed: state is now b plus iron
+state has been changed: state is now b plus state
+state has been changed: state is now b plus new_state
+state has been changed: state is now b plus c
+state has been changed: state is now b minus a
+state has been changed: state is now b minus b
+state has been changed: state is now b minus iron
+state has been changed: state is now b minus state
+state has been changed: state is now b minus new_state
+state has been changed: state is now b minus c
+state has been changed: state is now b multiplied by a
+state has been changed: state is now b multiplied by b
+state has been changed: state is now b multiplied by iron
+state has been changed: state is now b multiplied by state
+state has been changed: state is now b multiplied by new_state
+state has been changed: state is now b multiplied by c
+state has been changed: state is now b divided by a
+state has been changed: state is now b divided by b
+state has been changed: state is now b divided by iron
+state has been changed: state is now b divided by state
+state has been changed: state is now b divided by new_state
+state has been changed: state is now b divided by c
+state has been changed: state is now iron plus a
+state has been changed: state is now iron plus b
+state has been changed: state is now iron plus iron
+state has been changed: state is now iron plus state
+state has been changed: state is now iron plus new_state
+state has been changed: state is now iron plus c
+state has been changed: state is now iron minus a
+state has been changed: state is now iron minus b
+state has been changed: state is now iron minus iron
+state has been changed: state is now iron minus state
+state has been changed: state is now iron minus new_state
+state has been changed: state is now iron minus c
+state has been changed: state is now iron multiplied by a
+state has been changed: state is now iron multiplied by b
+state has been changed: state is now iron multiplied by iron
+state has been changed: state is now iron multiplied by state
+state has been changed: state is now iron multiplied by new_state
+state has been changed: state is now iron multiplied by c
+state has been changed: state is now iron divided by a
+state has been changed: state is now iron divided by b
+state has been changed: state is now iron divided by iron
+state has been changed: state is now iron divided by state
+state has been changed: state is now iron divided by new_state
+state has been changed: state is now iron divided by c
+state has been changed: state is now state plus a
+state has been changed: state is now state plus b
+state has been changed: state is now state plus iron
+state has been changed: state is now state plus state
+state has been changed: state is now state plus new_state
+state has been changed: state is now state plus c
+state has been changed: state is now state minus a
+state has been changed: state is now state minus b
+state has been changed: state is now state minus iron
+state has been changed: state is now state minus state
+state has been changed: state is now state minus new_state
+state has been changed: state is now state minus c
+state has been changed: state is now state multiplied by a
+state has been changed: state is now state multiplied by b
+state has been changed: state is now state multiplied by iron
+state has been changed: state is now state multiplied by state
+state has been changed: state is now state multiplied by new_state
+state has been changed: state is now state multiplied by c
+state has been changed: state is now state divided by a
+state has been changed: state is now state divided by b
+state has been changed: state is now state divided by iron
+state has been changed: state is now state divided by state
+state has been changed: state is now state divided by new_state
+state has been changed: state is now state divided by c
+state has been changed: state is now new_state plus a
+state has been changed: state is now new_state plus b
+state has been changed: state is now new_state plus iron
+state has been changed: state is now new_state plus state
+state has been changed: state is now new_state plus new_state
+state has been changed: state is now new_state plus c
+state has been changed: state is now new_state minus a
+state has been changed: state is now new_state minus b
+state has been changed: state is now new_state minus iron
+state has been changed: state is now new_state minus state
+state has been changed: state is now new_state minus new_state
+state has been changed: state is now new_state minus c
+state has been changed: state is now new_state multiplied by a
+state has been changed: state is now new_state multiplied by b
+state has been changed: state is now new_state multiplied by iron
+state has been changed: state is now new_state multiplied by state
+state has been changed: state is now new_state multiplied by new_state
+state has been changed: state is now new_state multiplied by c
+state has been changed: state is now new_state divided by a
+state has been changed: state is now new_state divided by b
+state has been changed: state is now new_state divided by iron
+state has been changed: state is now new_state divided by state
+state has been changed: state is now new_state divided by new_state
+state has been changed: state is now new_state divided by c
+state has been changed: state is now c plus a
+state has been changed: state is now c plus b
+state has been changed: state is now c plus iron
+state has been changed: state is now c plus state
+state has been changed: state is now c plus new_state
+state has been changed: state is now c plus c
+state has been changed: state is now c minus a
+state has been changed: state is now c minus b
+state has been changed: state is now c minus iron
+state has been changed: state is now c minus state
+state has been changed: state is now c minus new_state
+state has been changed: state is now c minus c
+state has been changed: state is now c multiplied by a
+state has been changed: state is now c multiplied by b
+state has been changed: state is now c multiplied by iron
+state has been changed: state is now c multiplied by state
+state has been changed: state is now c multiplied by new_state
+state has been changed: state is now c multiplied by c
+state has been changed: state is now c divided by a
+state has been changed: state is now c divided by b
+state has been changed: state is now c divided by iron
+state has been changed: state is now c divided by state
+state has been changed: state is now c divided by new_state
+state has been changed: state is now c divided by c
+new_state has been changed: new_state is now a plus a
+new_state has been changed: new_state is now a plus b
+new_state has been changed: new_state is now a plus iron
+new_state has been changed: new_state is now a plus state
+new_state has been changed: new_state is now a plus new_state
+new_state has been changed: new_state is now a plus c
+new_state has been changed: new_state is now a minus a
+new_state has been changed: new_state is now a minus b
+new_state has been changed: new_state is now a minus iron
+new_state has been changed: new_state is now a minus state
+new_state has been changed: new_state is now a minus new_state
+new_state has been changed: new_state is now a minus c
+new_state has been changed: new_state is now a multiplied by a
+new_state has been changed: new_state is now a multiplied by b
+new_state has been changed: new_state is now a multiplied by iron
+new_state has been changed: new_state is now a multiplied by state
+new_state has been changed: new_state is now a multiplied by new_state
+new_state has been changed: new_state is now a multiplied by c
+new_state has been changed: new_state is now a divided by a
+new_state has been changed: new_state is now a divided by b
+new_state has been changed: new_state is now a divided by iron
+new_state has been changed: new_state is now a divided by state
+new_state has been changed: new_state is now a divided by new_state
+new_state has been changed: new_state is now a divided by c
+new_state has been changed: new_state is now b plus a
+new_state has been changed: new_state is now b plus b
+new_state has been changed: new_state is now b plus iron
+new_state has been changed: new_state is now b plus state
+new_state has been changed: new_state is now b plus new_state
+new_state has been changed: new_state is now b plus c
+new_state has been changed: new_state is now b minus a
+new_state has been changed: new_state is now b minus b
+new_state has been changed: new_state is now b minus iron
+new_state has been changed: new_state is now b minus state
+new_state has been changed: new_state is now b minus new_state
+new_state has been changed: new_state is now b minus c
+new_state has been changed: new_state is now b multiplied by a
+new_state has been changed: new_state is now b multiplied by b
+new_state has been changed: new_state is now b multiplied by iron
+new_state has been changed: new_state is now b multiplied by state
+new_state has been changed: new_state is now b multiplied by new_state
+new_state has been changed: new_state is now b multiplied by c
+new_state has been changed: new_state is now b divided by a
+new_state has been changed: new_state is now b divided by b
+new_state has been changed: new_state is now b divided by iron
+new_state has been changed: new_state is now b divided by state
+new_state has been changed: new_state is now b divided by new_state
+new_state has been changed: new_state is now b divided by c
+new_state has been changed: new_state is now iron plus a
+new_state has been changed: new_state is now iron plus b
+new_state has been changed: new_state is now iron plus iron
+new_state has been changed: new_state is now iron plus state
+new_state has been changed: new_state is now iron plus new_state
+new_state has been changed: new_state is now iron plus c
+new_state has been changed: new_state is now iron minus a
+new_state has been changed: new_state is now iron minus b
+new_state has been changed: new_state is now iron minus iron
+new_state has been changed: new_state is now iron minus state
+new_state has been changed: new_state is now iron minus new_state
+new_state has been changed: new_state is now iron minus c
+new_state has been changed: new_state is now iron multiplied by a
+new_state has been changed: new_state is now iron multiplied by b
+new_state has been changed: new_state is now iron multiplied by iron
+new_state has been changed: new_state is now iron multiplied by state
+new_state has been changed: new_state is now iron multiplied by new_state
+new_state has been changed: new_state is now iron multiplied by c
+new_state has been changed: new_state is now iron divided by a
+new_state has been changed: new_state is now iron divided by b
+new_state has been changed: new_state is now iron divided by iron
+new_state has been changed: new_state is now iron divided by state
+new_state has been changed: new_state is now iron divided by new_state
+new_state has been changed: new_state is now iron divided by c
+new_state has been changed: new_state is now state plus a
+new_state has been changed: new_state is now state plus b
+new_state has been changed: new_state is now state plus iron
+new_state has been changed: new_state is now state plus state
+new_state has been changed: new_state is now state plus new_state
+new_state has been changed: new_state is now state plus c
+new_state has been changed: new_state is now state minus a
+new_state has been changed: new_state is now state minus b
+new_state has been changed: new_state is now state minus iron
+new_state has been changed: new_state is now state minus state
+new_state has been changed: new_state is now state minus new_state
+new_state has been changed: new_state is now state minus c
+new_state has been changed: new_state is now state multiplied by a
+new_state has been changed: new_state is now state multiplied by b
+new_state has been changed: new_state is now state multiplied by iron
+new_state has been changed: new_state is now state multiplied by state
+new_state has been changed: new_state is now state multiplied by new_state
+new_state has been changed: new_state is now state multiplied by c
+new_state has been changed: new_state is now state divided by a
+new_state has been changed: new_state is now state divided by b
+new_state has been changed: new_state is now state divided by iron
+new_state has been changed: new_state is now state divided by state
+new_state has been changed: new_state is now state divided by new_state
+new_state has been changed: new_state is now state divided by c
+new_state has been changed: new_state is now new_state plus a
+new_state has been changed: new_state is now new_state plus b
+new_state has been changed: new_state is now new_state plus iron
+new_state has been changed: new_state is now new_state plus state
+new_state has been changed: new_state is now new_state plus new_state
+new_state has been changed: new_state is now new_state plus c
+new_state has been changed: new_state is now new_state minus a
+new_state has been changed: new_state is now new_state minus b
+new_state has been changed: new_state is now new_state minus iron
+new_state has been changed: new_state is now new_state minus state
+new_state has been changed: new_state is now new_state minus new_state
+new_state has been changed: new_state is now new_state minus c
+new_state has been changed: new_state is now new_state multiplied by a
+new_state has been changed: new_state is now new_state multiplied by b
+new_state has been changed: new_state is now new_state multiplied by iron
+new_state has been changed: new_state is now new_state multiplied by state
+new_state has been changed: new_state is now new_state multiplied by new_state
+new_state has been changed: new_state is now new_state multiplied by c
+new_state has been changed: new_state is now new_state divided by a
+new_state has been changed: new_state is now new_state divided by b
+new_state has been changed: new_state is now new_state divided by iron
+new_state has been changed: new_state is now new_state divided by state
+new_state has been changed: new_state is now new_state divided by new_state
+new_state has been changed: new_state is now new_state divided by c
+new_state has been changed: new_state is now c plus a
+new_state has been changed: new_state is now c plus b
+new_state has been changed: new_state is now c plus iron
+new_state has been changed: new_state is now c plus state
+new_state has been changed: new_state is now c plus new_state
+new_state has been changed: new_state is now c plus c
+new_state has been changed: new_state is now c minus a
+new_state has been changed: new_state is now c minus b
+new_state has been changed: new_state is now c minus iron
+new_state has been changed: new_state is now c minus state
+new_state has been changed: new_state is now c minus new_state
+new_state has been changed: new_state is now c minus c
+new_state has been changed: new_state is now c multiplied by a
+new_state has been changed: new_state is now c multiplied by b
+new_state has been changed: new_state is now c multiplied by iron
+new_state has been changed: new_state is now c multiplied by state
+new_state has been changed: new_state is now c multiplied by new_state
+new_state has been changed: new_state is now c multiplied by c
+new_state has been changed: new_state is now c divided by a
+new_state has been changed: new_state is now c divided by b
+new_state has been changed: new_state is now c divided by iron
+new_state has been changed: new_state is now c divided by state
+new_state has been changed: new_state is now c divided by new_state
+new_state has been changed: new_state is now c divided by c
+c has been changed: c is now a plus a
+c has been changed: c is now a plus b
+c has been changed: c is now a plus iron
+c has been changed: c is now a plus state
+c has been changed: c is now a plus new_state
+c has been changed: c is now a plus c
+c has been changed: c is now a minus a
+c has been changed: c is now a minus b
+c has been changed: c is now a minus iron
+c has been changed: c is now a minus state
+c has been changed: c is now a minus new_state
+c has been changed: c is now a minus c
+c has been changed: c is now a multiplied by a
+c has been changed: c is now a multiplied by b
+c has been changed: c is now a multiplied by iron
+c has been changed: c is now a multiplied by state
+c has been changed: c is now a multiplied by new_state
+c has been changed: c is now a multiplied by c
+c has been changed: c is now a divided by a
+c has been changed: c is now a divided by b
+c has been changed: c is now a divided by iron
+c has been changed: c is now a divided by state
+c has been changed: c is now a divided by new_state
+c has been changed: c is now a divided by c
+c has been changed: c is now b plus a
+c has been changed: c is now b plus b
+c has been changed: c is now b plus iron
+c has been changed: c is now b plus state
+c has been changed: c is now b plus new_state
+c has been changed: c is now b plus c
+c has been changed: c is now b minus a
+c has been changed: c is now b minus b
+c has been changed: c is now b minus iron
+c has been changed: c is now b minus state
+c has been changed: c is now b minus new_state
+c has been changed: c is now b minus c
+c has been changed: c is now b multiplied by a
+c has been changed: c is now b multiplied by b
+c has been changed: c is now b multiplied by iron
+c has been changed: c is now b multiplied by state
+c has been changed: c is now b multiplied by new_state
+c has been changed: c is now b multiplied by c
+c has been changed: c is now b divided by a
+c has been changed: c is now b divided by b
+c has been changed: c is now b divided by iron
+c has been changed: c is now b divided by state
+c has been changed: c is now b divided by new_state
+c has been changed: c is now b divided by c
+c has been changed: c is now iron plus a
+c has been changed: c is now iron plus b
+c has been changed: c is now iron plus iron
+c has been changed: c is now iron plus state
+c has been changed: c is now iron plus new_state
+c has been changed: c is now iron plus c
+c has been changed: c is now iron minus a
+c has been changed: c is now iron minus b
+c has been changed: c is now iron minus iron
+c has been changed: c is now iron minus state
+c has been changed: c is now iron minus new_state
+c has been changed: c is now iron minus c
+c has been changed: c is now iron multiplied by a
+c has been changed: c is now iron multiplied by b
+c has been changed: c is now iron multiplied by iron
+c has been changed: c is now iron multiplied by state
+c has been changed: c is now iron multiplied by new_state
+c has been changed: c is now iron multiplied by c
+c has been changed: c is now iron divided by a
+c has been changed: c is now iron divided by b
+c has been changed: c is now iron divided by iron
+c has been changed: c is now iron divided by state
+c has been changed: c is now iron divided by new_state
+c has been changed: c is now iron divided by c
+c has been changed: c is now state plus a
+c has been changed: c is now state plus b
+c has been changed: c is now state plus iron
+c has been changed: c is now state plus state
+c has been changed: c is now state plus new_state
+c has been changed: c is now state plus c
+c has been changed: c is now state minus a
+c has been changed: c is now state minus b
+c has been changed: c is now state minus iron
+c has been changed: c is now state minus state
+c has been changed: c is now state minus new_state
+c has been changed: c is now state minus c
+c has been changed: c is now state multiplied by a
+c has been changed: c is now state multiplied by b
+c has been changed: c is now state multiplied by iron
+c has been changed: c is now state multiplied by state
+c has been changed: c is now state multiplied by new_state
+c has been changed: c is now state multiplied by c
+c has been changed: c is now state divided by a
+c has been changed: c is now state divided by b
+c has been changed: c is now state divided by iron
+c has been changed: c is now state divided by state
+c has been changed: c is now state divided by new_state
+c has been changed: c is now state divided by c
+c has been changed: c is now new_state plus a
+c has been changed: c is now new_state plus b
+c has been changed: c is now new_state plus iron
+c has been changed: c is now new_state plus state
+c has been changed: c is now new_state plus new_state
+c has been changed: c is now new_state plus c
+c has been changed: c is now new_state minus a
+c has been changed: c is now new_state minus b
+c has been changed: c is now new_state minus iron
+c has been changed: c is now new_state minus state
+c has been changed: c is now new_state minus new_state
+c has been changed: c is now new_state minus c
+c has been changed: c is now new_state multiplied by a
+c has been changed: c is now new_state multiplied by b
+c has been changed: c is now new_state multiplied by iron
+c has been changed: c is now new_state multiplied by state
+c has been changed: c is now new_state multiplied by new_state
+c has been changed: c is now new_state multiplied by c
+c has been changed: c is now new_state divided by a
+c has been changed: c is now new_state divided by b
+c has been changed: c is now new_state divided by iron
+c has been changed: c is now new_state divided by state
+c has been changed: c is now new_state divided by new_state
+c has been changed: c is now new_state divided by c
+c has been changed: c is now c plus a
+c has been changed: c is now c plus b
+c has been changed: c is now c plus iron
+c has been changed: c is now c plus state
+c has been changed: c is now c plus new_state
+c has been changed: c is now c plus c
+c has been changed: c is now c minus a
+c has been changed: c is now c minus b
+c has been changed: c is now c minus iron
+c has been changed: c is now c minus state
+c has been changed: c is now c minus new_state
+c has been changed: c is now c minus c
+c has been changed: c is now c multiplied by a
+c has been changed: c is now c multiplied by b
+c has been changed: c is now c multiplied by iron
+c has been changed: c is now c multiplied by state
+c has been changed: c is now c multiplied by new_state
+c has been changed: c is now c multiplied by c
+c has been changed: c is now c divided by a
+c has been changed: c is now c divided by b
+c has been changed: c is now c divided by iron
+c has been changed: c is now c divided by state
+c has been changed: c is now c divided by new_state
+c has been changed: c is now c divided by c
+Something has changed: a is now a plus a
+Something has changed: a is now a plus b
+Something has changed: a is now a plus iron
+Something has changed: a is now a plus state
+Something has changed: a is now a plus new_state
+Something has changed: a is now a plus c
+Something has changed: a is now a minus a
+Something has changed: a is now a minus b
+Something has changed: a is now a minus iron
+Something has changed: a is now a minus state
+Something has changed: a is now a minus new_state
+Something has changed: a is now a minus c
+Something has changed: a is now a multiplied by a
+Something has changed: a is now a multiplied by b
+Something has changed: a is now a multiplied by iron
+Something has changed: a is now a multiplied by state
+Something has changed: a is now a multiplied by new_state
+Something has changed: a is now a multiplied by c
+Something has changed: a is now a divided by a
+Something has changed: a is now a divided by b
+Something has changed: a is now a divided by iron
+Something has changed: a is now a divided by state
+Something has changed: a is now a divided by new_state
+Something has changed: a is now a divided by c
+Something has changed: a is now b plus a
+Something has changed: a is now b plus b
+Something has changed: a is now b plus iron
+Something has changed: a is now b plus state
+Something has changed: a is now b plus new_state
+Something has changed: a is now b plus c
+Something has changed: a is now b minus a
+Something has changed: a is now b minus b
+Something has changed: a is now b minus iron
+Something has changed: a is now b minus state
+Something has changed: a is now b minus new_state
+Something has changed: a is now b minus c
+Something has changed: a is now b multiplied by a
+Something has changed: a is now b multiplied by b
+Something has changed: a is now b multiplied by iron
+Something has changed: a is now b multiplied by state
+Something has changed: a is now b multiplied by new_state
+Something has changed: a is now b multiplied by c
+Something has changed: a is now b divided by a
+Something has changed: a is now b divided by b
+Something has changed: a is now b divided by iron
+Something has changed: a is now b divided by state
+Something has changed: a is now b divided by new_state
+Something has changed: a is now b divided by c
+Something has changed: a is now iron plus a
+Something has changed: a is now iron plus b
+Something has changed: a is now iron plus iron
+Something has changed: a is now iron plus state
+Something has changed: a is now iron plus new_state
+Something has changed: a is now iron plus c
+Something has changed: a is now iron minus a
+Something has changed: a is now iron minus b
+Something has changed: a is now iron minus iron
+Something has changed: a is now iron minus state
+Something has changed: a is now iron minus new_state
+Something has changed: a is now iron minus c
+Something has changed: a is now iron multiplied by a
+Something has changed: a is now iron multiplied by b
+Something has changed: a is now iron multiplied by iron
+Something has changed: a is now iron multiplied by state
+Something has changed: a is now iron multiplied by new_state
+Something has changed: a is now iron multiplied by c
+Something has changed: a is now iron divided by a
+Something has changed: a is now iron divided by b
+Something has changed: a is now iron divided by iron
+Something has changed: a is now iron divided by state
+Something has changed: a is now iron divided by new_state
+Something has changed: a is now iron divided by c
+Something has changed: a is now state plus a
+Something has changed: a is now state plus b
+Something has changed: a is now state plus iron
+Something has changed: a is now state plus state
+Something has changed: a is now state plus new_state
+Something has changed: a is now state plus c
+Something has changed: a is now state minus a
+Something has changed: a is now state minus b
+Something has changed: a is now state minus iron
+Something has changed: a is now state minus state
+Something has changed: a is now state minus new_state
+Something has changed: a is now state minus c
+Something has changed: a is now state multiplied by a
+Something has changed: a is now state multiplied by b
+Something has changed: a is now state multiplied by iron
+Something has changed: a is now state multiplied by state
+Something has changed: a is now state multiplied by new_state
+Something has changed: a is now state multiplied by c
+Something has changed: a is now state divided by a
+Something has changed: a is now state divided by b
+Something has changed: a is now state divided by iron
+Something has changed: a is now state divided by state
+Something has changed: a is now state divided by new_state
+Something has changed: a is now state divided by c
+Something has changed: a is now new_state plus a
+Something has changed: a is now new_state plus b
+Something has changed: a is now new_state plus iron
+Something has changed: a is now new_state plus state
+Something has changed: a is now new_state plus new_state
+Something has changed: a is now new_state plus c
+Something has changed: a is now new_state minus a
+Something has changed: a is now new_state minus b
+Something has changed: a is now new_state minus iron
+Something has changed: a is now new_state minus state
+Something has changed: a is now new_state minus new_state
+Something has changed: a is now new_state minus c
+Something has changed: a is now new_state multiplied by a
+Something has changed: a is now new_state multiplied by b
+Something has changed: a is now new_state multiplied by iron
+Something has changed: a is now new_state multiplied by state
+Something has changed: a is now new_state multiplied by new_state
+Something has changed: a is now new_state multiplied by c
+Something has changed: a is now new_state divided by a
+Something has changed: a is now new_state divided by b
+Something has changed: a is now new_state divided by iron
+Something has changed: a is now new_state divided by state
+Something has changed: a is now new_state divided by new_state
+Something has changed: a is now new_state divided by c
+Something has changed: a is now c plus a
+Something has changed: a is now c plus b
+Something has changed: a is now c plus iron
+Something has changed: a is now c plus state
+Something has changed: a is now c plus new_state
+Something has changed: a is now c plus c
+Something has changed: a is now c minus a
+Something has changed: a is now c minus b
+Something has changed: a is now c minus iron
+Something has changed: a is now c minus state
+Something has changed: a is now c minus new_state
+Something has changed: a is now c minus c
+Something has changed: a is now c multiplied by a
+Something has changed: a is now c multiplied by b
+Something has changed: a is now c multiplied by iron
+Something has changed: a is now c multiplied by state
+Something has changed: a is now c multiplied by new_state
+Something has changed: a is now c multiplied by c
+Something has changed: a is now c divided by a
+Something has changed: a is now c divided by b
+Something has changed: a is now c divided by iron
+Something has changed: a is now c divided by state
+Something has changed: a is now c divided by new_state
+Something has changed: a is now c divided by c
+Something has changed: b is now a plus a
+Something has changed: b is now a plus b
+Something has changed: b is now a plus iron
+Something has changed: b is now a plus state
+Something has changed: b is now a plus new_state
+Something has changed: b is now a plus c
+Something has changed: b is now a minus a
+Something has changed: b is now a minus b
+Something has changed: b is now a minus iron
+Something has changed: b is now a minus state
+Something has changed: b is now a minus new_state
+Something has changed: b is now a minus c
+Something has changed: b is now a multiplied by a
+Something has changed: b is now a multiplied by b
+Something has changed: b is now a multiplied by iron
+Something has changed: b is now a multiplied by state
+Something has changed: b is now a multiplied by new_state
+Something has changed: b is now a multiplied by c
+Something has changed: b is now a divided by a
+Something has changed: b is now a divided by b
+Something has changed: b is now a divided by iron
+Something has changed: b is now a divided by state
+Something has changed: b is now a divided by new_state
+Something has changed: b is now a divided by c
+Something has changed: b is now b plus a
+Something has changed: b is now b plus b
+Something has changed: b is now b plus iron
+Something has changed: b is now b plus state
+Something has changed: b is now b plus new_state
+Something has changed: b is now b plus c
+Something has changed: b is now b minus a
+Something has changed: b is now b minus b
+Something has changed: b is now b minus iron
+Something has changed: b is now b minus state
+Something has changed: b is now b minus new_state
+Something has changed: b is now b minus c
+Something has changed: b is now b multiplied by a
+Something has changed: b is now b multiplied by b
+Something has changed: b is now b multiplied by iron
+Something has changed: b is now b multiplied by state
+Something has changed: b is now b multiplied by new_state
+Something has changed: b is now b multiplied by c
+Something has changed: b is now b divided by a
+Something has changed: b is now b divided by b
+Something has changed: b is now b divided by iron
+Something has changed: b is now b divided by state
+Something has changed: b is now b divided by new_state
+Something has changed: b is now b divided by c
+Something has changed: b is now iron plus a
+Something has changed: b is now iron plus b
+Something has changed: b is now iron plus iron
+Something has changed: b is now iron plus state
+Something has changed: b is now iron plus new_state
+Something has changed: b is now iron plus c
+Something has changed: b is now iron minus a
+Something has changed: b is now iron minus b
+Something has changed: b is now iron minus iron
+Something has changed: b is now iron minus state
+Something has changed: b is now iron minus new_state
+Something has changed: b is now iron minus c
+Something has changed: b is now iron multiplied by a
+Something has changed: b is now iron multiplied by b
+Something has changed: b is now iron multiplied by iron
+Something has changed: b is now iron multiplied by state
+Something has changed: b is now iron multiplied by new_state
+Something has changed: b is now iron multiplied by c
+Something has changed: b is now iron divided by a
+Something has changed: b is now iron divided by b
+Something has changed: b is now iron divided by iron
+Something has changed: b is now iron divided by state
+Something has changed: b is now iron divided by new_state
+Something has changed: b is now iron divided by c
+Something has changed: b is now state plus a
+Something has changed: b is now state plus b
+Something has changed: b is now state plus iron
+Something has changed: b is now state plus state
+Something has changed: b is now state plus new_state
+Something has changed: b is now state plus c
+Something has changed: b is now state minus a
+Something has changed: b is now state minus b
+Something has changed: b is now state minus iron
+Something has changed: b is now state minus state
+Something has changed: b is now state minus new_state
+Something has changed: b is now state minus c
+Something has changed: b is now state multiplied by a
+Something has changed: b is now state multiplied by b
+Something has changed: b is now state multiplied by iron
+Something has changed: b is now state multiplied by state
+Something has changed: b is now state multiplied by new_state
+Something has changed: b is now state multiplied by c
+Something has changed: b is now state divided by a
+Something has changed: b is now state divided by b
+Something has changed: b is now state divided by iron
+Something has changed: b is now state divided by state
+Something has changed: b is now state divided by new_state
+Something has changed: b is now state divided by c
+Something has changed: b is now new_state plus a
+Something has changed: b is now new_state plus b
+Something has changed: b is now new_state plus iron
+Something has changed: b is now new_state plus state
+Something has changed: b is now new_state plus new_state
+Something has changed: b is now new_state plus c
+Something has changed: b is now new_state minus a
+Something has changed: b is now new_state minus b
+Something has changed: b is now new_state minus iron
+Something has changed: b is now new_state minus state
+Something has changed: b is now new_state minus new_state
+Something has changed: b is now new_state minus c
+Something has changed: b is now new_state multiplied by a
+Something has changed: b is now new_state multiplied by b
+Something has changed: b is now new_state multiplied by iron
+Something has changed: b is now new_state multiplied by state
+Something has changed: b is now new_state multiplied by new_state
+Something has changed: b is now new_state multiplied by c
+Something has changed: b is now new_state divided by a
+Something has changed: b is now new_state divided by b
+Something has changed: b is now new_state divided by iron
+Something has changed: b is now new_state divided by state
+Something has changed: b is now new_state divided by new_state
+Something has changed: b is now new_state divided by c
+Something has changed: b is now c plus a
+Something has changed: b is now c plus b
+Something has changed: b is now c plus iron
+Something has changed: b is now c plus state
+Something has changed: b is now c plus new_state
+Something has changed: b is now c plus c
+Something has changed: b is now c minus a
+Something has changed: b is now c minus b
+Something has changed: b is now c minus iron
+Something has changed: b is now c minus state
+Something has changed: b is now c minus new_state
+Something has changed: b is now c minus c
+Something has changed: b is now c multiplied by a
+Something has changed: b is now c multiplied by b
+Something has changed: b is now c multiplied by iron
+Something has changed: b is now c multiplied by state
+Something has changed: b is now c multiplied by new_state
+Something has changed: b is now c multiplied by c
+Something has changed: b is now c divided by a
+Something has changed: b is now c divided by b
+Something has changed: b is now c divided by iron
+Something has changed: b is now c divided by state
+Something has changed: b is now c divided by new_state
+Something has changed: b is now c divided by c
+Something has changed: iron is now a plus a
+Something has changed: iron is now a plus b
+Something has changed: iron is now a plus iron
+Something has changed: iron is now a plus state
+Something has changed: iron is now a plus new_state
+Something has changed: iron is now a plus c
+Something has changed: iron is now a minus a
+Something has changed: iron is now a minus b
+Something has changed: iron is now a minus iron
+Something has changed: iron is now a minus state
+Something has changed: iron is now a minus new_state
+Something has changed: iron is now a minus c
+Something has changed: iron is now a multiplied by a
+Something has changed: iron is now a multiplied by b
+Something has changed: iron is now a multiplied by iron
+Something has changed: iron is now a multiplied by state
+Something has changed: iron is now a multiplied by new_state
+Something has changed: iron is now a multiplied by c
+Something has changed: iron is now a divided by a
+Something has changed: iron is now a divided by b
+Something has changed: iron is now a divided by iron
+Something has changed: iron is now a divided by state
+Something has changed: iron is now a divided by new_state
+Something has changed: iron is now a divided by c
+Something has changed: iron is now b plus a
+Something has changed: iron is now b plus b
+Something has changed: iron is now b plus iron
+Something has changed: iron is now b plus state
+Something has changed: iron is now b plus new_state
+Something has changed: iron is now b plus c
+Something has changed: iron is now b minus a
+Something has changed: iron is now b minus b
+Something has changed: iron is now b minus iron
+Something has changed: iron is now b minus state
+Something has changed: iron is now b minus new_state
+Something has changed: iron is now b minus c
+Something has changed: iron is now b multiplied by a
+Something has changed: iron is now b multiplied by b
+Something has changed: iron is now b multiplied by iron
+Something has changed: iron is now b multiplied by state
+Something has changed: iron is now b multiplied by new_state
+Something has changed: iron is now b multiplied by c
+Something has changed: iron is now b divided by a
+Something has changed: iron is now b divided by b
+Something has changed: iron is now b divided by iron
+Something has changed: iron is now b divided by state
+Something has changed: iron is now b divided by new_state
+Something has changed: iron is now b divided by c
+Something has changed: iron is now iron plus a
+Something has changed: iron is now iron plus b
+Something has changed: iron is now iron plus iron
+Something has changed: iron is now iron plus state
+Something has changed: iron is now iron plus new_state
+Something has changed: iron is now iron plus c
+Something has changed: iron is now iron minus a
+Something has changed: iron is now iron minus b
+Something has changed: iron is now iron minus iron
+Something has changed: iron is now iron minus state
+Something has changed: iron is now iron minus new_state
+Something has changed: iron is now iron minus c
+Something has changed: iron is now iron multiplied by a
+Something has changed: iron is now iron multiplied by b
+Something has changed: iron is now iron multiplied by iron
+Something has changed: iron is now iron multiplied by state
+Something has changed: iron is now iron multiplied by new_state
+Something has changed: iron is now iron multiplied by c
+Something has changed: iron is now iron divided by a
+Something has changed: iron is now iron divided by b
+Something has changed: iron is now iron divided by iron
+Something has changed: iron is now iron divided by state
+Something has changed: iron is now iron divided by new_state
+Something has changed: iron is now iron divided by c
+Something has changed: iron is now state plus a
+Something has changed: iron is now state plus b
+Something has changed: iron is now state plus iron
+Something has changed: iron is now state plus state
+Something has changed: iron is now state plus new_state
+Something has changed: iron is now state plus c
+Something has changed: iron is now state minus a
+Something has changed: iron is now state minus b
+Something has changed: iron is now state minus iron
+Something has changed: iron is now state minus state
+Something has changed: iron is now state minus new_state
+Something has changed: iron is now state minus c
+Something has changed: iron is now state multiplied by a
+Something has changed: iron is now state multiplied by b
+Something has changed: iron is now state multiplied by iron
+Something has changed: iron is now state multiplied by state
+Something has changed: iron is now state multiplied by new_state
+Something has changed: iron is now state multiplied by c
+Something has changed: iron is now state divided by a
+Something has changed: iron is now state divided by b
+Something has changed: iron is now state divided by iron
+Something has changed: iron is now state divided by state
+Something has changed: iron is now state divided by new_state
+Something has changed: iron is now state divided by c
+Something has changed: iron is now new_state plus a
+Something has changed: iron is now new_state plus b
+Something has changed: iron is now new_state plus iron
+Something has changed: iron is now new_state plus state
+Something has changed: iron is now new_state plus new_state
+Something has changed: iron is now new_state plus c
+Something has changed: iron is now new_state minus a
+Something has changed: iron is now new_state minus b
+Something has changed: iron is now new_state minus iron
+Something has changed: iron is now new_state minus state
+Something has changed: iron is now new_state minus new_state
+Something has changed: iron is now new_state minus c
+Something has changed: iron is now new_state multiplied by a
+Something has changed: iron is now new_state multiplied by b
+Something has changed: iron is now new_state multiplied by iron
+Something has changed: iron is now new_state multiplied by state
+Something has changed: iron is now new_state multiplied by new_state
+Something has changed: iron is now new_state multiplied by c
+Something has changed: iron is now new_state divided by a
+Something has changed: iron is now new_state divided by b
+Something has changed: iron is now new_state divided by iron
+Something has changed: iron is now new_state divided by state
+Something has changed: iron is now new_state divided by new_state
+Something has changed: iron is now new_state divided by c
+Something has changed: iron is now c plus a
+Something has changed: iron is now c plus b
+Something has changed: iron is now c plus iron
+Something has changed: iron is now c plus state
+Something has changed: iron is now c plus new_state
+Something has changed: iron is now c plus c
+Something has changed: iron is now c minus a
+Something has changed: iron is now c minus b
+Something has changed: iron is now c minus iron
+Something has changed: iron is now c minus state
+Something has changed: iron is now c minus new_state
+Something has changed: iron is now c minus c
+Something has changed: iron is now c multiplied by a
+Something has changed: iron is now c multiplied by b
+Something has changed: iron is now c multiplied by iron
+Something has changed: iron is now c multiplied by state
+Something has changed: iron is now c multiplied by new_state
+Something has changed: iron is now c multiplied by c
+Something has changed: iron is now c divided by a
+Something has changed: iron is now c divided by b
+Something has changed: iron is now c divided by iron
+Something has changed: iron is now c divided by state
+Something has changed: iron is now c divided by new_state
+Something has changed: iron is now c divided by c
+Something has changed: state is now a plus a
+Something has changed: state is now a plus b
+Something has changed: state is now a plus iron
+Something has changed: state is now a plus state
+Something has changed: state is now a plus new_state
+Something has changed: state is now a plus c
+Something has changed: state is now a minus a
+Something has changed: state is now a minus b
+Something has changed: state is now a minus iron
+Something has changed: state is now a minus state
+Something has changed: state is now a minus new_state
+Something has changed: state is now a minus c
+Something has changed: state is now a multiplied by a
+Something has changed: state is now a multiplied by b
+Something has changed: state is now a multiplied by iron
+Something has changed: state is now a multiplied by state
+Something has changed: state is now a multiplied by new_state
+Something has changed: state is now a multiplied by c
+Something has changed: state is now a divided by a
+Something has changed: state is now a divided by b
+Something has changed: state is now a divided by iron
+Something has changed: state is now a divided by state
+Something has changed: state is now a divided by new_state
+Something has changed: state is now a divided by c
+Something has changed: state is now b plus a
+Something has changed: state is now b plus b
+Something has changed: state is now b plus iron
+Something has changed: state is now b plus state
+Something has changed: state is now b plus new_state
+Something has changed: state is now b plus c
+Something has changed: state is now b minus a
+Something has changed: state is now b minus b
+Something has changed: state is now b minus iron
+Something has changed: state is now b minus state
+Something has changed: state is now b minus new_state
+Something has changed: state is now b minus c
+Something has changed: state is now b multiplied by a
+Something has changed: state is now b multiplied by b
+Something has changed: state is now b multiplied by iron
+Something has changed: state is now b multiplied by state
+Something has changed: state is now b multiplied by new_state
+Something has changed: state is now b multiplied by c
+Something has changed: state is now b divided by a
+Something has changed: state is now b divided by b
+Something has changed: state is now b divided by iron
+Something has changed: state is now b divided by state
+Something has changed: state is now b divided by new_state
+Something has changed: state is now b divided by c
+Something has changed: state is now iron plus a
+Something has changed: state is now iron plus b
+Something has changed: state is now iron plus iron
+Something has changed: state is now iron plus state
+Something has changed: state is now iron plus new_state
+Something has changed: state is now iron plus c
+Something has changed: state is now iron minus a
+Something has changed: state is now iron minus b
+Something has changed: state is now iron minus iron
+Something has changed: state is now iron minus state
+Something has changed: state is now iron minus new_state
+Something has changed: state is now iron minus c
+Something has changed: state is now iron multiplied by a
+Something has changed: state is now iron multiplied by b
+Something has changed: state is now iron multiplied by iron
+Something has changed: state is now iron multiplied by state
+Something has changed: state is now iron multiplied by new_state
+Something has changed: state is now iron multiplied by c
+Something has changed: state is now iron divided by a
+Something has changed: state is now iron divided by b
+Something has changed: state is now iron divided by iron
+Something has changed: state is now iron divided by state
+Something has changed: state is now iron divided by new_state
+Something has changed: state is now iron divided by c
+Something has changed: state is now state plus a
+Something has changed: state is now state plus b
+Something has changed: state is now state plus iron
+Something has changed: state is now state plus state
+Something has changed: state is now state plus new_state
+Something has changed: state is now state plus c
+Something has changed: state is now state minus a
+Something has changed: state is now state minus b
+Something has changed: state is now state minus iron
+Something has changed: state is now state minus state
+Something has changed: state is now state minus new_state
+Something has changed: state is now state minus c
+Something has changed: state is now state multiplied by a
+Something has changed: state is now state multiplied by b
+Something has changed: state is now state multiplied by iron
+Something has changed: state is now state multiplied by state
+Something has changed: state is now state multiplied by new_state
+Something has changed: state is now state multiplied by c
+Something has changed: state is now state divided by a
+Something has changed: state is now state divided by b
+Something has changed: state is now state divided by iron
+Something has changed: state is now state divided by state
+Something has changed: state is now state divided by new_state
+Something has changed: state is now state divided by c
+Something has changed: state is now new_state plus a
+Something has changed: state is now new_state plus b
+Something has changed: state is now new_state plus iron
+Something has changed: state is now new_state plus state
+Something has changed: state is now new_state plus new_state
+Something has changed: state is now new_state plus c
+Something has changed: state is now new_state minus a
+Something has changed: state is now new_state minus b
+Something has changed: state is now new_state minus iron
+Something has changed: state is now new_state minus state
+Something has changed: state is now new_state minus new_state
+Something has changed: state is now new_state minus c
+Something has changed: state is now new_state multiplied by a
+Something has changed: state is now new_state multiplied by b
+Something has changed: state is now new_state multiplied by iron
+Something has changed: state is now new_state multiplied by state
+Something has changed: state is now new_state multiplied by new_state
+Something has changed: state is now new_state multiplied by c
+Something has changed: state is now new_state divided by a
+Something has changed: state is now new_state divided by b
+Something has changed: state is now new_state divided by iron
+Something has changed: state is now new_state divided by state
+Something has changed: state is now new_state divided by new_state
+Something has changed: state is now new_state divided by c
+Something has changed: state is now c plus a
+Something has changed: state is now c plus b
+Something has changed: state is now c plus iron
+Something has changed: state is now c plus state
+Something has changed: state is now c plus new_state
+Something has changed: state is now c plus c
+Something has changed: state is now c minus a
+Something has changed: state is now c minus b
+Something has changed: state is now c minus iron
+Something has changed: state is now c minus state
+Something has changed: state is now c minus new_state
+Something has changed: state is now c minus c
+Something has changed: state is now c multiplied by a
+Something has changed: state is now c multiplied by b
+Something has changed: state is now c multiplied by iron
+Something has changed: state is now c multiplied by state
+Something has changed: state is now c multiplied by new_state
+Something has changed: state is now c multiplied by c
+Something has changed: state is now c divided by a
+Something has changed: state is now c divided by b
+Something has changed: state is now c divided by iron
+Something has changed: state is now c divided by state
+Something has changed: state is now c divided by new_state
+Something has changed: state is now c divided by c
+Something has changed: new_state is now a plus a
+Something has changed: new_state is now a plus b
+Something has changed: new_state is now a plus iron
+Something has changed: new_state is now a plus state
+Something has changed: new_state is now a plus new_state
+Something has changed: new_state is now a plus c
+Something has changed: new_state is now a minus a
+Something has changed: new_state is now a minus b
+Something has changed: new_state is now a minus iron
+Something has changed: new_state is now a minus state
+Something has changed: new_state is now a minus new_state
+Something has changed: new_state is now a minus c
+Something has changed: new_state is now a multiplied by a
+Something has changed: new_state is now a multiplied by b
+Something has changed: new_state is now a multiplied by iron
+Something has changed: new_state is now a multiplied by state
+Something has changed: new_state is now a multiplied by new_state
+Something has changed: new_state is now a multiplied by c
+Something has changed: new_state is now a divided by a
+Something has changed: new_state is now a divided by b
+Something has changed: new_state is now a divided by iron
+Something has changed: new_state is now a divided by state
+Something has changed: new_state is now a divided by new_state
+Something has changed: new_state is now a divided by c
+Something has changed: new_state is now b plus a
+Something has changed: new_state is now b plus b
+Something has changed: new_state is now b plus iron
+Something has changed: new_state is now b plus state
+Something has changed: new_state is now b plus new_state
+Something has changed: new_state is now b plus c
+Something has changed: new_state is now b minus a
+Something has changed: new_state is now b minus b
+Something has changed: new_state is now b minus iron
+Something has changed: new_state is now b minus state
+Something has changed: new_state is now b minus new_state
+Something has changed: new_state is now b minus c
+Something has changed: new_state is now b multiplied by a
+Something has changed: new_state is now b multiplied by b
+Something has changed: new_state is now b multiplied by iron
+Something has changed: new_state is now b multiplied by state
+Something has changed: new_state is now b multiplied by new_state
+Something has changed: new_state is now b multiplied by c
+Something has changed: new_state is now b divided by a
+Something has changed: new_state is now b divided by b
+Something has changed: new_state is now b divided by iron
+Something has changed: new_state is now b divided by state
+Something has changed: new_state is now b divided by new_state
+Something has changed: new_state is now b divided by c
+Something has changed: new_state is now iron plus a
+Something has changed: new_state is now iron plus b
+Something has changed: new_state is now iron plus iron
+Something has changed: new_state is now iron plus state
+Something has changed: new_state is now iron plus new_state
+Something has changed: new_state is now iron plus c
+Something has changed: new_state is now iron minus a
+Something has changed: new_state is now iron minus b
+Something has changed: new_state is now iron minus iron
+Something has changed: new_state is now iron minus state
+Something has changed: new_state is now iron minus new_state
+Something has changed: new_state is now iron minus c
+Something has changed: new_state is now iron multiplied by a
+Something has changed: new_state is now iron multiplied by b
+Something has changed: new_state is now iron multiplied by iron
+Something has changed: new_state is now iron multiplied by state
+Something has changed: new_state is now iron multiplied by new_state
+Something has changed: new_state is now iron multiplied by c
+Something has changed: new_state is now iron divided by a
+Something has changed: new_state is now iron divided by b
+Something has changed: new_state is now iron divided by iron
+Something has changed: new_state is now iron divided by state
+Something has changed: new_state is now iron divided by new_state
+Something has changed: new_state is now iron divided by c
+Something has changed: new_state is now state plus a
+Something has changed: new_state is now state plus b
+Something has changed: new_state is now state plus iron
+Something has changed: new_state is now state plus state
+Something has changed: new_state is now state plus new_state
+Something has changed: new_state is now state plus c
+Something has changed: new_state is now state minus a
+Something has changed: new_state is now state minus b
+Something has changed: new_state is now state minus iron
+Something has changed: new_state is now state minus state
+Something has changed: new_state is now state minus new_state
+Something has changed: new_state is now state minus c
+Something has changed: new_state is now state multiplied by a
+Something has changed: new_state is now state multiplied by b
+Something has changed: new_state is now state multiplied by iron
+Something has changed: new_state is now state multiplied by state
+Something has changed: new_state is now state multiplied by new_state
+Something has changed: new_state is now state multiplied by c
+Something has changed: new_state is now state divided by a
+Something has changed: new_state is now state divided by b
+Something has changed: new_state is now state divided by iron
+Something has changed: new_state is now state divided by state
+Something has changed: new_state is now state divided by new_state
+Something has changed: new_state is now state divided by c
+Something has changed: new_state is now new_state plus a
+Something has changed: new_state is now new_state plus b
+Something has changed: new_state is now new_state plus iron
+Something has changed: new_state is now new_state plus state
+Something has changed: new_state is now new_state plus new_state
+Something has changed: new_state is now new_state plus c
+Something has changed: new_state is now new_state minus a
+Something has changed: new_state is now new_state minus b
+Something has changed: new_state is now new_state minus iron
+Something has changed: new_state is now new_state minus state
+Something has changed: new_state is now new_state minus new_state
+Something has changed: new_state is now new_state minus c
+Something has changed: new_state is now new_state multiplied by a
+Something has changed: new_state is now new_state multiplied by b
+Something has changed: new_state is now new_state multiplied by iron
+Something has changed: new_state is now new_state multiplied by state
+Something has changed: new_state is now new_state multiplied by new_state
+Something has changed: new_state is now new_state multiplied by c
+Something has changed: new_state is now new_state divided by a
+Something has changed: new_state is now new_state divided by b
+Something has changed: new_state is now new_state divided by iron
+Something has changed: new_state is now new_state divided by state
+Something has changed: new_state is now new_state divided by new_state
+Something has changed: new_state is now new_state divided by c
+Something has changed: new_state is now c plus a
+Something has changed: new_state is now c plus b
+Something has changed: new_state is now c plus iron
+Something has changed: new_state is now c plus state
+Something has changed: new_state is now c plus new_state
+Something has changed: new_state is now c plus c
+Something has changed: new_state is now c minus a
+Something has changed: new_state is now c minus b
+Something has changed: new_state is now c minus iron
+Something has changed: new_state is now c minus state
+Something has changed: new_state is now c minus new_state
+Something has changed: new_state is now c minus c
+Something has changed: new_state is now c multiplied by a
+Something has changed: new_state is now c multiplied by b
+Something has changed: new_state is now c multiplied by iron
+Something has changed: new_state is now c multiplied by state
+Something has changed: new_state is now c multiplied by new_state
+Something has changed: new_state is now c multiplied by c
+Something has changed: new_state is now c divided by a
+Something has changed: new_state is now c divided by b
+Something has changed: new_state is now c divided by iron
+Something has changed: new_state is now c divided by state
+Something has changed: new_state is now c divided by new_state
+Something has changed: new_state is now c divided by c
+Something has changed: c is now a plus a
+Something has changed: c is now a plus b
+Something has changed: c is now a plus iron
+Something has changed: c is now a plus state
+Something has changed: c is now a plus new_state
+Something has changed: c is now a plus c
+Something has changed: c is now a minus a
+Something has changed: c is now a minus b
+Something has changed: c is now a minus iron
+Something has changed: c is now a minus state
+Something has changed: c is now a minus new_state
+Something has changed: c is now a minus c
+Something has changed: c is now a multiplied by a
+Something has changed: c is now a multiplied by b
+Something has changed: c is now a multiplied by iron
+Something has changed: c is now a multiplied by state
+Something has changed: c is now a multiplied by new_state
+Something has changed: c is now a multiplied by c
+Something has changed: c is now a divided by a
+Something has changed: c is now a divided by b
+Something has changed: c is now a divided by iron
+Something has changed: c is now a divided by state
+Something has changed: c is now a divided by new_state
+Something has changed: c is now a divided by c
+Something has changed: c is now b plus a
+Something has changed: c is now b plus b
+Something has changed: c is now b plus iron
+Something has changed: c is now b plus state
+Something has changed: c is now b plus new_state
+Something has changed: c is now b plus c
+Something has changed: c is now b minus a
+Something has changed: c is now b minus b
+Something has changed: c is now b minus iron
+Something has changed: c is now b minus state
+Something has changed: c is now b minus new_state
+Something has changed: c is now b minus c
+Something has changed: c is now b multiplied by a
+Something has changed: c is now b multiplied by b
+Something has changed: c is now b multiplied by iron
+Something has changed: c is now b multiplied by state
+Something has changed: c is now b multiplied by new_state
+Something has changed: c is now b multiplied by c
+Something has changed: c is now b divided by a
+Something has changed: c is now b divided by b
+Something has changed: c is now b divided by iron
+Something has changed: c is now b divided by state
+Something has changed: c is now b divided by new_state
+Something has changed: c is now b divided by c
+Something has changed: c is now iron plus a
+Something has changed: c is now iron plus b
+Something has changed: c is now iron plus iron
+Something has changed: c is now iron plus state
+Something has changed: c is now iron plus new_state
+Something has changed: c is now iron plus c
+Something has changed: c is now iron minus a
+Something has changed: c is now iron minus b
+Something has changed: c is now iron minus iron
+Something has changed: c is now iron minus state
+Something has changed: c is now iron minus new_state
+Something has changed: c is now iron minus c
+Something has changed: c is now iron multiplied by a
+Something has changed: c is now iron multiplied by b
+Something has changed: c is now iron multiplied by iron
+Something has changed: c is now iron multiplied by state
+Something has changed: c is now iron multiplied by new_state
+Something has changed: c is now iron multiplied by c
+Something has changed: c is now iron divided by a
+Something has changed: c is now iron divided by b
+Something has changed: c is now iron divided by iron
+Something has changed: c is now iron divided by state
+Something has changed: c is now iron divided by new_state
+Something has changed: c is now iron divided by c
+Something has changed: c is now state plus a
+Something has changed: c is now state plus b
+Something has changed: c is now state plus iron
+Something has changed: c is now state plus state
+Something has changed: c is now state plus new_state
+Something has changed: c is now state plus c
+Something has changed: c is now state minus a
+Something has changed: c is now state minus b
+Something has changed: c is now state minus iron
+Something has changed: c is now state minus state
+Something has changed: c is now state minus new_state
+Something has changed: c is now state minus c
+Something has changed: c is now state multiplied by a
+Something has changed: c is now state multiplied by b
+Something has changed: c is now state multiplied by iron
+Something has changed: c is now state multiplied by state
+Something has changed: c is now state multiplied by new_state
+Something has changed: c is now state multiplied by c
+Something has changed: c is now state divided by a
+Something has changed: c is now state divided by b
+Something has changed: c is now state divided by iron
+Something has changed: c is now state divided by state
+Something has changed: c is now state divided by new_state
+Something has changed: c is now state divided by c
+Something has changed: c is now new_state plus a
+Something has changed: c is now new_state plus b
+Something has changed: c is now new_state plus iron
+Something has changed: c is now new_state plus state
+Something has changed: c is now new_state plus new_state
+Something has changed: c is now new_state plus c
+Something has changed: c is now new_state minus a
+Something has changed: c is now new_state minus b
+Something has changed: c is now new_state minus iron
+Something has changed: c is now new_state minus state
+Something has changed: c is now new_state minus new_state
+Something has changed: c is now new_state minus c
+Something has changed: c is now new_state multiplied by a
+Something has changed: c is now new_state multiplied by b
+Something has changed: c is now new_state multiplied by iron
+Something has changed: c is now new_state multiplied by state
+Something has changed: c is now new_state multiplied by new_state
+Something has changed: c is now new_state multiplied by c
+Something has changed: c is now new_state divided by a
+Something has changed: c is now new_state divided by b
+Something has changed: c is now new_state divided by iron
+Something has changed: c is now new_state divided by state
+Something has changed: c is now new_state divided by new_state
+Something has changed: c is now new_state divided by c
+Something has changed: c is now c plus a
+Something has changed: c is now c plus b
+Something has changed: c is now c plus iron
+Something has changed: c is now c plus state
+Something has changed: c is now c plus new_state
+Something has changed: c is now c plus c
+Something has changed: c is now c minus a
+Something has changed: c is now c minus b
+Something has changed: c is now c minus iron
+Something has changed: c is now c minus state
+Something has changed: c is now c minus new_state
+Something has changed: c is now c minus c
+Something has changed: c is now c multiplied by a
+Something has changed: c is now c multiplied by b
+Something has changed: c is now c multiplied by iron
+Something has changed: c is now c multiplied by state
+Something has changed: c is now c multiplied by new_state
+Something has changed: c is now c multiplied by c
+Something has changed: c is now c divided by a
+Something has changed: c is now c divided by b
+Something has changed: c is now c divided by iron
+Something has changed: c is now c divided by state
+Something has changed: c is now c divided by new_state
+Something has changed: c is now c divided by c
+a has transformed: a is now a plus a
+a has transformed: a is now a plus b
+a has transformed: a is now a plus iron
+a has transformed: a is now a plus state
+a has transformed: a is now a plus new_state
+a has transformed: a is now a plus c
+a has transformed: a is now a minus a
+a has transformed: a is now a minus b
+a has transformed: a is now a minus iron
+a has transformed: a is now a minus state
+a has transformed: a is now a minus new_state
+a has transformed: a is now a minus c
+a has transformed: a is now a multiplied by a
+a has transformed: a is now a multiplied by b
+a has transformed: a is now a multiplied by iron
+a has transformed: a is now a multiplied by state
+a has transformed: a is now a multiplied by new_state
+a has transformed: a is now a multiplied by c
+a has transformed: a is now a divided by a
+a has transformed: a is now a divided by b
+a has transformed: a is now a divided by iron
+a has transformed: a is now a divided by state
+a has transformed: a is now a divided by new_state
+a has transformed: a is now a divided by c
+a has transformed: a is now b plus a
+a has transformed: a is now b plus b
+a has transformed: a is now b plus iron
+a has transformed: a is now b plus state
+a has transformed: a is now b plus new_state
+a has transformed: a is now b plus c
+a has transformed: a is now b minus a
+a has transformed: a is now b minus b
+a has transformed: a is now b minus iron
+a has transformed: a is now b minus state
+a has transformed: a is now b minus new_state
+a has transformed: a is now b minus c
+a has transformed: a is now b multiplied by a
+a has transformed: a is now b multiplied by b
+a has transformed: a is now b multiplied by iron
+a has transformed: a is now b multiplied by state
+a has transformed: a is now b multiplied by new_state
+a has transformed: a is now b multiplied by c
+a has transformed: a is now b divided by a
+a has transformed: a is now b divided by b
+a has transformed: a is now b divided by iron
+a has transformed: a is now b divided by state
+a has transformed: a is now b divided by new_state
+a has transformed: a is now b divided by c
+a has transformed: a is now iron plus a
+a has transformed: a is now iron plus b
+a has transformed: a is now iron plus iron
+a has transformed: a is now iron plus state
+a has transformed: a is now iron plus new_state
+a has transformed: a is now iron plus c
+a has transformed: a is now iron minus a
+a has transformed: a is now iron minus b
+a has transformed: a is now iron minus iron
+a has transformed: a is now iron minus state
+a has transformed: a is now iron minus new_state
+a has transformed: a is now iron minus c
+a has transformed: a is now iron multiplied by a
+a has transformed: a is now iron multiplied by b
+a has transformed: a is now iron multiplied by iron
+a has transformed: a is now iron multiplied by state
+a has transformed: a is now iron multiplied by new_state
+a has transformed: a is now iron multiplied by c
+a has transformed: a is now iron divided by a
+a has transformed: a is now iron divided by b
+a has transformed: a is now iron divided by iron
+a has transformed: a is now iron divided by state
+a has transformed: a is now iron divided by new_state
+a has transformed: a is now iron divided by c
+a has transformed: a is now state plus a
+a has transformed: a is now state plus b
+a has transformed: a is now state plus iron
+a has transformed: a is now state plus state
+a has transformed: a is now state plus new_state
+a has transformed: a is now state plus c
+a has transformed: a is now state minus a
+a has transformed: a is now state minus b
+a has transformed: a is now state minus iron
+a has transformed: a is now state minus state
+a has transformed: a is now state minus new_state
+a has transformed: a is now state minus c
+a has transformed: a is now state multiplied by a
+a has transformed: a is now state multiplied by b
+a has transformed: a is now state multiplied by iron
+a has transformed: a is now state multiplied by state
+a has transformed: a is now state multiplied by new_state
+a has transformed: a is now state multiplied by c
+a has transformed: a is now state divided by a
+a has transformed: a is now state divided by b
+a has transformed: a is now state divided by iron
+a has transformed: a is now state divided by state
+a has transformed: a is now state divided by new_state
+a has transformed: a is now state divided by c
+a has transformed: a is now new_state plus a
+a has transformed: a is now new_state plus b
+a has transformed: a is now new_state plus iron
+a has transformed: a is now new_state plus state
+a has transformed: a is now new_state plus new_state
+a has transformed: a is now new_state plus c
+a has transformed: a is now new_state minus a
+a has transformed: a is now new_state minus b
+a has transformed: a is now new_state minus iron
+a has transformed: a is now new_state minus state
+a has transformed: a is now new_state minus new_state
+a has transformed: a is now new_state minus c
+a has transformed: a is now new_state multiplied by a
+a has transformed: a is now new_state multiplied by b
+a has transformed: a is now new_state multiplied by iron
+a has transformed: a is now new_state multiplied by state
+a has transformed: a is now new_state multiplied by new_state
+a has transformed: a is now new_state multiplied by c
+a has transformed: a is now new_state divided by a
+a has transformed: a is now new_state divided by b
+a has transformed: a is now new_state divided by iron
+a has transformed: a is now new_state divided by state
+a has transformed: a is now new_state divided by new_state
+a has transformed: a is now new_state divided by c
+a has transformed: a is now c plus a
+a has transformed: a is now c plus b
+a has transformed: a is now c plus iron
+a has transformed: a is now c plus state
+a has transformed: a is now c plus new_state
+a has transformed: a is now c plus c
+a has transformed: a is now c minus a
+a has transformed: a is now c minus b
+a has transformed: a is now c minus iron
+a has transformed: a is now c minus state
+a has transformed: a is now c minus new_state
+a has transformed: a is now c minus c
+a has transformed: a is now c multiplied by a
+a has transformed: a is now c multiplied by b
+a has transformed: a is now c multiplied by iron
+a has transformed: a is now c multiplied by state
+a has transformed: a is now c multiplied by new_state
+a has transformed: a is now c multiplied by c
+a has transformed: a is now c divided by a
+a has transformed: a is now c divided by b
+a has transformed: a is now c divided by iron
+a has transformed: a is now c divided by state
+a has transformed: a is now c divided by new_state
+a has transformed: a is now c divided by c
+b has transformed: b is now a plus a
+b has transformed: b is now a plus b
+b has transformed: b is now a plus iron
+b has transformed: b is now a plus state
+b has transformed: b is now a plus new_state
+b has transformed: b is now a plus c
+b has transformed: b is now a minus a
+b has transformed: b is now a minus b
+b has transformed: b is now a minus iron
+b has transformed: b is now a minus state
+b has transformed: b is now a minus new_state
+b has transformed: b is now a minus c
+b has transformed: b is now a multiplied by a
+b has transformed: b is now a multiplied by b
+b has transformed: b is now a multiplied by iron
+b has transformed: b is now a multiplied by state
+b has transformed: b is now a multiplied by new_state
+b has transformed: b is now a multiplied by c
+b has transformed: b is now a divided by a
+b has transformed: b is now a divided by b
+b has transformed: b is now a divided by iron
+b has transformed: b is now a divided by state
+b has transformed: b is now a divided by new_state
+b has transformed: b is now a divided by c
+b has transformed: b is now b plus a
+b has transformed: b is now b plus b
+b has transformed: b is now b plus iron
+b has transformed: b is now b plus state
+b has transformed: b is now b plus new_state
+b has transformed: b is now b plus c
+b has transformed: b is now b minus a
+b has transformed: b is now b minus b
+b has transformed: b is now b minus iron
+b has transformed: b is now b minus state
+b has transformed: b is now b minus new_state
+b has transformed: b is now b minus c
+b has transformed: b is now b multiplied by a
+b has transformed: b is now b multiplied by b
+b has transformed: b is now b multiplied by iron
+b has transformed: b is now b multiplied by state
+b has transformed: b is now b multiplied by new_state
+b has transformed: b is now b multiplied by c
+b has transformed: b is now b divided by a
+b has transformed: b is now b divided by b
+b has transformed: b is now b divided by iron
+b has transformed: b is now b divided by state
+b has transformed: b is now b divided by new_state
+b has transformed: b is now b divided by c
+b has transformed: b is now iron plus a
+b has transformed: b is now iron plus b
+b has transformed: b is now iron plus iron
+b has transformed: b is now iron plus state
+b has transformed: b is now iron plus new_state
+b has transformed: b is now iron plus c
+b has transformed: b is now iron minus a
+b has transformed: b is now iron minus b
+b has transformed: b is now iron minus iron
+b has transformed: b is now iron minus state
+b has transformed: b is now iron minus new_state
+b has transformed: b is now iron minus c
+b has transformed: b is now iron multiplied by a
+b has transformed: b is now iron multiplied by b
+b has transformed: b is now iron multiplied by iron
+b has transformed: b is now iron multiplied by state
+b has transformed: b is now iron multiplied by new_state
+b has transformed: b is now iron multiplied by c
+b has transformed: b is now iron divided by a
+b has transformed: b is now iron divided by b
+b has transformed: b is now iron divided by iron
+b has transformed: b is now iron divided by state
+b has transformed: b is now iron divided by new_state
+b has transformed: b is now iron divided by c
+b has transformed: b is now state plus a
+b has transformed: b is now state plus b
+b has transformed: b is now state plus iron
+b has transformed: b is now state plus state
+b has transformed: b is now state plus new_state
+b has transformed: b is now state plus c
+b has transformed: b is now state minus a
+b has transformed: b is now state minus b
+b has transformed: b is now state minus iron
+b has transformed: b is now state minus state
+b has transformed: b is now state minus new_state
+b has transformed: b is now state minus c
+b has transformed: b is now state multiplied by a
+b has transformed: b is now state multiplied by b
+b has transformed: b is now state multiplied by iron
+b has transformed: b is now state multiplied by state
+b has transformed: b is now state multiplied by new_state
+b has transformed: b is now state multiplied by c
+b has transformed: b is now state divided by a
+b has transformed: b is now state divided by b
+b has transformed: b is now state divided by iron
+b has transformed: b is now state divided by state
+b has transformed: b is now state divided by new_state
+b has transformed: b is now state divided by c
+b has transformed: b is now new_state plus a
+b has transformed: b is now new_state plus b
+b has transformed: b is now new_state plus iron
+b has transformed: b is now new_state plus state
+b has transformed: b is now new_state plus new_state
+b has transformed: b is now new_state plus c
+b has transformed: b is now new_state minus a
+b has transformed: b is now new_state minus b
+b has transformed: b is now new_state minus iron
+b has transformed: b is now new_state minus state
+b has transformed: b is now new_state minus new_state
+b has transformed: b is now new_state minus c
+b has transformed: b is now new_state multiplied by a
+b has transformed: b is now new_state multiplied by b
+b has transformed: b is now new_state multiplied by iron
+b has transformed: b is now new_state multiplied by state
+b has transformed: b is now new_state multiplied by new_state
+b has transformed: b is now new_state multiplied by c
+b has transformed: b is now new_state divided by a
+b has transformed: b is now new_state divided by b
+b has transformed: b is now new_state divided by iron
+b has transformed: b is now new_state divided by state
+b has transformed: b is now new_state divided by new_state
+b has transformed: b is now new_state divided by c
+b has transformed: b is now c plus a
+b has transformed: b is now c plus b
+b has transformed: b is now c plus iron
+b has transformed: b is now c plus state
+b has transformed: b is now c plus new_state
+b has transformed: b is now c plus c
+b has transformed: b is now c minus a
+b has transformed: b is now c minus b
+b has transformed: b is now c minus iron
+b has transformed: b is now c minus state
+b has transformed: b is now c minus new_state
+b has transformed: b is now c minus c
+b has transformed: b is now c multiplied by a
+b has transformed: b is now c multiplied by b
+b has transformed: b is now c multiplied by iron
+b has transformed: b is now c multiplied by state
+b has transformed: b is now c multiplied by new_state
+b has transformed: b is now c multiplied by c
+b has transformed: b is now c divided by a
+b has transformed: b is now c divided by b
+b has transformed: b is now c divided by iron
+b has transformed: b is now c divided by state
+b has transformed: b is now c divided by new_state
+b has transformed: b is now c divided by c
+iron has transformed: iron is now a plus a
+iron has transformed: iron is now a plus b
+iron has transformed: iron is now a plus iron
+iron has transformed: iron is now a plus state
+iron has transformed: iron is now a plus new_state
+iron has transformed: iron is now a plus c
+iron has transformed: iron is now a minus a
+iron has transformed: iron is now a minus b
+iron has transformed: iron is now a minus iron
+iron has transformed: iron is now a minus state
+iron has transformed: iron is now a minus new_state
+iron has transformed: iron is now a minus c
+iron has transformed: iron is now a multiplied by a
+iron has transformed: iron is now a multiplied by b
+iron has transformed: iron is now a multiplied by iron
+iron has transformed: iron is now a multiplied by state
+iron has transformed: iron is now a multiplied by new_state
+iron has transformed: iron is now a multiplied by c
+iron has transformed: iron is now a divided by a
+iron has transformed: iron is now a divided by b
+iron has transformed: iron is now a divided by iron
+iron has transformed: iron is now a divided by state
+iron has transformed: iron is now a divided by new_state
+iron has transformed: iron is now a divided by c
+iron has transformed: iron is now b plus a
+iron has transformed: iron is now b plus b
+iron has transformed: iron is now b plus iron
+iron has transformed: iron is now b plus state
+iron has transformed: iron is now b plus new_state
+iron has transformed: iron is now b plus c
+iron has transformed: iron is now b minus a
+iron has transformed: iron is now b minus b
+iron has transformed: iron is now b minus iron
+iron has transformed: iron is now b minus state
+iron has transformed: iron is now b minus new_state
+iron has transformed: iron is now b minus c
+iron has transformed: iron is now b multiplied by a
+iron has transformed: iron is now b multiplied by b
+iron has transformed: iron is now b multiplied by iron
+iron has transformed: iron is now b multiplied by state
+iron has transformed: iron is now b multiplied by new_state
+iron has transformed: iron is now b multiplied by c
+iron has transformed: iron is now b divided by a
+iron has transformed: iron is now b divided by b
+iron has transformed: iron is now b divided by iron
+iron has transformed: iron is now b divided by state
+iron has transformed: iron is now b divided by new_state
+iron has transformed: iron is now b divided by c
+iron has transformed: iron is now iron plus a
+iron has transformed: iron is now iron plus b
+iron has transformed: iron is now iron plus iron
+iron has transformed: iron is now iron plus state
+iron has transformed: iron is now iron plus new_state
+iron has transformed: iron is now iron plus c
+iron has transformed: iron is now iron minus a
+iron has transformed: iron is now iron minus b
+iron has transformed: iron is now iron minus iron
+iron has transformed: iron is now iron minus state
+iron has transformed: iron is now iron minus new_state
+iron has transformed: iron is now iron minus c
+iron has transformed: iron is now iron multiplied by a
+iron has transformed: iron is now iron multiplied by b
+iron has transformed: iron is now iron multiplied by iron
+iron has transformed: iron is now iron multiplied by state
+iron has transformed: iron is now iron multiplied by new_state
+iron has transformed: iron is now iron multiplied by c
+iron has transformed: iron is now iron divided by a
+iron has transformed: iron is now iron divided by b
+iron has transformed: iron is now iron divided by iron
+iron has transformed: iron is now iron divided by state
+iron has transformed: iron is now iron divided by new_state
+iron has transformed: iron is now iron divided by c
+iron has transformed: iron is now state plus a
+iron has transformed: iron is now state plus b
+iron has transformed: iron is now state plus iron
+iron has transformed: iron is now state plus state
+iron has transformed: iron is now state plus new_state
+iron has transformed: iron is now state plus c
+iron has transformed: iron is now state minus a
+iron has transformed: iron is now state minus b
+iron has transformed: iron is now state minus iron
+iron has transformed: iron is now state minus state
+iron has transformed: iron is now state minus new_state
+iron has transformed: iron is now state minus c
+iron has transformed: iron is now state multiplied by a
+iron has transformed: iron is now state multiplied by b
+iron has transformed: iron is now state multiplied by iron
+iron has transformed: iron is now state multiplied by state
+iron has transformed: iron is now state multiplied by new_state
+iron has transformed: iron is now state multiplied by c
+iron has transformed: iron is now state divided by a
+iron has transformed: iron is now state divided by b
+iron has transformed: iron is now state divided by iron
+iron has transformed: iron is now state divided by state
+iron has transformed: iron is now state divided by new_state
+iron has transformed: iron is now state divided by c
+iron has transformed: iron is now new_state plus a
+iron has transformed: iron is now new_state plus b
+iron has transformed: iron is now new_state plus iron
+iron has transformed: iron is now new_state plus state
+iron has transformed: iron is now new_state plus new_state
+iron has transformed: iron is now new_state plus c
+iron has transformed: iron is now new_state minus a
+iron has transformed: iron is now new_state minus b
+iron has transformed: iron is now new_state minus iron
+iron has transformed: iron is now new_state minus state
+iron has transformed: iron is now new_state minus new_state
+iron has transformed: iron is now new_state minus c
+iron has transformed: iron is now new_state multiplied by a
+iron has transformed: iron is now new_state multiplied by b
+iron has transformed: iron is now new_state multiplied by iron
+iron has transformed: iron is now new_state multiplied by state
+iron has transformed: iron is now new_state multiplied by new_state
+iron has transformed: iron is now new_state multiplied by c
+iron has transformed: iron is now new_state divided by a
+iron has transformed: iron is now new_state divided by b
+iron has transformed: iron is now new_state divided by iron
+iron has transformed: iron is now new_state divided by state
+iron has transformed: iron is now new_state divided by new_state
+iron has transformed: iron is now new_state divided by c
+iron has transformed: iron is now c plus a
+iron has transformed: iron is now c plus b
+iron has transformed: iron is now c plus iron
+iron has transformed: iron is now c plus state
+iron has transformed: iron is now c plus new_state
+iron has transformed: iron is now c plus c
+iron has transformed: iron is now c minus a
+iron has transformed: iron is now c minus b
+iron has transformed: iron is now c minus iron
+iron has transformed: iron is now c minus state
+iron has transformed: iron is now c minus new_state
+iron has transformed: iron is now c minus c
+iron has transformed: iron is now c multiplied by a
+iron has transformed: iron is now c multiplied by b
+iron has transformed: iron is now c multiplied by iron
+iron has transformed: iron is now c multiplied by state
+iron has transformed: iron is now c multiplied by new_state
+iron has transformed: iron is now c multiplied by c
+iron has transformed: iron is now c divided by a
+iron has transformed: iron is now c divided by b
+iron has transformed: iron is now c divided by iron
+iron has transformed: iron is now c divided by state
+iron has transformed: iron is now c divided by new_state
+iron has transformed: iron is now c divided by c
+state has transformed: state is now a plus a
+state has transformed: state is now a plus b
+state has transformed: state is now a plus iron
+state has transformed: state is now a plus state
+state has transformed: state is now a plus new_state
+state has transformed: state is now a plus c
+state has transformed: state is now a minus a
+state has transformed: state is now a minus b
+state has transformed: state is now a minus iron
+state has transformed: state is now a minus state
+state has transformed: state is now a minus new_state
+state has transformed: state is now a minus c
+state has transformed: state is now a multiplied by a
+state has transformed: state is now a multiplied by b
+state has transformed: state is now a multiplied by iron
+state has transformed: state is now a multiplied by state
+state has transformed: state is now a multiplied by new_state
+state has transformed: state is now a multiplied by c
+state has transformed: state is now a divided by a
+state has transformed: state is now a divided by b
+state has transformed: state is now a divided by iron
+state has transformed: state is now a divided by state
+state has transformed: state is now a divided by new_state
+state has transformed: state is now a divided by c
+state has transformed: state is now b plus a
+state has transformed: state is now b plus b
+state has transformed: state is now b plus iron
+state has transformed: state is now b plus state
+state has transformed: state is now b plus new_state
+state has transformed: state is now b plus c
+state has transformed: state is now b minus a
+state has transformed: state is now b minus b
+state has transformed: state is now b minus iron
+state has transformed: state is now b minus state
+state has transformed: state is now b minus new_state
+state has transformed: state is now b minus c
+state has transformed: state is now b multiplied by a
+state has transformed: state is now b multiplied by b
+state has transformed: state is now b multiplied by iron
+state has transformed: state is now b multiplied by state
+state has transformed: state is now b multiplied by new_state
+state has transformed: state is now b multiplied by c
+state has transformed: state is now b divided by a
+state has transformed: state is now b divided by b
+state has transformed: state is now b divided by iron
+state has transformed: state is now b divided by state
+state has transformed: state is now b divided by new_state
+state has transformed: state is now b divided by c
+state has transformed: state is now iron plus a
+state has transformed: state is now iron plus b
+state has transformed: state is now iron plus iron
+state has transformed: state is now iron plus state
+state has transformed: state is now iron plus new_state
+state has transformed: state is now iron plus c
+state has transformed: state is now iron minus a
+state has transformed: state is now iron minus b
+state has transformed: state is now iron minus iron
+state has transformed: state is now iron minus state
+state has transformed: state is now iron minus new_state
+state has transformed: state is now iron minus c
+state has transformed: state is now iron multiplied by a
+state has transformed: state is now iron multiplied by b
+state has transformed: state is now iron multiplied by iron
+state has transformed: state is now iron multiplied by state
+state has transformed: state is now iron multiplied by new_state
+state has transformed: state is now iron multiplied by c
+state has transformed: state is now iron divided by a
+state has transformed: state is now iron divided by b
+state has transformed: state is now iron divided by iron
+state has transformed: state is now iron divided by state
+state has transformed: state is now iron divided by new_state
+state has transformed: state is now iron divided by c
+state has transformed: state is now state plus a
+state has transformed: state is now state plus b
+state has transformed: state is now state plus iron
+state has transformed: state is now state plus state
+state has transformed: state is now state plus new_state
+state has transformed: state is now state plus c
+state has transformed: state is now state minus a
+state has transformed: state is now state minus b
+state has transformed: state is now state minus iron
+state has transformed: state is now state minus state
+state has transformed: state is now state minus new_state
+state has transformed: state is now state minus c
+state has transformed: state is now state multiplied by a
+state has transformed: state is now state multiplied by b
+state has transformed: state is now state multiplied by iron
+state has transformed: state is now state multiplied by state
+state has transformed: state is now state multiplied by new_state
+state has transformed: state is now state multiplied by c
+state has transformed: state is now state divided by a
+state has transformed: state is now state divided by b
+state has transformed: state is now state divided by iron
+state has transformed: state is now state divided by state
+state has transformed: state is now state divided by new_state
+state has transformed: state is now state divided by c
+state has transformed: state is now new_state plus a
+state has transformed: state is now new_state plus b
+state has transformed: state is now new_state plus iron
+state has transformed: state is now new_state plus state
+state has transformed: state is now new_state plus new_state
+state has transformed: state is now new_state plus c
+state has transformed: state is now new_state minus a
+state has transformed: state is now new_state minus b
+state has transformed: state is now new_state minus iron
+state has transformed: state is now new_state minus state
+state has transformed: state is now new_state minus new_state
+state has transformed: state is now new_state minus c
+state has transformed: state is now new_state multiplied by a
+state has transformed: state is now new_state multiplied by b
+state has transformed: state is now new_state multiplied by iron
+state has transformed: state is now new_state multiplied by state
+state has transformed: state is now new_state multiplied by new_state
+state has transformed: state is now new_state multiplied by c
+state has transformed: state is now new_state divided by a
+state has transformed: state is now new_state divided by b
+state has transformed: state is now new_state divided by iron
+state has transformed: state is now new_state divided by state
+state has transformed: state is now new_state divided by new_state
+state has transformed: state is now new_state divided by c
+state has transformed: state is now c plus a
+state has transformed: state is now c plus b
+state has transformed: state is now c plus iron
+state has transformed: state is now c plus state
+state has transformed: state is now c plus new_state
+state has transformed: state is now c plus c
+state has transformed: state is now c minus a
+state has transformed: state is now c minus b
+state has transformed: state is now c minus iron
+state has transformed: state is now c minus state
+state has transformed: state is now c minus new_state
+state has transformed: state is now c minus c
+state has transformed: state is now c multiplied by a
+state has transformed: state is now c multiplied by b
+state has transformed: state is now c multiplied by iron
+state has transformed: state is now c multiplied by state
+state has transformed: state is now c multiplied by new_state
+state has transformed: state is now c multiplied by c
+state has transformed: state is now c divided by a
+state has transformed: state is now c divided by b
+state has transformed: state is now c divided by iron
+state has transformed: state is now c divided by state
+state has transformed: state is now c divided by new_state
+state has transformed: state is now c divided by c
+new_state has transformed: new_state is now a plus a
+new_state has transformed: new_state is now a plus b
+new_state has transformed: new_state is now a plus iron
+new_state has transformed: new_state is now a plus state
+new_state has transformed: new_state is now a plus new_state
+new_state has transformed: new_state is now a plus c
+new_state has transformed: new_state is now a minus a
+new_state has transformed: new_state is now a minus b
+new_state has transformed: new_state is now a minus iron
+new_state has transformed: new_state is now a minus state
+new_state has transformed: new_state is now a minus new_state
+new_state has transformed: new_state is now a minus c
+new_state has transformed: new_state is now a multiplied by a
+new_state has transformed: new_state is now a multiplied by b
+new_state has transformed: new_state is now a multiplied by iron
+new_state has transformed: new_state is now a multiplied by state
+new_state has transformed: new_state is now a multiplied by new_state
+new_state has transformed: new_state is now a multiplied by c
+new_state has transformed: new_state is now a divided by a
+new_state has transformed: new_state is now a divided by b
+new_state has transformed: new_state is now a divided by iron
+new_state has transformed: new_state is now a divided by state
+new_state has transformed: new_state is now a divided by new_state
+new_state has transformed: new_state is now a divided by c
+new_state has transformed: new_state is now b plus a
+new_state has transformed: new_state is now b plus b
+new_state has transformed: new_state is now b plus iron
+new_state has transformed: new_state is now b plus state
+new_state has transformed: new_state is now b plus new_state
+new_state has transformed: new_state is now b plus c
+new_state has transformed: new_state is now b minus a
+new_state has transformed: new_state is now b minus b
+new_state has transformed: new_state is now b minus iron
+new_state has transformed: new_state is now b minus state
+new_state has transformed: new_state is now b minus new_state
+new_state has transformed: new_state is now b minus c
+new_state has transformed: new_state is now b multiplied by a
+new_state has transformed: new_state is now b multiplied by b
+new_state has transformed: new_state is now b multiplied by iron
+new_state has transformed: new_state is now b multiplied by state
+new_state has transformed: new_state is now b multiplied by new_state
+new_state has transformed: new_state is now b multiplied by c
+new_state has transformed: new_state is now b divided by a
+new_state has transformed: new_state is now b divided by b
+new_state has transformed: new_state is now b divided by iron
+new_state has transformed: new_state is now b divided by state
+new_state has transformed: new_state is now b divided by new_state
+new_state has transformed: new_state is now b divided by c
+new_state has transformed: new_state is now iron plus a
+new_state has transformed: new_state is now iron plus b
+new_state has transformed: new_state is now iron plus iron
+new_state has transformed: new_state is now iron plus state
+new_state has transformed: new_state is now iron plus new_state
+new_state has transformed: new_state is now iron plus c
+new_state has transformed: new_state is now iron minus a
+new_state has transformed: new_state is now iron minus b
+new_state has transformed: new_state is now iron minus iron
+new_state has transformed: new_state is now iron minus state
+new_state has transformed: new_state is now iron minus new_state
+new_state has transformed: new_state is now iron minus c
+new_state has transformed: new_state is now iron multiplied by a
+new_state has transformed: new_state is now iron multiplied by b
+new_state has transformed: new_state is now iron multiplied by iron
+new_state has transformed: new_state is now iron multiplied by state
+new_state has transformed: new_state is now iron multiplied by new_state
+new_state has transformed: new_state is now iron multiplied by c
+new_state has transformed: new_state is now iron divided by a
+new_state has transformed: new_state is now iron divided by b
+new_state has transformed: new_state is now iron divided by iron
+new_state has transformed: new_state is now iron divided by state
+new_state has transformed: new_state is now iron divided by new_state
+new_state has transformed: new_state is now iron divided by c
+new_state has transformed: new_state is now state plus a
+new_state has transformed: new_state is now state plus b
+new_state has transformed: new_state is now state plus iron
+new_state has transformed: new_state is now state plus state
+new_state has transformed: new_state is now state plus new_state
+new_state has transformed: new_state is now state plus c
+new_state has transformed: new_state is now state minus a
+new_state has transformed: new_state is now state minus b
+new_state has transformed: new_state is now state minus iron
+new_state has transformed: new_state is now state minus state
+new_state has transformed: new_state is now state minus new_state
+new_state has transformed: new_state is now state minus c
+new_state has transformed: new_state is now state multiplied by a
+new_state has transformed: new_state is now state multiplied by b
+new_state has transformed: new_state is now state multiplied by iron
+new_state has transformed: new_state is now state multiplied by state
+new_state has transformed: new_state is now state multiplied by new_state
+new_state has transformed: new_state is now state multiplied by c
+new_state has transformed: new_state is now state divided by a
+new_state has transformed: new_state is now state divided by b
+new_state has transformed: new_state is now state divided by iron
+new_state has transformed: new_state is now state divided by state
+new_state has transformed: new_state is now state divided by new_state
+new_state has transformed: new_state is now state divided by c
+new_state has transformed: new_state is now new_state plus a
+new_state has transformed: new_state is now new_state plus b
+new_state has transformed: new_state is now new_state plus iron
+new_state has transformed: new_state is now new_state plus state
+new_state has transformed: new_state is now new_state plus new_state
+new_state has transformed: new_state is now new_state plus c
+new_state has transformed: new_state is now new_state minus a
+new_state has transformed: new_state is now new_state minus b
+new_state has transformed: new_state is now new_state minus iron
+new_state has transformed: new_state is now new_state minus state
+new_state has transformed: new_state is now new_state minus new_state
+new_state has transformed: new_state is now new_state minus c
+new_state has transformed: new_state is now new_state multiplied by a
+new_state has transformed: new_state is now new_state multiplied by b
+new_state has transformed: new_state is now new_state multiplied by iron
+new_state has transformed: new_state is now new_state multiplied by state
+new_state has transformed: new_state is now new_state multiplied by new_state
+new_state has transformed: new_state is now new_state multiplied by c
+new_state has transformed: new_state is now new_state divided by a
+new_state has transformed: new_state is now new_state divided by b
+new_state has transformed: new_state is now new_state divided by iron
+new_state has transformed: new_state is now new_state divided by state
+new_state has transformed: new_state is now new_state divided by new_state
+new_state has transformed: new_state is now new_state divided by c
+new_state has transformed: new_state is now c plus a
+new_state has transformed: new_state is now c plus b
+new_state has transformed: new_state is now c plus iron
+new_state has transformed: new_state is now c plus state
+new_state has transformed: new_state is now c plus new_state
+new_state has transformed: new_state is now c plus c
+new_state has transformed: new_state is now c minus a
+new_state has transformed: new_state is now c minus b
+new_state has transformed: new_state is now c minus iron
+new_state has transformed: new_state is now c minus state
+new_state has transformed: new_state is now c minus new_state
+new_state has transformed: new_state is now c minus c
+new_state has transformed: new_state is now c multiplied by a
+new_state has transformed: new_state is now c multiplied by b
+new_state has transformed: new_state is now c multiplied by iron
+new_state has transformed: new_state is now c multiplied by state
+new_state has transformed: new_state is now c multiplied by new_state
+new_state has transformed: new_state is now c multiplied by c
+new_state has transformed: new_state is now c divided by a
+new_state has transformed: new_state is now c divided by b
+new_state has transformed: new_state is now c divided by iron
+new_state has transformed: new_state is now c divided by state
+new_state has transformed: new_state is now c divided by new_state
+new_state has transformed: new_state is now c divided by c
+c has transformed: c is now a plus a
+c has transformed: c is now a plus b
+c has transformed: c is now a plus iron
+c has transformed: c is now a plus state
+c has transformed: c is now a plus new_state
+c has transformed: c is now a plus c
+c has transformed: c is now a minus a
+c has transformed: c is now a minus b
+c has transformed: c is now a minus iron
+c has transformed: c is now a minus state
+c has transformed: c is now a minus new_state
+c has transformed: c is now a minus c
+c has transformed: c is now a multiplied by a
+c has transformed: c is now a multiplied by b
+c has transformed: c is now a multiplied by iron
+c has transformed: c is now a multiplied by state
+c has transformed: c is now a multiplied by new_state
+c has transformed: c is now a multiplied by c
+c has transformed: c is now a divided by a
+c has transformed: c is now a divided by b
+c has transformed: c is now a divided by iron
+c has transformed: c is now a divided by state
+c has transformed: c is now a divided by new_state
+c has transformed: c is now a divided by c
+c has transformed: c is now b plus a
+c has transformed: c is now b plus b
+c has transformed: c is now b plus iron
+c has transformed: c is now b plus state
+c has transformed: c is now b plus new_state
+c has transformed: c is now b plus c
+c has transformed: c is now b minus a
+c has transformed: c is now b minus b
+c has transformed: c is now b minus iron
+c has transformed: c is now b minus state
+c has transformed: c is now b minus new_state
+c has transformed: c is now b minus c
+c has transformed: c is now b multiplied by a
+c has transformed: c is now b multiplied by b
+c has transformed: c is now b multiplied by iron
+c has transformed: c is now b multiplied by state
+c has transformed: c is now b multiplied by new_state
+c has transformed: c is now b multiplied by c
+c has transformed: c is now b divided by a
+c has transformed: c is now b divided by b
+c has transformed: c is now b divided by iron
+c has transformed: c is now b divided by state
+c has transformed: c is now b divided by new_state
+c has transformed: c is now b divided by c
+c has transformed: c is now iron plus a
+c has transformed: c is now iron plus b
+c has transformed: c is now iron plus iron
+c has transformed: c is now iron plus state
+c has transformed: c is now iron plus new_state
+c has transformed: c is now iron plus c
+c has transformed: c is now iron minus a
+c has transformed: c is now iron minus b
+c has transformed: c is now iron minus iron
+c has transformed: c is now iron minus state
+c has transformed: c is now iron minus new_state
+c has transformed: c is now iron minus c
+c has transformed: c is now iron multiplied by a
+c has transformed: c is now iron multiplied by b
+c has transformed: c is now iron multiplied by iron
+c has transformed: c is now iron multiplied by state
+c has transformed: c is now iron multiplied by new_state
+c has transformed: c is now iron multiplied by c
+c has transformed: c is now iron divided by a
+c has transformed: c is now iron divided by b
+c has transformed: c is now iron divided by iron
+c has transformed: c is now iron divided by state
+c has transformed: c is now iron divided by new_state
+c has transformed: c is now iron divided by c
+c has transformed: c is now state plus a
+c has transformed: c is now state plus b
+c has transformed: c is now state plus iron
+c has transformed: c is now state plus state
+c has transformed: c is now state plus new_state
+c has transformed: c is now state plus c
+c has transformed: c is now state minus a
+c has transformed: c is now state minus b
+c has transformed: c is now state minus iron
+c has transformed: c is now state minus state
+c has transformed: c is now state minus new_state
+c has transformed: c is now state minus c
+c has transformed: c is now state multiplied by a
+c has transformed: c is now state multiplied by b
+c has transformed: c is now state multiplied by iron
+c has transformed: c is now state multiplied by state
+c has transformed: c is now state multiplied by new_state
+c has transformed: c is now state multiplied by c
+c has transformed: c is now state divided by a
+c has transformed: c is now state divided by b
+c has transformed: c is now state divided by iron
+c has transformed: c is now state divided by state
+c has transformed: c is now state divided by new_state
+c has transformed: c is now state divided by c
+c has transformed: c is now new_state plus a
+c has transformed: c is now new_state plus b
+c has transformed: c is now new_state plus iron
+c has transformed: c is now new_state plus state
+c has transformed: c is now new_state plus new_state
+c has transformed: c is now new_state plus c
+c has transformed: c is now new_state minus a
+c has transformed: c is now new_state minus b
+c has transformed: c is now new_state minus iron
+c has transformed: c is now new_state minus state
+c has transformed: c is now new_state minus new_state
+c has transformed: c is now new_state minus c
+c has transformed: c is now new_state multiplied by a
+c has transformed: c is now new_state multiplied by b
+c has transformed: c is now new_state multiplied by iron
+c has transformed: c is now new_state multiplied by state
+c has transformed: c is now new_state multiplied by new_state
+c has transformed: c is now new_state multiplied by c
+c has transformed: c is now new_state divided by a
+c has transformed: c is now new_state divided by b
+c has transformed: c is now new_state divided by iron
+c has transformed: c is now new_state divided by state
+c has transformed: c is now new_state divided by new_state
+c has transformed: c is now new_state divided by c
+c has transformed: c is now c plus a
+c has transformed: c is now c plus b
+c has transformed: c is now c plus iron
+c has transformed: c is now c plus state
+c has transformed: c is now c plus new_state
+c has transformed: c is now c plus c
+c has transformed: c is now c minus a
+c has transformed: c is now c minus b
+c has transformed: c is now c minus iron
+c has transformed: c is now c minus state
+c has transformed: c is now c minus new_state
+c has transformed: c is now c minus c
+c has transformed: c is now c multiplied by a
+c has transformed: c is now c multiplied by b
+c has transformed: c is now c multiplied by iron
+c has transformed: c is now c multiplied by state
+c has transformed: c is now c multiplied by new_state
+c has transformed: c is now c multiplied by c
+c has transformed: c is now c divided by a
+c has transformed: c is now c divided by b
+c has transformed: c is now c divided by iron
+c has transformed: c is now c divided by state
+c has transformed: c is now c divided by new_state
+c has transformed: c is now c divided by c
+a has been modified: a is now a plus a
+a has been modified: a is now a plus b
+a has been modified: a is now a plus iron
+a has been modified: a is now a plus state
+a has been modified: a is now a plus new_state
+a has been modified: a is now a plus c
+a has been modified: a is now a minus a
+a has been modified: a is now a minus b
+a has been modified: a is now a minus iron
+a has been modified: a is now a minus state
+a has been modified: a is now a minus new_state
+a has been modified: a is now a minus c
+a has been modified: a is now a multiplied by a
+a has been modified: a is now a multiplied by b
+a has been modified: a is now a multiplied by iron
+a has been modified: a is now a multiplied by state
+a has been modified: a is now a multiplied by new_state
+a has been modified: a is now a multiplied by c
+a has been modified: a is now a divided by a
+a has been modified: a is now a divided by b
+a has been modified: a is now a divided by iron
+a has been modified: a is now a divided by state
+a has been modified: a is now a divided by new_state
+a has been modified: a is now a divided by c
+a has been modified: a is now b plus a
+a has been modified: a is now b plus b
+a has been modified: a is now b plus iron
+a has been modified: a is now b plus state
+a has been modified: a is now b plus new_state
+a has been modified: a is now b plus c
+a has been modified: a is now b minus a
+a has been modified: a is now b minus b
+a has been modified: a is now b minus iron
+a has been modified: a is now b minus state
+a has been modified: a is now b minus new_state
+a has been modified: a is now b minus c
+a has been modified: a is now b multiplied by a
+a has been modified: a is now b multiplied by b
+a has been modified: a is now b multiplied by iron
+a has been modified: a is now b multiplied by state
+a has been modified: a is now b multiplied by new_state
+a has been modified: a is now b multiplied by c
+a has been modified: a is now b divided by a
+a has been modified: a is now b divided by b
+a has been modified: a is now b divided by iron
+a has been modified: a is now b divided by state
+a has been modified: a is now b divided by new_state
+a has been modified: a is now b divided by c
+a has been modified: a is now iron plus a
+a has been modified: a is now iron plus b
+a has been modified: a is now iron plus iron
+a has been modified: a is now iron plus state
+a has been modified: a is now iron plus new_state
+a has been modified: a is now iron plus c
+a has been modified: a is now iron minus a
+a has been modified: a is now iron minus b
+a has been modified: a is now iron minus iron
+a has been modified: a is now iron minus state
+a has been modified: a is now iron minus new_state
+a has been modified: a is now iron minus c
+a has been modified: a is now iron multiplied by a
+a has been modified: a is now iron multiplied by b
+a has been modified: a is now iron multiplied by iron
+a has been modified: a is now iron multiplied by state
+a has been modified: a is now iron multiplied by new_state
+a has been modified: a is now iron multiplied by c
+a has been modified: a is now iron divided by a
+a has been modified: a is now iron divided by b
+a has been modified: a is now iron divided by iron
+a has been modified: a is now iron divided by state
+a has been modified: a is now iron divided by new_state
+a has been modified: a is now iron divided by c
+a has been modified: a is now state plus a
+a has been modified: a is now state plus b
+a has been modified: a is now state plus iron
+a has been modified: a is now state plus state
+a has been modified: a is now state plus new_state
+a has been modified: a is now state plus c
+a has been modified: a is now state minus a
+a has been modified: a is now state minus b
+a has been modified: a is now state minus iron
+a has been modified: a is now state minus state
+a has been modified: a is now state minus new_state
+a has been modified: a is now state minus c
+a has been modified: a is now state multiplied by a
+a has been modified: a is now state multiplied by b
+a has been modified: a is now state multiplied by iron
+a has been modified: a is now state multiplied by state
+a has been modified: a is now state multiplied by new_state
+a has been modified: a is now state multiplied by c
+a has been modified: a is now state divided by a
+a has been modified: a is now state divided by b
+a has been modified: a is now state divided by iron
+a has been modified: a is now state divided by state
+a has been modified: a is now state divided by new_state
+a has been modified: a is now state divided by c
+a has been modified: a is now new_state plus a
+a has been modified: a is now new_state plus b
+a has been modified: a is now new_state plus iron
+a has been modified: a is now new_state plus state
+a has been modified: a is now new_state plus new_state
+a has been modified: a is now new_state plus c
+a has been modified: a is now new_state minus a
+a has been modified: a is now new_state minus b
+a has been modified: a is now new_state minus iron
+a has been modified: a is now new_state minus state
+a has been modified: a is now new_state minus new_state
+a has been modified: a is now new_state minus c
+a has been modified: a is now new_state multiplied by a
+a has been modified: a is now new_state multiplied by b
+a has been modified: a is now new_state multiplied by iron
+a has been modified: a is now new_state multiplied by state
+a has been modified: a is now new_state multiplied by new_state
+a has been modified: a is now new_state multiplied by c
+a has been modified: a is now new_state divided by a
+a has been modified: a is now new_state divided by b
+a has been modified: a is now new_state divided by iron
+a has been modified: a is now new_state divided by state
+a has been modified: a is now new_state divided by new_state
+a has been modified: a is now new_state divided by c
+a has been modified: a is now c plus a
+a has been modified: a is now c plus b
+a has been modified: a is now c plus iron
+a has been modified: a is now c plus state
+a has been modified: a is now c plus new_state
+a has been modified: a is now c plus c
+a has been modified: a is now c minus a
+a has been modified: a is now c minus b
+a has been modified: a is now c minus iron
+a has been modified: a is now c minus state
+a has been modified: a is now c minus new_state
+a has been modified: a is now c minus c
+a has been modified: a is now c multiplied by a
+a has been modified: a is now c multiplied by b
+a has been modified: a is now c multiplied by iron
+a has been modified: a is now c multiplied by state
+a has been modified: a is now c multiplied by new_state
+a has been modified: a is now c multiplied by c
+a has been modified: a is now c divided by a
+a has been modified: a is now c divided by b
+a has been modified: a is now c divided by iron
+a has been modified: a is now c divided by state
+a has been modified: a is now c divided by new_state
+a has been modified: a is now c divided by c
+b has been modified: b is now a plus a
+b has been modified: b is now a plus b
+b has been modified: b is now a plus iron
+b has been modified: b is now a plus state
+b has been modified: b is now a plus new_state
+b has been modified: b is now a plus c
+b has been modified: b is now a minus a
+b has been modified: b is now a minus b
+b has been modified: b is now a minus iron
+b has been modified: b is now a minus state
+b has been modified: b is now a minus new_state
+b has been modified: b is now a minus c
+b has been modified: b is now a multiplied by a
+b has been modified: b is now a multiplied by b
+b has been modified: b is now a multiplied by iron
+b has been modified: b is now a multiplied by state
+b has been modified: b is now a multiplied by new_state
+b has been modified: b is now a multiplied by c
+b has been modified: b is now a divided by a
+b has been modified: b is now a divided by b
+b has been modified: b is now a divided by iron
+b has been modified: b is now a divided by state
+b has been modified: b is now a divided by new_state
+b has been modified: b is now a divided by c
+b has been modified: b is now b plus a
+b has been modified: b is now b plus b
+b has been modified: b is now b plus iron
+b has been modified: b is now b plus state
+b has been modified: b is now b plus new_state
+b has been modified: b is now b plus c
+b has been modified: b is now b minus a
+b has been modified: b is now b minus b
+b has been modified: b is now b minus iron
+b has been modified: b is now b minus state
+b has been modified: b is now b minus new_state
+b has been modified: b is now b minus c
+b has been modified: b is now b multiplied by a
+b has been modified: b is now b multiplied by b
+b has been modified: b is now b multiplied by iron
+b has been modified: b is now b multiplied by state
+b has been modified: b is now b multiplied by new_state
+b has been modified: b is now b multiplied by c
+b has been modified: b is now b divided by a
+b has been modified: b is now b divided by b
+b has been modified: b is now b divided by iron
+b has been modified: b is now b divided by state
+b has been modified: b is now b divided by new_state
+b has been modified: b is now b divided by c
+b has been modified: b is now iron plus a
+b has been modified: b is now iron plus b
+b has been modified: b is now iron plus iron
+b has been modified: b is now iron plus state
+b has been modified: b is now iron plus new_state
+b has been modified: b is now iron plus c
+b has been modified: b is now iron minus a
+b has been modified: b is now iron minus b
+b has been modified: b is now iron minus iron
+b has been modified: b is now iron minus state
+b has been modified: b is now iron minus new_state
+b has been modified: b is now iron minus c
+b has been modified: b is now iron multiplied by a
+b has been modified: b is now iron multiplied by b
+b has been modified: b is now iron multiplied by iron
+b has been modified: b is now iron multiplied by state
+b has been modified: b is now iron multiplied by new_state
+b has been modified: b is now iron multiplied by c
+b has been modified: b is now iron divided by a
+b has been modified: b is now iron divided by b
+b has been modified: b is now iron divided by iron
+b has been modified: b is now iron divided by state
+b has been modified: b is now iron divided by new_state
+b has been modified: b is now iron divided by c
+b has been modified: b is now state plus a
+b has been modified: b is now state plus b
+b has been modified: b is now state plus iron
+b has been modified: b is now state plus state
+b has been modified: b is now state plus new_state
+b has been modified: b is now state plus c
+b has been modified: b is now state minus a
+b has been modified: b is now state minus b
+b has been modified: b is now state minus iron
+b has been modified: b is now state minus state
+b has been modified: b is now state minus new_state
+b has been modified: b is now state minus c
+b has been modified: b is now state multiplied by a
+b has been modified: b is now state multiplied by b
+b has been modified: b is now state multiplied by iron
+b has been modified: b is now state multiplied by state
+b has been modified: b is now state multiplied by new_state
+b has been modified: b is now state multiplied by c
+b has been modified: b is now state divided by a
+b has been modified: b is now state divided by b
+b has been modified: b is now state divided by iron
+b has been modified: b is now state divided by state
+b has been modified: b is now state divided by new_state
+b has been modified: b is now state divided by c
+b has been modified: b is now new_state plus a
+b has been modified: b is now new_state plus b
+b has been modified: b is now new_state plus iron
+b has been modified: b is now new_state plus state
+b has been modified: b is now new_state plus new_state
+b has been modified: b is now new_state plus c
+b has been modified: b is now new_state minus a
+b has been modified: b is now new_state minus b
+b has been modified: b is now new_state minus iron
+b has been modified: b is now new_state minus state
+b has been modified: b is now new_state minus new_state
+b has been modified: b is now new_state minus c
+b has been modified: b is now new_state multiplied by a
+b has been modified: b is now new_state multiplied by b
+b has been modified: b is now new_state multiplied by iron
+b has been modified: b is now new_state multiplied by state
+b has been modified: b is now new_state multiplied by new_state
+b has been modified: b is now new_state multiplied by c
+b has been modified: b is now new_state divided by a
+b has been modified: b is now new_state divided by b
+b has been modified: b is now new_state divided by iron
+b has been modified: b is now new_state divided by state
+b has been modified: b is now new_state divided by new_state
+b has been modified: b is now new_state divided by c
+b has been modified: b is now c plus a
+b has been modified: b is now c plus b
+b has been modified: b is now c plus iron
+b has been modified: b is now c plus state
+b has been modified: b is now c plus new_state
+b has been modified: b is now c plus c
+b has been modified: b is now c minus a
+b has been modified: b is now c minus b
+b has been modified: b is now c minus iron
+b has been modified: b is now c minus state
+b has been modified: b is now c minus new_state
+b has been modified: b is now c minus c
+b has been modified: b is now c multiplied by a
+b has been modified: b is now c multiplied by b
+b has been modified: b is now c multiplied by iron
+b has been modified: b is now c multiplied by state
+b has been modified: b is now c multiplied by new_state
+b has been modified: b is now c multiplied by c
+b has been modified: b is now c divided by a
+b has been modified: b is now c divided by b
+b has been modified: b is now c divided by iron
+b has been modified: b is now c divided by state
+b has been modified: b is now c divided by new_state
+b has been modified: b is now c divided by c
+iron has been modified: iron is now a plus a
+iron has been modified: iron is now a plus b
+iron has been modified: iron is now a plus iron
+iron has been modified: iron is now a plus state
+iron has been modified: iron is now a plus new_state
+iron has been modified: iron is now a plus c
+iron has been modified: iron is now a minus a
+iron has been modified: iron is now a minus b
+iron has been modified: iron is now a minus iron
+iron has been modified: iron is now a minus state
+iron has been modified: iron is now a minus new_state
+iron has been modified: iron is now a minus c
+iron has been modified: iron is now a multiplied by a
+iron has been modified: iron is now a multiplied by b
+iron has been modified: iron is now a multiplied by iron
+iron has been modified: iron is now a multiplied by state
+iron has been modified: iron is now a multiplied by new_state
+iron has been modified: iron is now a multiplied by c
+iron has been modified: iron is now a divided by a
+iron has been modified: iron is now a divided by b
+iron has been modified: iron is now a divided by iron
+iron has been modified: iron is now a divided by state
+iron has been modified: iron is now a divided by new_state
+iron has been modified: iron is now a divided by c
+iron has been modified: iron is now b plus a
+iron has been modified: iron is now b plus b
+iron has been modified: iron is now b plus iron
+iron has been modified: iron is now b plus state
+iron has been modified: iron is now b plus new_state
+iron has been modified: iron is now b plus c
+iron has been modified: iron is now b minus a
+iron has been modified: iron is now b minus b
+iron has been modified: iron is now b minus iron
+iron has been modified: iron is now b minus state
+iron has been modified: iron is now b minus new_state
+iron has been modified: iron is now b minus c
+iron has been modified: iron is now b multiplied by a
+iron has been modified: iron is now b multiplied by b
+iron has been modified: iron is now b multiplied by iron
+iron has been modified: iron is now b multiplied by state
+iron has been modified: iron is now b multiplied by new_state
+iron has been modified: iron is now b multiplied by c
+iron has been modified: iron is now b divided by a
+iron has been modified: iron is now b divided by b
+iron has been modified: iron is now b divided by iron
+iron has been modified: iron is now b divided by state
+iron has been modified: iron is now b divided by new_state
+iron has been modified: iron is now b divided by c
+iron has been modified: iron is now iron plus a
+iron has been modified: iron is now iron plus b
+iron has been modified: iron is now iron plus iron
+iron has been modified: iron is now iron plus state
+iron has been modified: iron is now iron plus new_state
+iron has been modified: iron is now iron plus c
+iron has been modified: iron is now iron minus a
+iron has been modified: iron is now iron minus b
+iron has been modified: iron is now iron minus iron
+iron has been modified: iron is now iron minus state
+iron has been modified: iron is now iron minus new_state
+iron has been modified: iron is now iron minus c
+iron has been modified: iron is now iron multiplied by a
+iron has been modified: iron is now iron multiplied by b
+iron has been modified: iron is now iron multiplied by iron
+iron has been modified: iron is now iron multiplied by state
+iron has been modified: iron is now iron multiplied by new_state
+iron has been modified: iron is now iron multiplied by c
+iron has been modified: iron is now iron divided by a
+iron has been modified: iron is now iron divided by b
+iron has been modified: iron is now iron divided by iron
+iron has been modified: iron is now iron divided by state
+iron has been modified: iron is now iron divided by new_state
+iron has been modified: iron is now iron divided by c
+iron has been modified: iron is now state plus a
+iron has been modified: iron is now state plus b
+iron has been modified: iron is now state plus iron
+iron has been modified: iron is now state plus state
+iron has been modified: iron is now state plus new_state
+iron has been modified: iron is now state plus c
+iron has been modified: iron is now state minus a
+iron has been modified: iron is now state minus b
+iron has been modified: iron is now state minus iron
+iron has been modified: iron is now state minus state
+iron has been modified: iron is now state minus new_state
+iron has been modified: iron is now state minus c
+iron has been modified: iron is now state multiplied by a
+iron has been modified: iron is now state multiplied by b
+iron has been modified: iron is now state multiplied by iron
+iron has been modified: iron is now state multiplied by state
+iron has been modified: iron is now state multiplied by new_state
+iron has been modified: iron is now state multiplied by c
+iron has been modified: iron is now state divided by a
+iron has been modified: iron is now state divided by b
+iron has been modified: iron is now state divided by iron
+iron has been modified: iron is now state divided by state
+iron has been modified: iron is now state divided by new_state
+iron has been modified: iron is now state divided by c
+iron has been modified: iron is now new_state plus a
+iron has been modified: iron is now new_state plus b
+iron has been modified: iron is now new_state plus iron
+iron has been modified: iron is now new_state plus state
+iron has been modified: iron is now new_state plus new_state
+iron has been modified: iron is now new_state plus c
+iron has been modified: iron is now new_state minus a
+iron has been modified: iron is now new_state minus b
+iron has been modified: iron is now new_state minus iron
+iron has been modified: iron is now new_state minus state
+iron has been modified: iron is now new_state minus new_state
+iron has been modified: iron is now new_state minus c
+iron has been modified: iron is now new_state multiplied by a
+iron has been modified: iron is now new_state multiplied by b
+iron has been modified: iron is now new_state multiplied by iron
+iron has been modified: iron is now new_state multiplied by state
+iron has been modified: iron is now new_state multiplied by new_state
+iron has been modified: iron is now new_state multiplied by c
+iron has been modified: iron is now new_state divided by a
+iron has been modified: iron is now new_state divided by b
+iron has been modified: iron is now new_state divided by iron
+iron has been modified: iron is now new_state divided by state
+iron has been modified: iron is now new_state divided by new_state
+iron has been modified: iron is now new_state divided by c
+iron has been modified: iron is now c plus a
+iron has been modified: iron is now c plus b
+iron has been modified: iron is now c plus iron
+iron has been modified: iron is now c plus state
+iron has been modified: iron is now c plus new_state
+iron has been modified: iron is now c plus c
+iron has been modified: iron is now c minus a
+iron has been modified: iron is now c minus b
+iron has been modified: iron is now c minus iron
+iron has been modified: iron is now c minus state
+iron has been modified: iron is now c minus new_state
+iron has been modified: iron is now c minus c
+iron has been modified: iron is now c multiplied by a
+iron has been modified: iron is now c multiplied by b
+iron has been modified: iron is now c multiplied by iron
+iron has been modified: iron is now c multiplied by state
+iron has been modified: iron is now c multiplied by new_state
+iron has been modified: iron is now c multiplied by c
+iron has been modified: iron is now c divided by a
+iron has been modified: iron is now c divided by b
+iron has been modified: iron is now c divided by iron
+iron has been modified: iron is now c divided by state
+iron has been modified: iron is now c divided by new_state
+iron has been modified: iron is now c divided by c
+state has been modified: state is now a plus a
+state has been modified: state is now a plus b
+state has been modified: state is now a plus iron
+state has been modified: state is now a plus state
+state has been modified: state is now a plus new_state
+state has been modified: state is now a plus c
+state has been modified: state is now a minus a
+state has been modified: state is now a minus b
+state has been modified: state is now a minus iron
+state has been modified: state is now a minus state
+state has been modified: state is now a minus new_state
+state has been modified: state is now a minus c
+state has been modified: state is now a multiplied by a
+state has been modified: state is now a multiplied by b
+state has been modified: state is now a multiplied by iron
+state has been modified: state is now a multiplied by state
+state has been modified: state is now a multiplied by new_state
+state has been modified: state is now a multiplied by c
+state has been modified: state is now a divided by a
+state has been modified: state is now a divided by b
+state has been modified: state is now a divided by iron
+state has been modified: state is now a divided by state
+state has been modified: state is now a divided by new_state
+state has been modified: state is now a divided by c
+state has been modified: state is now b plus a
+state has been modified: state is now b plus b
+state has been modified: state is now b plus iron
+state has been modified: state is now b plus state
+state has been modified: state is now b plus new_state
+state has been modified: state is now b plus c
+state has been modified: state is now b minus a
+state has been modified: state is now b minus b
+state has been modified: state is now b minus iron
+state has been modified: state is now b minus state
+state has been modified: state is now b minus new_state
+state has been modified: state is now b minus c
+state has been modified: state is now b multiplied by a
+state has been modified: state is now b multiplied by b
+state has been modified: state is now b multiplied by iron
+state has been modified: state is now b multiplied by state
+state has been modified: state is now b multiplied by new_state
+state has been modified: state is now b multiplied by c
+state has been modified: state is now b divided by a
+state has been modified: state is now b divided by b
+state has been modified: state is now b divided by iron
+state has been modified: state is now b divided by state
+state has been modified: state is now b divided by new_state
+state has been modified: state is now b divided by c
+state has been modified: state is now iron plus a
+state has been modified: state is now iron plus b
+state has been modified: state is now iron plus iron
+state has been modified: state is now iron plus state
+state has been modified: state is now iron plus new_state
+state has been modified: state is now iron plus c
+state has been modified: state is now iron minus a
+state has been modified: state is now iron minus b
+state has been modified: state is now iron minus iron
+state has been modified: state is now iron minus state
+state has been modified: state is now iron minus new_state
+state has been modified: state is now iron minus c
+state has been modified: state is now iron multiplied by a
+state has been modified: state is now iron multiplied by b
+state has been modified: state is now iron multiplied by iron
+state has been modified: state is now iron multiplied by state
+state has been modified: state is now iron multiplied by new_state
+state has been modified: state is now iron multiplied by c
+state has been modified: state is now iron divided by a
+state has been modified: state is now iron divided by b
+state has been modified: state is now iron divided by iron
+state has been modified: state is now iron divided by state
+state has been modified: state is now iron divided by new_state
+state has been modified: state is now iron divided by c
+state has been modified: state is now state plus a
+state has been modified: state is now state plus b
+state has been modified: state is now state plus iron
+state has been modified: state is now state plus state
+state has been modified: state is now state plus new_state
+state has been modified: state is now state plus c
+state has been modified: state is now state minus a
+state has been modified: state is now state minus b
+state has been modified: state is now state minus iron
+state has been modified: state is now state minus state
+state has been modified: state is now state minus new_state
+state has been modified: state is now state minus c
+state has been modified: state is now state multiplied by a
+state has been modified: state is now state multiplied by b
+state has been modified: state is now state multiplied by iron
+state has been modified: state is now state multiplied by state
+state has been modified: state is now state multiplied by new_state
+state has been modified: state is now state multiplied by c
+state has been modified: state is now state divided by a
+state has been modified: state is now state divided by b
+state has been modified: state is now state divided by iron
+state has been modified: state is now state divided by state
+state has been modified: state is now state divided by new_state
+state has been modified: state is now state divided by c
+state has been modified: state is now new_state plus a
+state has been modified: state is now new_state plus b
+state has been modified: state is now new_state plus iron
+state has been modified: state is now new_state plus state
+state has been modified: state is now new_state plus new_state
+state has been modified: state is now new_state plus c
+state has been modified: state is now new_state minus a
+state has been modified: state is now new_state minus b
+state has been modified: state is now new_state minus iron
+state has been modified: state is now new_state minus state
+state has been modified: state is now new_state minus new_state
+state has been modified: state is now new_state minus c
+state has been modified: state is now new_state multiplied by a
+state has been modified: state is now new_state multiplied by b
+state has been modified: state is now new_state multiplied by iron
+state has been modified: state is now new_state multiplied by state
+state has been modified: state is now new_state multiplied by new_state
+state has been modified: state is now new_state multiplied by c
+state has been modified: state is now new_state divided by a
+state has been modified: state is now new_state divided by b
+state has been modified: state is now new_state divided by iron
+state has been modified: state is now new_state divided by state
+state has been modified: state is now new_state divided by new_state
+state has been modified: state is now new_state divided by c
+state has been modified: state is now c plus a
+state has been modified: state is now c plus b
+state has been modified: state is now c plus iron
+state has been modified: state is now c plus state
+state has been modified: state is now c plus new_state
+state has been modified: state is now c plus c
+state has been modified: state is now c minus a
+state has been modified: state is now c minus b
+state has been modified: state is now c minus iron
+state has been modified: state is now c minus state
+state has been modified: state is now c minus new_state
+state has been modified: state is now c minus c
+state has been modified: state is now c multiplied by a
+state has been modified: state is now c multiplied by b
+state has been modified: state is now c multiplied by iron
+state has been modified: state is now c multiplied by state
+state has been modified: state is now c multiplied by new_state
+state has been modified: state is now c multiplied by c
+state has been modified: state is now c divided by a
+state has been modified: state is now c divided by b
+state has been modified: state is now c divided by iron
+state has been modified: state is now c divided by state
+state has been modified: state is now c divided by new_state
+state has been modified: state is now c divided by c
+new_state has been modified: new_state is now a plus a
+new_state has been modified: new_state is now a plus b
+new_state has been modified: new_state is now a plus iron
+new_state has been modified: new_state is now a plus state
+new_state has been modified: new_state is now a plus new_state
+new_state has been modified: new_state is now a plus c
+new_state has been modified: new_state is now a minus a
+new_state has been modified: new_state is now a minus b
+new_state has been modified: new_state is now a minus iron
+new_state has been modified: new_state is now a minus state
+new_state has been modified: new_state is now a minus new_state
+new_state has been modified: new_state is now a minus c
+new_state has been modified: new_state is now a multiplied by a
+new_state has been modified: new_state is now a multiplied by b
+new_state has been modified: new_state is now a multiplied by iron
+new_state has been modified: new_state is now a multiplied by state
+new_state has been modified: new_state is now a multiplied by new_state
+new_state has been modified: new_state is now a multiplied by c
+new_state has been modified: new_state is now a divided by a
+new_state has been modified: new_state is now a divided by b
+new_state has been modified: new_state is now a divided by iron
+new_state has been modified: new_state is now a divided by state
+new_state has been modified: new_state is now a divided by new_state
+new_state has been modified: new_state is now a divided by c
+new_state has been modified: new_state is now b plus a
+new_state has been modified: new_state is now b plus b
+new_state has been modified: new_state is now b plus iron
+new_state has been modified: new_state is now b plus state
+new_state has been modified: new_state is now b plus new_state
+new_state has been modified: new_state is now b plus c
+new_state has been modified: new_state is now b minus a
+new_state has been modified: new_state is now b minus b
+new_state has been modified: new_state is now b minus iron
+new_state has been modified: new_state is now b minus state
+new_state has been modified: new_state is now b minus new_state
+new_state has been modified: new_state is now b minus c
+new_state has been modified: new_state is now b multiplied by a
+new_state has been modified: new_state is now b multiplied by b
+new_state has been modified: new_state is now b multiplied by iron
+new_state has been modified: new_state is now b multiplied by state
+new_state has been modified: new_state is now b multiplied by new_state
+new_state has been modified: new_state is now b multiplied by c
+new_state has been modified: new_state is now b divided by a
+new_state has been modified: new_state is now b divided by b
+new_state has been modified: new_state is now b divided by iron
+new_state has been modified: new_state is now b divided by state
+new_state has been modified: new_state is now b divided by new_state
+new_state has been modified: new_state is now b divided by c
+new_state has been modified: new_state is now iron plus a
+new_state has been modified: new_state is now iron plus b
+new_state has been modified: new_state is now iron plus iron
+new_state has been modified: new_state is now iron plus state
+new_state has been modified: new_state is now iron plus new_state
+new_state has been modified: new_state is now iron plus c
+new_state has been modified: new_state is now iron minus a
+new_state has been modified: new_state is now iron minus b
+new_state has been modified: new_state is now iron minus iron
+new_state has been modified: new_state is now iron minus state
+new_state has been modified: new_state is now iron minus new_state
+new_state has been modified: new_state is now iron minus c
+new_state has been modified: new_state is now iron multiplied by a
+new_state has been modified: new_state is now iron multiplied by b
+new_state has been modified: new_state is now iron multiplied by iron
+new_state has been modified: new_state is now iron multiplied by state
+new_state has been modified: new_state is now iron multiplied by new_state
+new_state has been modified: new_state is now iron multiplied by c
+new_state has been modified: new_state is now iron divided by a
+new_state has been modified: new_state is now iron divided by b
+new_state has been modified: new_state is now iron divided by iron
+new_state has been modified: new_state is now iron divided by state
+new_state has been modified: new_state is now iron divided by new_state
+new_state has been modified: new_state is now iron divided by c
+new_state has been modified: new_state is now state plus a
+new_state has been modified: new_state is now state plus b
+new_state has been modified: new_state is now state plus iron
+new_state has been modified: new_state is now state plus state
+new_state has been modified: new_state is now state plus new_state
+new_state has been modified: new_state is now state plus c
+new_state has been modified: new_state is now state minus a
+new_state has been modified: new_state is now state minus b
+new_state has been modified: new_state is now state minus iron
+new_state has been modified: new_state is now state minus state
+new_state has been modified: new_state is now state minus new_state
+new_state has been modified: new_state is now state minus c
+new_state has been modified: new_state is now state multiplied by a
+new_state has been modified: new_state is now state multiplied by b
+new_state has been modified: new_state is now state multiplied by iron
+new_state has been modified: new_state is now state multiplied by state
+new_state has been modified: new_state is now state multiplied by new_state
+new_state has been modified: new_state is now state multiplied by c
+new_state has been modified: new_state is now state divided by a
+new_state has been modified: new_state is now state divided by b
+new_state has been modified: new_state is now state divided by iron
+new_state has been modified: new_state is now state divided by state
+new_state has been modified: new_state is now state divided by new_state
+new_state has been modified: new_state is now state divided by c
+new_state has been modified: new_state is now new_state plus a
+new_state has been modified: new_state is now new_state plus b
+new_state has been modified: new_state is now new_state plus iron
+new_state has been modified: new_state is now new_state plus state
+new_state has been modified: new_state is now new_state plus new_state
+new_state has been modified: new_state is now new_state plus c
+new_state has been modified: new_state is now new_state minus a
+new_state has been modified: new_state is now new_state minus b
+new_state has been modified: new_state is now new_state minus iron
+new_state has been modified: new_state is now new_state minus state
+new_state has been modified: new_state is now new_state minus new_state
+new_state has been modified: new_state is now new_state minus c
+new_state has been modified: new_state is now new_state multiplied by a
+new_state has been modified: new_state is now new_state multiplied by b
+new_state has been modified: new_state is now new_state multiplied by iron
+new_state has been modified: new_state is now new_state multiplied by state
+new_state has been modified: new_state is now new_state multiplied by new_state
+new_state has been modified: new_state is now new_state multiplied by c
+new_state has been modified: new_state is now new_state divided by a
+new_state has been modified: new_state is now new_state divided by b
+new_state has been modified: new_state is now new_state divided by iron
+new_state has been modified: new_state is now new_state divided by state
+new_state has been modified: new_state is now new_state divided by new_state
+new_state has been modified: new_state is now new_state divided by c
+new_state has been modified: new_state is now c plus a
+new_state has been modified: new_state is now c plus b
+new_state has been modified: new_state is now c plus iron
+new_state has been modified: new_state is now c plus state
+new_state has been modified: new_state is now c plus new_state
+new_state has been modified: new_state is now c plus c
+new_state has been modified: new_state is now c minus a
+new_state has been modified: new_state is now c minus b
+new_state has been modified: new_state is now c minus iron
+new_state has been modified: new_state is now c minus state
+new_state has been modified: new_state is now c minus new_state
+new_state has been modified: new_state is now c minus c
+new_state has been modified: new_state is now c multiplied by a
+new_state has been modified: new_state is now c multiplied by b
+new_state has been modified: new_state is now c multiplied by iron
+new_state has been modified: new_state is now c multiplied by state
+new_state has been modified: new_state is now c multiplied by new_state
+new_state has been modified: new_state is now c multiplied by c
+new_state has been modified: new_state is now c divided by a
+new_state has been modified: new_state is now c divided by b
+new_state has been modified: new_state is now c divided by iron
+new_state has been modified: new_state is now c divided by state
+new_state has been modified: new_state is now c divided by new_state
+new_state has been modified: new_state is now c divided by c
+c has been modified: c is now a plus a
+c has been modified: c is now a plus b
+c has been modified: c is now a plus iron
+c has been modified: c is now a plus state
+c has been modified: c is now a plus new_state
+c has been modified: c is now a plus c
+c has been modified: c is now a minus a
+c has been modified: c is now a minus b
+c has been modified: c is now a minus iron
+c has been modified: c is now a minus state
+c has been modified: c is now a minus new_state
+c has been modified: c is now a minus c
+c has been modified: c is now a multiplied by a
+c has been modified: c is now a multiplied by b
+c has been modified: c is now a multiplied by iron
+c has been modified: c is now a multiplied by state
+c has been modified: c is now a multiplied by new_state
+c has been modified: c is now a multiplied by c
+c has been modified: c is now a divided by a
+c has been modified: c is now a divided by b
+c has been modified: c is now a divided by iron
+c has been modified: c is now a divided by state
+c has been modified: c is now a divided by new_state
+c has been modified: c is now a divided by c
+c has been modified: c is now b plus a
+c has been modified: c is now b plus b
+c has been modified: c is now b plus iron
+c has been modified: c is now b plus state
+c has been modified: c is now b plus new_state
+c has been modified: c is now b plus c
+c has been modified: c is now b minus a
+c has been modified: c is now b minus b
+c has been modified: c is now b minus iron
+c has been modified: c is now b minus state
+c has been modified: c is now b minus new_state
+c has been modified: c is now b minus c
+c has been modified: c is now b multiplied by a
+c has been modified: c is now b multiplied by b
+c has been modified: c is now b multiplied by iron
+c has been modified: c is now b multiplied by state
+c has been modified: c is now b multiplied by new_state
+c has been modified: c is now b multiplied by c
+c has been modified: c is now b divided by a
+c has been modified: c is now b divided by b
+c has been modified: c is now b divided by iron
+c has been modified: c is now b divided by state
+c has been modified: c is now b divided by new_state
+c has been modified: c is now b divided by c
+c has been modified: c is now iron plus a
+c has been modified: c is now iron plus b
+c has been modified: c is now iron plus iron
+c has been modified: c is now iron plus state
+c has been modified: c is now iron plus new_state
+c has been modified: c is now iron plus c
+c has been modified: c is now iron minus a
+c has been modified: c is now iron minus b
+c has been modified: c is now iron minus iron
+c has been modified: c is now iron minus state
+c has been modified: c is now iron minus new_state
+c has been modified: c is now iron minus c
+c has been modified: c is now iron multiplied by a
+c has been modified: c is now iron multiplied by b
+c has been modified: c is now iron multiplied by iron
+c has been modified: c is now iron multiplied by state
+c has been modified: c is now iron multiplied by new_state
+c has been modified: c is now iron multiplied by c
+c has been modified: c is now iron divided by a
+c has been modified: c is now iron divided by b
+c has been modified: c is now iron divided by iron
+c has been modified: c is now iron divided by state
+c has been modified: c is now iron divided by new_state
+c has been modified: c is now iron divided by c
+c has been modified: c is now state plus a
+c has been modified: c is now state plus b
+c has been modified: c is now state plus iron
+c has been modified: c is now state plus state
+c has been modified: c is now state plus new_state
+c has been modified: c is now state plus c
+c has been modified: c is now state minus a
+c has been modified: c is now state minus b
+c has been modified: c is now state minus iron
+c has been modified: c is now state minus state
+c has been modified: c is now state minus new_state
+c has been modified: c is now state minus c
+c has been modified: c is now state multiplied by a
+c has been modified: c is now state multiplied by b
+c has been modified: c is now state multiplied by iron
+c has been modified: c is now state multiplied by state
+c has been modified: c is now state multiplied by new_state
+c has been modified: c is now state multiplied by c
+c has been modified: c is now state divided by a
+c has been modified: c is now state divided by b
+c has been modified: c is now state divided by iron
+c has been modified: c is now state divided by state
+c has been modified: c is now state divided by new_state
+c has been modified: c is now state divided by c
+c has been modified: c is now new_state plus a
+c has been modified: c is now new_state plus b
+c has been modified: c is now new_state plus iron
+c has been modified: c is now new_state plus state
+c has been modified: c is now new_state plus new_state
+c has been modified: c is now new_state plus c
+c has been modified: c is now new_state minus a
+c has been modified: c is now new_state minus b
+c has been modified: c is now new_state minus iron
+c has been modified: c is now new_state minus state
+c has been modified: c is now new_state minus new_state
+c has been modified: c is now new_state minus c
+c has been modified: c is now new_state multiplied by a
+c has been modified: c is now new_state multiplied by b
+c has been modified: c is now new_state multiplied by iron
+c has been modified: c is now new_state multiplied by state
+c has been modified: c is now new_state multiplied by new_state
+c has been modified: c is now new_state multiplied by c
+c has been modified: c is now new_state divided by a
+c has been modified: c is now new_state divided by b
+c has been modified: c is now new_state divided by iron
+c has been modified: c is now new_state divided by state
+c has been modified: c is now new_state divided by new_state
+c has been modified: c is now new_state divided by c
+c has been modified: c is now c plus a
+c has been modified: c is now c plus b
+c has been modified: c is now c plus iron
+c has been modified: c is now c plus state
+c has been modified: c is now c plus new_state
+c has been modified: c is now c plus c
+c has been modified: c is now c minus a
+c has been modified: c is now c minus b
+c has been modified: c is now c minus iron
+c has been modified: c is now c minus state
+c has been modified: c is now c minus new_state
+c has been modified: c is now c minus c
+c has been modified: c is now c multiplied by a
+c has been modified: c is now c multiplied by b
+c has been modified: c is now c multiplied by iron
+c has been modified: c is now c multiplied by state
+c has been modified: c is now c multiplied by new_state
+c has been modified: c is now c multiplied by c
+c has been modified: c is now c divided by a
+c has been modified: c is now c divided by b
+c has been modified: c is now c divided by iron
+c has been modified: c is now c divided by state
+c has been modified: c is now c divided by new_state
+c has been modified: c is now c divided by c
