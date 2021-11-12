@@ -19,7 +19,7 @@ RLANG_TYPE_MAP = {
 
 """
 HOW TO USE:
-    1. add rlang primitive/keyword you want to generate to `valid_rlang` in main()
+    1. add rlang primitive/keyword you want to generate to `RLANG_TYPE_MAP` above
     2. create corresponding cfg at `./generate/cfgs/rlang_<primitive/keyword>.cfg`
     3. run python3 generate.py <primitive/keyword>
 """
