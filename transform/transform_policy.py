@@ -8,17 +8,6 @@ script_dir = os.path.dirname(__file__)
 def transform(t):
     label = t.label()
     # switch statement based on t.label
-    if label == 'Program':
-        return transform_Program(t[0])
-
-def transform_Program(t):
-    label = t.label()
-
-    if label == 'Statement':
-        return transform_Statement(t[0])
-
-def transform_Statement(t):
-    label = t.label()
     if label == 'Policy':
         return transform_Policy(t)
 
@@ -26,13 +15,18 @@ def transform_Policy(t):
     out_tree = Tree('Policy',[])
     for elt in t[1:]:
         label = elt.label()
-        if label == 'VariableName':
+        if label == 'VariableName' or label == 'VariableName2':
             possible_statements = [
                 'entails that you',
                 'states that you should',
                 'suggests that it would be advantageous to',
                 'means that it would be good to',
                 'is a strategy where you',
+                'is a good strategy where you should',
+                'is an approach where you',
+                'is an approach where it would be good to',
+                'is a tactic where it is advantageous to',
+                'is a tactic where it is good to',
             ]
             random_index = randint(0, len(possible_statements) - 1)
 
@@ -61,7 +55,7 @@ def transform_If(t):
     out_tree = Tree('If', ['if'])
     for elt in t[1:]:
         label = elt.label()
-        if label == 'VariableName':
+        if label == 'VariableName' or label == 'VariableName2':
             out_tree.append(transform_VariableName(elt))
         if label == 'BoolExp':
             out_tree.append(transform_BoolExp(elt))
@@ -73,7 +67,7 @@ def transform_Elif(t):
     out_tree = Tree('Elif', ['otherwise, if'])
     for elt in t[1:]:
         label = elt.label()
-        if label == 'VariableName':
+        if label == 'VariableName' or label == 'VariableName2':
             out_tree.append(transform_VariableName(elt))
         if label == 'BoolExp':
             out_tree.append(transform_BoolExp(elt))
@@ -110,7 +104,7 @@ def transform_BoolExp(t):
     out_tree = Tree('BoolExp', [])
     for elt in t:
         label = elt.label()
-        if label == 'VariableName':
+        if label == 'VariableName' or label == 'VariableName2':
             out_tree.append(transform_VariableName(elt))
         if label == 'BoolTest':
             out_tree.append(transform_BoolTest(elt))
@@ -149,7 +143,7 @@ def transform_BoolTest(t):
     return out_tree
 
 def transform_Value(t):
-    pass
+    return t[0]
 
 def transform_VariableName(t):
     return t[0]
@@ -165,13 +159,13 @@ def main():
         with open(os.path.join(script_dir, f"../data/nl/{output_file}"), 'w') as f_output:
             lines = f_input.readlines()
             total_lines = len(lines)
-            print(f"Writing tokenized file for POLICY to ", output_file)
-            print(f'Tokenizing {total_lines} total statements')
+            print(f"Writing transform file for POLICY to ", output_file)
+            print(f'Transforming {total_lines} total statements')
             print('This may take a while...\n...')
 
             for i in range(total_lines):
                 if (i % 1000 == 0):
-                    print(f'Finished parsing {i}/{total_lines} statements')
+                    print(f'Finished transforming {i}/{total_lines} statements')
                 
                 tokenized_rlang = lines[i]
                 in_tree = Tree.fromstring(tokenized_rlang)
