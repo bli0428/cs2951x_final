@@ -1,4 +1,9 @@
-import nltk
+import os
+
+from nltk import Tree
+from random import randint, seed
+
+script_dir = os.path.dirname(__file__)
 
 def transform(t):
     label = t.label()
@@ -7,73 +12,71 @@ def transform(t):
         return transform_Option(t)
 
 def transform_Option(t):
-    out_tree = nltk.Tree('Option',[])
-    out_tree.append('you can')
+    out_tree = Tree('Option',[])
     # out_tree.append('you have the option to')
     for i, elt in enumerate(t[1:]):
-        label = elt.label()
-        if elt == 'VariableName' and elt == t[0]:
-            out_tree.append(transform_VariableName(elt))
-            out_tree.append('once')
-            # out_tree.append('when')
-            # out_tree.append('as soon as')
-            # out_tree.append('whenever')
-        #ignores functors like :, \n, \t
-        if label == 'ConditionalExecute':
-            out_tree.append(transform_ConditionalExecute(elt))
+        if elt == 'init':
+            out_tree.append(transform_Init(elt))
+        if type(elt) is not str and elt.label() == 'BoolExp':
+            out_tree.append(transform_BoolExp(elt))
+        if type(elt) is not str and elt.label() == 'Policy':
+            out_tree.append(transform_SubPolicy(elt))
+        if elt == 'until':
+            out_tree.append(transform_Termination(t[i+2]))
     return out_tree
+def transform_Init(t):
+    possible_statements = [
+                'if',
+                'when',
+                'once',
+                'as soon as',
+                'whenever'
+            ]
+    random_index = randint(0, len(possible_statements) - 1)
+    return possible_statements[random_index]
 
-def transform_ConditionalExecute(t):
-    out_tree = nltk.Tree('ConditionalExecute', [])
-    for elt in t:
-        label = elt.label()
-        if label == 'If':
-            out_tree.append(transform_If(elt))
-        if label == 'Elif':
-            out_tree.append(transform_Elif(elt))
-        if label == 'Else':
-            out_tree.append(transform_Else(elt))
-    return out_tree
+def transform_SubPolicy(t):
+    out_tree = Tree('Policy', [])
+    possible_statements = [
+        'you can',
+        'you have the option to',
+        'you are able to',
+        'you have the choice to'
+    ]
+    random_index = randint(0, len(possible_statements) - 1)
 
-#note: current structure of if statement parse clashes with this because 'Execute' is included as string literal.
-def transform_If(t):
-    out_tree = nltk.Tree('If', ['if'])
+    out_tree.append(possible_statements[random_index])
+
     for elt in t[1:]:
         label = elt.label()
-        if label == 'VariableName':
-            out_tree.append(transform_VariableName(elt))
-        if label == 'BoolExp':
-            out_tree.append(transform_BoolExp(elt))
-        if label == 'Execute':
-            out_tree.insert(0, transform_Execute(elt))
+        if label == 'ExecuteVariableName':
+            out_tree.append(transform_ExecuteVariableName(elt))
+    
     return out_tree
 
-def transform_Elif(t):
-    out_tree = nltk.Tree('Elif', ['otherwise, if'])
-    for elt in t[1:]:
-        label = elt.label()
-        if label == 'VariableName':
-            out_tree.append(transform_VariableName(elt))
-        if label == 'BoolExp':
-            out_tree.append(transform_BoolExp(elt))
-        if label == 'Execute':
-            out_tree.append(transform_Execute(elt))
-    return out_tree
-
-def transform_Else(t):
-    out_tree = nltk.Tree('Else', ['and', transform_Execute(t[1]), 'otherwise'])
-    return out_tree
+def transform_Termination(t):
+    possible_statements = [
+                'until',
+                'until finally',
+            ]
+    random_index = randint(0, len(possible_statements) - 1)
+    return possible_statements[random_index]
 
 def transform_Execute(t):
-    out_tree = nltk.Tree('Execute', ['do', t[1]])
+    print(t)
+    if len(t) <= 1:
+        return
+    out_tree = Tree('Execute', ['do', t[1]])
     return out_tree
 
-#should include conjs too, but recursion errors means I put that off.
+def transform_ExecuteVariableName(t):
+    return Tree('Execute',[t[0]])
+
 def transform_BoolExp(t):
-    out_tree = nltk.Tree('BoolExp', [])
+    out_tree = Tree('BoolExp', [])
     for elt in t:
         label = elt.label()
-        if label == 'VariableName':
+        if label == 'VariableName' or label == 'VariableName2':
             out_tree.append(transform_VariableName(elt))
         if label == 'BoolTest':
             out_tree.append(transform_BoolTest(elt))
@@ -81,24 +84,77 @@ def transform_BoolExp(t):
             out_tree.append(transform_Value(elt))
     return out_tree
 
+
 def transform_BoolTest(t):
-    out_tree = nltk.Tree('BoolTest',[])
+    out_tree = Tree('BoolTest',[])
+    r = randint(0, 1)
     elt = t[0]
     if elt == '==':
-        out_tree.append('is equal to')
+        possible_equals_statements = [
+            'is equal to',
+            'is exactly the same as'
+        ]
+        out_tree.append(possible_equals_statements[randint(0, len(possible_equals_statements) - 1)])
     if elt == '!=':
-        out_tree.append('is not equal to')
+        possible_not_equals_statements = [
+            'is not equal to',
+            'is not the same as'
+        ]
+        out_tree.append(possible_not_equals_statements[randint(0, len(possible_not_equals_statements) - 1)])
     if elt == '>':
-        out_tree.append('is greater than')
+        possible_greater_statements = [
+            'is greater than',
+            'is larger than'
+        ]
+        out_tree.append(possible_greater_statements[randint(0, len(possible_greater_statements) - 1)])
     if elt == '<':
-        out_tree.append('is less than')
+        possible_less_than_statements = [
+            'is less than',
+            'is smaller than'
+        ]
+        out_tree.append(possible_less_than_statements[randint(0, len(possible_less_than_statements) - 1)])
+    if elt == '<=':
+        possible_less_than_equal_statements = [
+            'is at most',
+            'is less than or equal to'
+        ]
+        out_tree.append(possible_less_than_equal_statements[randint(0, len(possible_less_than_equal_statements) - 1)])
+    if elt == '>=':
+        possible_greater_than_equal_statements = [
+            'is at least',
+            'is greater than or equal to'
+        ]
+        out_tree.append(possible_greater_than_equal_statements[randint(0, len(possible_greater_than_equal_statements) - 1)])
     return out_tree
 
 def transform_Value(t):
-    pass
+    return t[0]
 
 def transform_VariableName(t):
     return t[0]
 
-def transform_Conj(t):
-    pass
+def main():
+    seed(0)
+
+    output_file = "nl_option_output.txt"
+    with open(os.path.join(script_dir, "../data/tokenized_option_output.txt"), 'r') as f_input:
+        with open(os.path.join(script_dir, f"../data/nl/{output_file}"), 'w') as f_output:
+            lines = f_input.readlines()
+            total_lines = len(lines)
+            print(f"Writing transform file for OPTION to ", output_file)
+            print(f'Transforming {total_lines} total statements')
+            print('This may take a while...\n...')
+
+            for i in range(total_lines):
+                if (i % 1000 == 0):
+                    print(f'Finished transforming {i}/{total_lines} statements')
+                
+                tokenized_rlang = lines[i]
+                in_tree = Tree.fromstring(tokenized_rlang)
+                out_tree = transform(in_tree)
+                
+                output = ' '.join(out_tree.leaves())
+                f_output.write(output + '\n')
+                
+if __name__ == '__main__':
+    main()
