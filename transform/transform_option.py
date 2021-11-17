@@ -49,8 +49,8 @@ def transform_SubPolicy(t):
 
     for elt in t[1:]:
         label = elt.label()
-        if label == 'Execute':
-            out_tree.append(transform_Execute(elt))
+        if label == 'ExecuteVariableName':
+            out_tree.append(transform_ExecuteVariableName(elt))
     
     return out_tree
 
@@ -63,10 +63,14 @@ def transform_Termination(t):
     return possible_statements[random_index]
 
 def transform_Execute(t):
+    print(t)
     if len(t) <= 1:
         return
     out_tree = Tree('Execute', ['do', t[1]])
     return out_tree
+
+def transform_ExecuteVariableName(t):
+    return Tree('Execute',[t[0]])
 
 def transform_BoolExp(t):
     out_tree = Tree('BoolExp', [])
@@ -88,23 +92,19 @@ def transform_BoolTest(t):
     if elt == '==':
         possible_equals_statements = [
             'is equal to',
-            'is exactly the same as',
-            'is the same as',
-            'is'
+            'is exactly the same as'
         ]
         out_tree.append(possible_equals_statements[randint(0, len(possible_equals_statements) - 1)])
     if elt == '!=':
         possible_not_equals_statements = [
             'is not equal to',
-            'is not the same as',
-            'is different from'
+            'is not the same as'
         ]
         out_tree.append(possible_not_equals_statements[randint(0, len(possible_not_equals_statements) - 1)])
     if elt == '>':
         possible_greater_statements = [
             'is greater than',
-            'is larger than',
-            'is more than'
+            'is larger than'
         ]
         out_tree.append(possible_greater_statements[randint(0, len(possible_greater_statements) - 1)])
     if elt == '<':
@@ -113,6 +113,18 @@ def transform_BoolTest(t):
             'is smaller than'
         ]
         out_tree.append(possible_less_than_statements[randint(0, len(possible_less_than_statements) - 1)])
+    if elt == '<=':
+        possible_less_than_equal_statements = [
+            'is at most',
+            'is less than or equal to'
+        ]
+        out_tree.append(possible_less_than_equal_statements[randint(0, len(possible_less_than_equal_statements) - 1)])
+    if elt == '>=':
+        possible_greater_than_equal_statements = [
+            'is at least',
+            'is greater than or equal to'
+        ]
+        out_tree.append(possible_greater_than_equal_statements[randint(0, len(possible_greater_than_equal_statements) - 1)])
     return out_tree
 
 def transform_Value(t):
