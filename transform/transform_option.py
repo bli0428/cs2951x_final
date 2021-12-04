@@ -29,7 +29,6 @@ def transform_Init(t):
                 'if',
                 'when',
                 'once',
-                'as soon as',
                 'whenever'
             ]
     random_index = randint(0, len(possible_statements) - 1)
@@ -38,8 +37,8 @@ def transform_Init(t):
 def transform_SubPolicy(t):
     out_tree = Tree('Policy', [])
     possible_statements = [
-        'you can',
-        'you have the option to',
+        'you should',
+        'take the option to',
         'you are able to',
         'you have the choice to'
     ]
@@ -92,13 +91,13 @@ def transform_BoolTest(t):
     if elt == '==':
         possible_equals_statements = [
             'is equal to',
-            'is exactly the same as'
+            'is'
         ]
         out_tree.append(possible_equals_statements[randint(0, len(possible_equals_statements) - 1)])
     if elt == '!=':
         possible_not_equals_statements = [
             'is not equal to',
-            'is not the same as'
+            'is not'
         ]
         out_tree.append(possible_not_equals_statements[randint(0, len(possible_not_equals_statements) - 1)])
     if elt == '>':
