@@ -11,8 +11,8 @@ def preprocessing():
     type_counter = 0
     for nl_file, rlang_file in zip(nl_files,rlang_files):
         print('here')
-        nl_file = 'data/nl/' + nl_file
-        rlang_file = 'data/' + rlang_file
+        nl_file = '../data/nl/' + nl_file
+        rlang_file = '../data/' + rlang_file
         with open(nl_file) as nl, open(rlang_file) as rlang: 
             for nl_string, rlang_string in zip(nl, rlang):
                 accumulated_data.append([nl_string.strip(), rlang_string.strip(), type_tag[type_counter]])
@@ -44,7 +44,7 @@ def preprocessing():
     # Add start and end tokens to target sequences
     df.rlang = df.rlang.apply(lambda x : 'START_ '+ x + ' _END')
     
-    df.to_csv('data/nl_to_rlang_data.csv')
+    df.to_csv('../data/nl_to_rlang_data.csv')
 
     return df
 
