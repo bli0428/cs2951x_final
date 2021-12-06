@@ -4,9 +4,9 @@ import string
 import re
 
 def preprocessing():
-    nl_files = ['nl_effect_output.txt', 'nl_markov_feature_output.txt', 'nl_option_output.txt', 'nl_policy_output.txt']
-    rlang_files= ['rlang_effect_output.txt', 'rlang_markov_feature_output.txt', 'rlang_option_output.txt', 'rlang_policy_output.txt']
-    type_tag = ['effect', 'markov_feature', 'option', 'policy']
+    nl_files = ['nl_option_output.txt', 'nl_policy_output.txt']
+    rlang_files= ['rlang_option_output.txt', 'rlang_policy_output.txt']
+    type_tag = ['option', 'policy']
     accumulated_data = []
     type_counter = 0
     for nl_file, rlang_file in zip(nl_files,rlang_files):
