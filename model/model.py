@@ -11,7 +11,7 @@ from keras.models import Model
 from preprocessing import preprocessing
 import sys
 
-train = False
+train = True
 
 def prep_data(data, source_word2idx, target_word2idx, source_words, target_words, rl_idx_to_word):
     global train
@@ -86,7 +86,7 @@ def prep_data(data, source_word2idx, target_word2idx, source_words, target_words
     train_samples = len(X_train) # Total Training samples
     val_samples = len(X_test)    # Total validation or test samples
     batch_size = 128
-    epochs = 25
+    epochs = 5
 
     if train == True:
 
@@ -134,12 +134,12 @@ def prep_data(data, source_word2idx, target_word2idx, source_words, target_words
                 output_tokens, h, c = decoder_model.predict([target_seq] + states_value)
         # Sample a token
                 sampled_token_index = np.argmax(output_tokens[0, -1, :])
-                sampled_word =rl_idx_to_word[sampled_token_index]
+                sampled_word = rl_idx_to_word[sampled_token_index]
                 decoded_sentence += ' '+ sampled_word
         # Exit condition: either hit max length
                 # or find stop character.
                 if (sampled_word == '_END' or
-                len(decoded_sentence) > 50):
+                len(decoded_sentence) > 200):
                     stop_condition = True
         # Update the target sequence (of length 1).
                 target_seq = np.zeros((1,1))
@@ -148,7 +148,7 @@ def prep_data(data, source_word2idx, target_word2idx, source_words, target_words
                 states_value = [h, c]
             return decoded_sentence
         test_gen = generate_batch(X_test, y_test, batch_size = 1)
-        k=10
+        k=15
         k+=1
         (input_seq, actual_output), _ = next(test_gen)
         decoded_sentence = decode_sequence(input_seq)
