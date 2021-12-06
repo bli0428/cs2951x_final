@@ -86,7 +86,7 @@ def prep_data(data, source_word2idx, target_word2idx, source_words, target_words
     train_samples = len(X_train) # Total Training samples
     val_samples = len(X_test)    # Total validation or test samples
     batch_size = 128
-    epochs = 100
+    epochs = 25
 
     model.fit_generator(generator = generate_batch(X_train, y_train, batch_size = batch_size),
                         steps_per_epoch = train_samples//batch_size,
