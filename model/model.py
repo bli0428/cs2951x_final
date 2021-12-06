@@ -11,9 +11,10 @@ from keras.models import Model
 from preprocessing import preprocessing
 import sys
 
+train = False
 
-def prep_data(data, source_word2idx, target_word2idx, source_words, target_words):
-
+def prep_data(data, source_word2idx, target_word2idx, source_words, target_words, rl_idx_to_word):
+    global train
     source_length_list=[]
     for l in data.natural_language:
         source_length_list.append(len(l.split(' ')))
@@ -55,7 +56,6 @@ def prep_data(data, source_word2idx, target_word2idx, source_words, target_words
 
 
     batch_size = 128
-    epochs = 50
     latent_dim=256
 
     # Define an input sequence and process it.
@@ -88,20 +88,89 @@ def prep_data(data, source_word2idx, target_word2idx, source_words, target_words
     batch_size = 128
     epochs = 25
 
-    model.fit_generator(generator = generate_batch(X_train, y_train, batch_size = batch_size),
-                        steps_per_epoch = train_samples//batch_size,
-                        epochs=epochs,
-                        validation_data = generate_batch(X_test, y_test, batch_size = batch_size),
-                        validation_steps = val_samples//batch_size)
-    model.save_weights('model_weights_100epochs.h5')
+    if train == True:
+
+        model.fit_generator(generator = generate_batch(X_train, y_train, batch_size = batch_size),
+                            steps_per_epoch = train_samples//batch_size,
+                            epochs=epochs,
+                            validation_data = generate_batch(X_test, y_test, batch_size = batch_size),
+                            validation_steps = val_samples//batch_size)
+        model.save_weights('model_weights_100epochs.h5')
+    else:
+        model.load_weights('model_weights_100epochs.h5')
+
+                # Encode the input sequence to get the "Context vectors"
+        encoder_model = Model(encoder_inputs, encoder_states)
+        # Decoder setup
+        # Below tensors will hold the states of the previous time step
+        decoder_state_input_h = Input(shape=(latent_dim,))
+        decoder_state_input_c = Input(shape=(latent_dim,))
+        decoder_state_input = [decoder_state_input_h, decoder_state_input_c]
+        # Get the embeddings of the decoder sequence
+        dec_emb2= dec_emb_layer(decoder_inputs)
+        # To predict the next word in the sequence, set the initial states to the states from the previous time step
+        decoder_outputs2, state_h2, state_c2 = decoder_lstm(dec_emb2, initial_state=decoder_state_input)
+        decoder_states2 = [state_h2, state_c2]
+        # A dense softmax layer to generate prob dist. over the target vocabulary
+        decoder_outputs2 = decoder_dense(decoder_outputs2)
+        # Final decoder model
+        decoder_model = Model(
+            [decoder_inputs] + decoder_state_input,
+            [decoder_outputs2] + decoder_states2)
+
+        def decode_sequence(input_seq):
+            # Encode the input as state vectors.
+            states_value = encoder_model.predict(input_seq)
+            # Generate empty target sequence of length 1.
+            target_seq = np.zeros((1,1))
+            # Populate the first character of 
+            #target sequence with the start character.
+            target_seq[0, 0] = target_word2idx['START_']
+        # Sampling loop for a batch of sequences
+            # (to simplify, here we assume a batch of size 1).
+            stop_condition = False
+            decoded_sentence = ''
+            while not stop_condition:
+                output_tokens, h, c = decoder_model.predict([target_seq] + states_value)
+        # Sample a token
+                sampled_token_index = np.argmax(output_tokens[0, -1, :])
+                sampled_word =rl_idx_to_word[sampled_token_index]
+                decoded_sentence += ' '+ sampled_word
+        # Exit condition: either hit max length
+                # or find stop character.
+                if (sampled_word == '_END' or
+                len(decoded_sentence) > 50):
+                    stop_condition = True
+        # Update the target sequence (of length 1).
+                target_seq = np.zeros((1,1))
+                target_seq[0, 0] = sampled_token_index
+        # Update states
+                states_value = [h, c]
+            return decoded_sentence
+        test_gen = generate_batch(X_test, y_test, batch_size = 1)
+        k=10
+        k+=1
+        (input_seq, actual_output), _ = next(test_gen)
+        decoded_sentence = decode_sequence(input_seq)
+        print('Input Source sentence:', X_test[k:k+1].values[0])
+        print('Actual Target Translation:', y_test[k:k+1].values[0][6:-4])
+        print('Predicted Target Translation:', decoded_sentence[:-4])
+
 
 def main(argv):
+
+    print(pd.__version__)
     data = preprocessing()
 
     nl_word_to_idx, rl_word_to_idx, nl_idx_to_word, rl_idx_to_word, source_words, target_words = build_mappings(data)
     data = shuffle(data)
 
-    prep_data(data, nl_word_to_idx, rl_word_to_idx, source_words, target_words)
+    prep_data(data, nl_word_to_idx, rl_word_to_idx, source_words, target_words, rl_idx_to_word)
+
+    infer_text()
+
+def infer_text():
+    pass
 
 def build_mappings(data):
     all_source_words=set()
