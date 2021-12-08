@@ -31,7 +31,7 @@ def main(argv):
     test_pairs = text_pairs[num_train_samples + num_val_samples :]
 
     vocab_size = 72
-    sequence_length = 30
+    sequence_length = 40
     batch_size = 64
 
 
@@ -111,7 +111,7 @@ def main(argv):
 
     rl_vocab = rl_vectorization.get_vocabulary()
     rl_index_lookup = dict(zip(range(len(rl_vocab)), rl_vocab))
-    max_decoded_sentence_length = 30
+    max_decoded_sentence_length = 40
 
 
     def decode_sequence(input_sentence):
