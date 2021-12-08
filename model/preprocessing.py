@@ -42,7 +42,7 @@ def preprocessing():
     df.rlang=df.rlang.apply(lambda x: re.sub(" +", " ", x))
 
     # Add start and end tokens to target sequences
-    df.rlang = df.rlang.apply(lambda x : 'START_ '+ x + ' _END')
+    df.rlang = df.rlang.apply(lambda x : '[start] '+ x + ' [end]')
     
     df.to_csv('../data/nl_to_rlang_data.csv')
 
