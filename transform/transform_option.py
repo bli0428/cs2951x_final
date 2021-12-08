@@ -17,6 +17,8 @@ def transform_Option(t):
     for i, elt in enumerate(t[1:]):
         if elt == 'init':
             out_tree.append(transform_Init(elt))
+        if type(elt) is not str and elt.label() == 'VariableName':
+            out_tree.append(transform_OptionName(elt))
         if type(elt) is not str and elt.label() == 'BoolExp':
             out_tree.append(transform_BoolExp(elt))
         if type(elt) is not str and elt.label() == 'Policy':
@@ -33,6 +35,22 @@ def transform_Init(t):
             ]
     random_index = randint(0, len(possible_statements) - 1)
     return possible_statements[random_index]
+
+def transform_OptionName(t):
+    out_tree = Tree('Option',[])
+    possible_statements = [
+        'means that',
+        'is where',
+        'entails that',
+        'states that',
+        'suggests that',
+        'is where'
+
+    ]
+    random_index = randint(0, len(possible_statements) - 1)
+    out_tree.append(transform_VariableName(t))
+    out_tree.append(possible_statements[random_index])
+    return out_tree
 
 def transform_SubPolicy(t):
     out_tree = Tree('Policy', [])
