@@ -6,29 +6,52 @@ from tensorflow.keras import layers
 from tensorflow.keras.layers import TextVectorization
 from preprocessing import preprocessing
 import sys
+import os
+import argparse
+from nltk import CFG
+from nltk.parse import RecursiveDescentParser, SteppingRecursiveDescentParser
+from nltk.grammar import Production
+import pandas as pd
+import csv
 
 
 physical_devices = tf.config.list_physical_devices('GPU') 
 for device in physical_devices:
     tf.config.experimental.set_memory_growth(device, True)
 
-train = True
+train = False
 
 def main(argv):
-
+    parser = argparse.ArgumentParser(prog="main", usage="%(prog)s --load_model <path/to/model>")
+    parser.add_argument(
+        "--evaluate", default=False, action="store_true", help="Training vs evaluate mode"
+    )
+    args = parser.parse_args()
+    train = args.evaluate
     data = preprocessing()
-
-    X, y = data.natural_language, data.rlang
+    data = pd.read_csv('../data/nl_to_rlang_data.csv')
+    X, y, option = data.natural_language, data.rlang, data.string_type
     text_pairs = []
-    for x, y in zip(X, y):
+    type_t = []
+    for x, y, z in zip(X, y, option):
         text_pairs.append((x,y))
+        type_t.append((x,y,z))
 
     random.shuffle(text_pairs)
+    random.shuffle(type_t)
     num_val_samples = int(0.1 * len(text_pairs))
     num_train_samples = len(text_pairs) - 2 * num_val_samples
     train_pairs = text_pairs[:num_train_samples]
     val_pairs = text_pairs[num_train_samples : num_train_samples + num_val_samples]
     test_pairs = text_pairs[num_train_samples + num_val_samples :]
+    test_pairs_type = type_t[num_train_samples + num_val_samples :]
+
+    item_length = len(test_pairs_type[0])
+
+    with open('test_data.csv', 'w') as test_file:
+        file_writer = csv.writer(test_file, delimiter='|')
+        for i in range(item_length):
+            file_writer.writerow([x[i] for x in test_pairs_type])
 
     vocab_size = 72
     sequence_length = 40
@@ -97,17 +120,57 @@ def main(argv):
     )
 
     if train:
-        epochs = 25  # This should be at least 30 for convergence
+        epochs = 2  # This should be at least 30 for convergence
+
+        cp_callback = tf.keras.callbacks.ModelCheckpoint(
+            filepath="transformer_model_checkpoint.h5", 
+            verbose=1, 
+            save_weights_only=True,
+            save_freq= 2243)
 
         transformer.summary()
         transformer.compile(
-            "rmsprop", loss="sparse_categorical_crossentropy", metrics=["accuracy"]
+            "rmsprop", loss="sparse_categorical_crossentropy", metrics=["accuracy"], 
         )
-        transformer.fit(train_ds, epochs=epochs, validation_data=val_ds)
+        transformer.fit(train_ds, epochs=epochs, validation_data=val_ds, callbacks=[cp_callback])
 
         transformer.save("transformer_model.h5")
     else:
         transformer.load_weights("transformer_model.h5")
+
+        with open("test_data.csv") as file_name:
+            file_read = csv.reader(file_name, delimiter="|")
+
+            data = list(file_read) # TODO: add the part that pulls up the test data from the file
+
+        evaluation_data = []
+        for x, y, z in zip(data[0], data[1], data[2]):
+            evaluation_data.append((x,y,z))
+
+        print(evaluation_data)
+        assert(evaluation_data != None)
+        # Evaluation_data should be a tuple from nl to rl
+        
+        # evaluation_nl, evaluation_rl, statement_type = list(zip(*evaluation_data))
+        rl_types = ["option", "policy"]
+        parsers = {}
+        for rl_type in rl_types:
+            cfg_file = f'rlang_{rl_type}.cfg'
+            grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read())
+            parser = RecursiveDescentParser(grammar)
+            parsers[rl_type] = parser
+        
+        # parsed = []
+        for datum in evaluation_data:
+            nl, rl, statement_type = datum
+            sentence = rl.split()
+            try:
+                list(parser.parse(sentence))
+                # for t in parser.parse(sentence):
+                    
+            except RecursionError as re:
+                print("Unable to parse sentence; recursion error for ", sentence) 
+                break
 
     rl_vocab = rl_vectorization.get_vocabulary()
     rl_index_lookup = dict(zip(range(len(rl_vocab)), rl_vocab))
@@ -130,12 +193,19 @@ def main(argv):
         return decoded_sentence
 
 
-    test_eng_texts = [pair[0] for pair in test_pairs]
+    test_nl_texts = [pair[0] for pair in test_pairs]   
+    test_rl_texts = [pair[1] for pair in test_pairs]
     for _ in range(30):
-        input_sentence = random.choice(test_eng_texts)
+        rand = random.randint(0, len(test_nl_texts) -1)
+        input_sentence = test_nl_texts[rand]
+        expected_sentence = test_rl_texts[rand]
         translated = decode_sequence(input_sentence)
-        print(input_sentence)
-        print(translated)
+
+        print('Input Source sentence:', input_sentence)
+        print('Actual Target Translation:', expected_sentence)
+        print('Predicted Target Translation:', translated)
+        print('')
+
 
 
 class TransformerEncoder(layers.Layer):
