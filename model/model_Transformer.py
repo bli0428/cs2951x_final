@@ -6,7 +6,13 @@ from tensorflow.keras import layers
 from tensorflow.keras.layers import TextVectorization
 from preprocessing import preprocessing
 import sys
+import os
+import argparse
+from nltk import CFG
+from nltk.parse import RecursiveDescentParser, SteppingRecursiveDescentParser
+from nltk.grammar import Production
 
+script_dir = os.path.dirname(__file__)
 
 physical_devices = tf.config.list_physical_devices('GPU') 
 for device in physical_devices:
@@ -15,7 +21,12 @@ for device in physical_devices:
 train = True
 
 def main(argv):
-
+    parser = argparse.ArgumentParser(prog="main", usage="%(prog)s --load_model <path/to/model>")
+    parser.add_argument(
+        "--evaluate", default=False, action="store_true", help="Training vs evaluate mode"
+    )
+    args = parser.parse_args()
+    train = args.evaluate
     data = preprocessing()
 
     X, y = data.natural_language, data.rlang
@@ -109,6 +120,31 @@ def main(argv):
     else:
         transformer.load_weights("transformer_model.h5")
 
+        evaluation_data = None # TODO: add the part that pulls up the test data from the file
+        assert(evaluation_data != None)
+        # Evaluation_data should be a tuple from nl to rl
+        
+        # evaluation_nl, evaluation_rl, statement_type = list(zip(*evaluation_data))
+        rl_types = ["Option", "Policy"]
+        parsers = {}
+        for rl_type in rl_types:
+            cfg_file = f'rlang_{rl_type}.cfg'
+            grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read())
+            parser = RecursiveDescentParser(grammar)
+            parsers[rl_type] = parser
+        
+        # parsed = []
+        for datum in evaluation_data:
+            nl, rl, statement_type = datum
+            sentence = rl.split()
+            try:
+                list(parser.parse(sentence))
+                # for t in parser.parse(sentence):
+                    
+            except RecursionError as re:
+                print("Unable to parse sentence; recursion error for ", sentence) 
+                break
+        
     rl_vocab = rl_vectorization.get_vocabulary()
     rl_index_lookup = dict(zip(range(len(rl_vocab)), rl_vocab))
     max_decoded_sentence_length = 40
@@ -128,7 +164,6 @@ def main(argv):
             if sampled_token == "[end]":
                 break
         return decoded_sentence
-
 
     test_eng_texts = [pair[0] for pair in test_pairs]
     for _ in range(30):
