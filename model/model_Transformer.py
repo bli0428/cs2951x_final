@@ -13,6 +13,7 @@ from nltk.parse import RecursiveDescentParser, SteppingRecursiveDescentParser
 from nltk.grammar import Production
 import pandas as pd
 import csv
+from zss import Node, simple_distance
 
 script_dir = os.path.dirname(__file__)
 
@@ -120,6 +121,26 @@ def main(argv):
         [encoder_inputs, decoder_inputs], decoder_outputs, name="transformer"
     )
 
+    rl_vocab = rl_vectorization.get_vocabulary()
+    rl_index_lookup = dict(zip(range(len(rl_vocab)), rl_vocab))
+    max_decoded_sentence_length = 40
+
+
+    def decode_sequence(input_sentence):
+        tokenized_input_sentence = nl_vectorization([input_sentence])
+        decoded_sentence = "[start]"
+        for i in range(max_decoded_sentence_length):
+            tokenized_target_sentence = rl_vectorization([decoded_sentence])[:, :-1]
+            predictions = transformer([tokenized_input_sentence, tokenized_target_sentence])
+
+            sampled_token_index = np.argmax(predictions[0, i, :])
+            sampled_token = rl_index_lookup[sampled_token_index]
+            decoded_sentence += " " + sampled_token
+
+            if sampled_token == "[end]":
+                break
+        return decoded_sentence
+
     if train:
         epochs = 2  # This should be at least 30 for convergence
 
@@ -148,7 +169,6 @@ def main(argv):
         for x, y, z in zip(data[0], data[1], data[2]):
             evaluation_data.append((x,y,z))
 
-        print(evaluation_data)
         assert(evaluation_data != None)
         # Evaluation_data should be a tuple from nl to rl
         
@@ -161,37 +181,24 @@ def main(argv):
             parser = RecursiveDescentParser(grammar)
             parsers[rl_type] = parser
         
-        # parsed = []
-        for datum in evaluation_data:
+        sum_dist = 0
+        for i, datum in enumerate(evaluation_data):
             nl, rl, statement_type = datum
-            sentence = rl.split()
             try:
-                list(parser.parse(sentence))
-                # for t in parser.parse(sentence):
-                    
+                parser = parsers[statement_type]
+                translated = decode_sequence(nl)
+                model_tree = convert_tree(list(parser.parse(translated.split()))[0])
+                label_tree = convert_tree(list(parser.parse(rl.split()))[0])
+                dist = simple_distance(model_tree, label_tree, label_dist=label_dist)
+                sum_dist += dist
+                if i % 10000 == 0:
+                    print(f"Current score: {sum_dist / i}")
             except RecursionError as re:
-                print("Unable to parse sentence; recursion error for ", sentence) 
+                print("Unable to parse sentence; recursion error for ", list(datum)) 
                 break
 
-    rl_vocab = rl_vectorization.get_vocabulary()
-    rl_index_lookup = dict(zip(range(len(rl_vocab)), rl_vocab))
-    max_decoded_sentence_length = 40
-
-
-    def decode_sequence(input_sentence):
-        tokenized_input_sentence = nl_vectorization([input_sentence])
-        decoded_sentence = "[start]"
-        for i in range(max_decoded_sentence_length):
-            tokenized_target_sentence = rl_vectorization([decoded_sentence])[:, :-1]
-            predictions = transformer([tokenized_input_sentence, tokenized_target_sentence])
-
-            sampled_token_index = np.argmax(predictions[0, i, :])
-            sampled_token = rl_index_lookup[sampled_token_index]
-            decoded_sentence += " " + sampled_token
-
-            if sampled_token == "[end]":
-                break
-        return decoded_sentence
+        final_score = sum_dist / len(evaluation_data)
+        print(f"Final Score: {final_score}")
 
 
     test_nl_texts = [pair[0] for pair in test_pairs]   
@@ -206,8 +213,21 @@ def main(argv):
         print('Actual Target Translation:', expected_sentence)
         print('Predicted Target Translation:', translated)
         print('')
+        
 
+def convert_tree(node):
+    # Converts nltk parser tree into zss tree
+    if type(node) == str:
+        return Node(node)
+    
+    parent = Node(node.label())
+    for child in node:
+        parent.addkid(convert_tree(child))
 
+    return parent
+
+def label_dist(l1, l2):
+    return 0 if l1 == l2 else 1
 
 class TransformerEncoder(layers.Layer):
     def __init__(self, embed_dim, dense_dim, num_heads, **kwargs):
