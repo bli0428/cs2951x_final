@@ -11,9 +11,8 @@ import argparse
 from nltk import CFG
 from nltk.parse import RecursiveDescentParser, SteppingRecursiveDescentParser
 from nltk.grammar import Production
-import pandas as pd
-import csv
 
+script_dir = os.path.dirname(__file__)
 
 physical_devices = tf.config.list_physical_devices('GPU') 
 for device in physical_devices:
@@ -138,21 +137,12 @@ def main(argv):
     else:
         transformer.load_weights("transformer_model.h5")
 
-        with open("test_data.csv") as file_name:
-            file_read = csv.reader(file_name, delimiter="|")
-
-            data = list(file_read) # TODO: add the part that pulls up the test data from the file
-
-        evaluation_data = []
-        for x, y, z in zip(data[0], data[1], data[2]):
-            evaluation_data.append((x,y,z))
-
-        print(evaluation_data)
+        evaluation_data = None # TODO: add the part that pulls up the test data from the file
         assert(evaluation_data != None)
         # Evaluation_data should be a tuple from nl to rl
         
         # evaluation_nl, evaluation_rl, statement_type = list(zip(*evaluation_data))
-        rl_types = ["option", "policy"]
+        rl_types = ["Option", "Policy"]
         parsers = {}
         for rl_type in rl_types:
             cfg_file = f'rlang_{rl_type}.cfg'
@@ -171,7 +161,7 @@ def main(argv):
             except RecursionError as re:
                 print("Unable to parse sentence; recursion error for ", sentence) 
                 break
-
+        
     rl_vocab = rl_vectorization.get_vocabulary()
     rl_index_lookup = dict(zip(range(len(rl_vocab)), rl_vocab))
     max_decoded_sentence_length = 40
@@ -192,9 +182,7 @@ def main(argv):
                 break
         return decoded_sentence
 
-
-    test_nl_texts = [pair[0] for pair in test_pairs]   
-    test_rl_texts = [pair[1] for pair in test_pairs]
+    test_eng_texts = [pair[0] for pair in test_pairs]
     for _ in range(30):
         rand = random.randint(0, len(test_nl_texts) -1)
         input_sentence = test_nl_texts[rand]
