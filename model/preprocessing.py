@@ -8,15 +8,13 @@ def preprocessing():
     rlang_files= ['rlang_option_output.txt', 'rlang_policy_output.txt']
     type_tag = ['option', 'policy']
     accumulated_data = []
-    type_counter = 0
-    for nl_file, rlang_file in zip(nl_files,rlang_files):
+    for nl_file, rlang_file, tag in zip(nl_files,rlang_files, type_tag):
         print('here')
         nl_file = '../data/nl/' + nl_file
         rlang_file = '../data/' + rlang_file
         with open(nl_file) as nl, open(rlang_file) as rlang: 
             for nl_string, rlang_string in zip(nl, rlang):
-                accumulated_data.append([nl_string.strip(), rlang_string.strip(), type_tag[type_counter]])
-        type_counter+=1
+                accumulated_data.append([nl_string.strip(), rlang_string.strip(), tag])
     
     df = pd.DataFrame(accumulated_data, columns=['natural_language', 'rlang', 'string_type'])
 
