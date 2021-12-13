@@ -173,19 +173,14 @@ def main(argv):
         # Evaluation_data should be a tuple from nl to rl
         
         # evaluation_nl, evaluation_rl, statement_type = list(zip(*evaluation_data))
-        rl_types = ["option", "policy"]
-        parsers = {}
-        for rl_type in rl_types:
-            cfg_file = f'rlang_{rl_type}.cfg'
-            grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read())
-            parser = RecursiveDescentParser(grammar)
-            parsers[rl_type] = parser
+        cfg_file = f'rlang_general.cfg'
+        grammar = CFG.fromstring(open(os.path.join(script_dir, "../generate/cfgs/" + cfg_file), 'r').read())
+        parser = RecursiveDescentParser(grammar)
         
         sum_dist = 0
         for i, datum in enumerate(evaluation_data):
-            nl, rl, statement_type = datum
+            nl, rl, _ = datum
             try:
-                parser = parsers[statement_type]
                 translated = decode_sequence(nl)
                 model_tree = convert_tree(list(parser.parse(translated.split()))[0])
                 label_tree = convert_tree(list(parser.parse(rl.split()))[0])
